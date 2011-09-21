@@ -1,0 +1,6 @@
+# ignore generated LaTeX files,
+*.aux
+*.log
+*.toc
+*.dvi
+.~lock.*
