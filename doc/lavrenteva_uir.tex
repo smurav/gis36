@@ -1,0 +1,56 @@
+\documentclass[12pt,a4paper,oneside]{article}
+
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english,russian]{babel}
+\frenchspacing
+\usepackage[pdftex]{graphicx}
+\usepackage{setspace}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{hhline}
+\usepackage[14pt]{extsizes}
+\usepackage{fancyhdr} % пакет для установки колонтитулов
+
+% Левое поле 3 cm
+\oddsidemargin=0mm
+\hoffset=4.6mm
+
+% Верхнее поле 2 cm
+\topmargin=0pt
+\voffset=-5.4mm
+\headheight=0mm
+\headsep=1cm
+
+\textwidth=163mm
+\textheight=245mm
+\parindent=1.25cm
+\tabcolsep=1mm
+\itemsep=0pt
+
+\begin{document}
+\onehalfspacing
+\pagestyle{empty} % нумерация выкл.
+
+\begin{center}
+{\bf УЧЕБНО-ИССЛЕДОВАТЕЛЬСКАЯ РАБОТА}
+\vfill
+Москва\\
+2011
+\end{center}
+\sloppy
+\newpage
+\pagestyle{fancy} % смена стиля оформления страниц
+\fancyhf{} % очистка текущих значений
+\fancyhead[C]{\thepage} % установка верхнего колонтитула
+\renewcommand{\headrulewidth}{0pt} % убрать разделительную линию
+
+\newpage
+\tableofcontents %Оглавление
+
+\newpage
+\section{ВВЕДЕНИЕ}
+
+
+Данная работа ....
+
+\end{document}
