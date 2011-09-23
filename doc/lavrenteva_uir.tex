@@ -1,6 +1,5 @@
-\documentclass[12pt,a4paper,oneside]{article}
-
-\usepackage[T2A]{fontenc}
+\documentclass[12pt,a4paper,oneside]{article} %команды, относящиеся ко всему документу и устанавливающие различные параметры оформления текста
+\usepackage[T2A]{fontenc} % команда, в аргументе которой стоит (через запятую) список подключаемых этой командой стилевых пакетов
 \usepackage[utf8]{inputenc}
 \usepackage[english,russian]{babel}
 \frenchspacing
@@ -30,27 +29,60 @@
 \begin{document}
 \onehalfspacing
 \pagestyle{empty} % нумерация выкл.
-
+%Н:задание на уир и кп
+\newpage
 \begin{center}
-{\bf УЧЕБНО-ИССЛЕДОВАТЕЛЬСКАЯ РАБОТА}
-\vfill
-Москва\\
-2011
+{\small МИНИСТЕРСТВО ОБРАЗОВАНИЯ И НАУКИ РОССИЙСКОЙ ФЕДЕРАЦИИ
+
+Федеральное государственное бюджетное образовательное учреждение высшего профессионального образования
+
+\textbf{"Национальный исследовательский ядерный университет "МИФИ"}
+\\[50pt]
+}
+\textbf{Факультет Кибернетики}
+
+\textbf{Кафедра № 36 (Информационные технологии)
+\\[50pt]
+\Large{Задание на УИР и КП}}
+\begin{flushleft}
+
+Студентке группы К7-361 Лаврентьевой Марине Олеговне
+\\[40pt]
+\end{flushleft}
+
+\textbf{ТЕМА УИР и КП}
+\begin{flushleft}
+
+Разработка модуля преобразования геоданных из формата OpenStreetMap в формат OpenGIS
+\\[20pt]
+\end{flushleft}
+\textbf{ЗАДАНИЕ}
 \end{center}
-\sloppy
+\begin{flushleft}
+1. Описание алгоритма работы модуля и структуры xml-документа.
+
+2. Построение типовых XPath-запросов для извлечения геоданных об объектах указанного типа.
+
+3. Реализация функционала по загрузке xml-документа с OpenStreetMap.org и извлечению из него геоданных указанного типа.
+
+4. Изучение стандарта OpenGIS и структуры базы данных для хранения геоданных в формате OpenGIS.
+
+5. Построение типовых SQL-запросов для сохранения и извлечения геоданных в формате OpenGIS.
+
+6. Реализация функционала по сохранению загруженных геоданных в формате OpenGIS.
 \newpage
-\pagestyle{fancy} % смена стиля оформления страниц
-\fancyhf{} % очистка текущих значений
-\fancyhead[C]{\thepage} % установка верхнего колонтитула
-\renewcommand{\headrulewidth}{0pt} % убрать разделительную линию
+Место выполнения УИР и КП \underline{\hspace{9cm}}
+
+Руководитель \underline{\hspace{9cm} (Муравьёв С.К.)}
+
+Дата выдачи задания \underline{\hspace{11cm}}
+\end{flushleft}
 
 \newpage
-\tableofcontents %Оглавление
-
-\newpage
-\section{ВВЕДЕНИЕ}
-
-
-Данная работа ....
-
+\begin{center}
+\textbf{ОТЗЫВ О РАБОТЕ СТУДЕНТА}
+\end{center}
+\vfill
+Руководитель \underline{\hspace{6cm}\glqq{\hspace{1cm}}\grqq\hspace{4cm}2011г.}
+%К: задание на уир и кп
 \end{document}
