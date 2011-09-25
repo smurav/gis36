@@ -4,3 +4,9 @@
 *.toc
 *.dvi
 .~lock.*
+
+
+*.pro.user
+debug/*
+release/*
+temp/*
