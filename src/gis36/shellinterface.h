@@ -2,7 +2,7 @@
 #define SHELLINTERFACE_H
 #include "QtGui"
 
-class ShellInterface
+class  ShellInterface
 {
 public:
     ShellInterface();
