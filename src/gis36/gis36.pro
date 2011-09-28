@@ -1,39 +1,22 @@
 #-------------------------------------------------
 #
-# Project created by QtCreator 2011-09-26T03:04:34
+# Project created by QtCreator 2011-09-28T23:26:13
 #
 #-------------------------------------------------
 
-QT          += core gui
+QT       += core gui
 
-TARGET      = gis36
-TEMPLATE    = app
+TARGET = gis36
+TEMPLATE = app
 
-# Относительный путь рабочего каталога репозитория
-OUTPUT      = ../..
 
-# Относительный путь каталога для хранения временных файлов
-TEMP        = $${OUTPUT}/temp/gis36
+SOURCES += main.cpp\
+        mainwindow.cpp \
+    shellinterface.cpp
 
-# Настройки путей для сборки отладочных и релизных версий
-debug {
-  DEFINES     += _DEBUG
-  DESTDIR     = $${OUTPUT}/debug
-  OBJECTS_DIR = $${TEMP}/debug
-} else {
-  DESTDIR     = $${OUTPUT}/release
-  OBJECTS_DIR = $${TEMP}/release
-}
+HEADERS  += mainwindow.h \
+    shellinterface.h
 
-# Путь для сохранения временных файлов Qt
-MOC_DIR     = $${OBJECTS_DIR}
+FORMS    += mainwindow.ui
 
-# Дополнительные пути поиска заголовчных фалов
-INCLUDEPATH = ../include
 
-SOURCES     += main.cpp\
-               mainwindow.cpp
-
-HEADERS     += mainwindow.h
-
-FORMS       += mainwindow.ui
