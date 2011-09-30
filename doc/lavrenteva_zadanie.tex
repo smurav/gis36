@@ -1,83 +1,114 @@
-\documentclass[12pt,a4paper,oneside]{article} %команды, относящиеся ко всему документу и устанавливающие различные параметры оформления текста
-\usepackage[T2A]{fontenc} % команда, в аргументе которой стоит (через запятую) список подключаемых этой командой стилевых пакетов
-\usepackage[utf8]{inputenc}
-\usepackage[english,russian]{babel}
+\documentclass[12pt,a4paper,oneside]{article} %стиль оформления - статья с параметрами: шрифт 12, формат бумаги А4, печать с одинаковыпи полями на всех страницах - oneside
+\usepackage[T2A]{fontenc} %поддержка кириллицы
+\usepackage[utf8]{inputenc} %кодировка символов
+\usepackage[english,russian]{babel} %пакет поддержки русского языка с элементами английского
 \frenchspacing
-\usepackage[pdftex]{graphicx}
-\usepackage{setspace}
+\usepackage[dvips]{graphicx} %разрешить включение PostScript-графики
+\graphicspath{{images/}}
+\usepackage{setspace} %"умное" расстояние между строк
 \usepackage[usenames,dvipsnames]{color}
-\usepackage{hhline}
-\usepackage[14pt]{extsizes}
-\usepackage{fancyhdr} % пакет для установки колонтитулов
+\usepackage{hhline} %работа с таблицами
+\usepackage[12pt]{extsizes} %размер шрифта
+\usepackage{fancyhdr} %установка колонтитулов
+%\usepackage{graphics}
 
-% Левое поле 3 cm
-\oddsidemargin=0mm
-\hoffset=4.6mm
-
-% Верхнее поле 2 cm
-\topmargin=0pt
-\voffset=-5.4mm
-\headheight=0mm
-\headsep=1cm
-
-\textwidth=163mm
-\textheight=245mm
-\parindent=1.25cm
-\tabcolsep=1mm
-\itemsep=0pt
+\usepackage{geometry} %ручная установка полей
+\geometry{top=1cm} %поле сверху
+\geometry{bottom=1cm} %поле снизу
+\geometry{left=2cm} %поле слева
+\geometry{right=2cm} %поле справа
 
 \begin{document}
-\onehalfspacing
+\singlespacing % межстрочный одиночный интервал для всего текста
 \pagestyle{empty} % нумерация выкл.
+
 %Н:задание на уир и кп
 \newpage
 \begin{center}
-{\small МИНИСТЕРСТВО ОБРАЗОВАНИЯ И НАУКИ РОССИЙСКОЙ ФЕДЕРАЦИИ
+\fontfamily{ptm} \fontsize{12.5pt}{15pt}
+\selectfont {\renewcommand{\baselinestretch}{1.2}МИНИСТЕРСТВО ОБРАЗОВАНИЯ И НАУКИ РОССИЙСКОЙ ФЕДЕРАЦИИ}
 
-Федеральное государственное бюджетное образовательное учреждение высшего профессионального образования
-
-\textbf{"Национальный исследовательский ядерный университет "МИФИ"}
-\\[50pt]
-}
-\textbf{Факультет Кибернетики}
-
-\textbf{Кафедра № 36 (Информационные технологии)
-\\[50pt]
-\Large{Задание на УИР и КП}}
-\begin{flushleft}
-
-Студентке группы К7-361 Лаврентьевой Марине Олеговне
-\\[40pt]
-\end{flushleft}
-
-\textbf{ТЕМА УИР и КП}
-
-Разработка модуля преобразования геоданных из формата OpenStreetMap в формат OpenGIS
-\\[20pt]
-\textbf{ЗАДАНИЕ}
+{\fontfamily{ptm} \fontsize{13pt}{24pt}
+\selectfont
+Федеральное государственное бюджетное образовательное учреждение \linebreak
+высшего профессионального образования}
 \end{center}
-\begin{enumerate}
-\item Изучение структуры xml-документа с геоданными в формате OpenStreetMap.
-\item Построение XPath-запросов для извлечения геоданных об объектах заданного типа.
-\item Изучение стандарта OpenGIS и разработка структуры базы данных для хранения геоданных в формате OpenGIS.
-\item Построение SQL-запросов для сохранения и извлечения геоданных в формате OpenGIS.
-\item Реализация модуля преобразования геоданных из формата OpenStreetMap в формат OpenGIS.
-\end{enumerate}
 
-\newpage
-\begin{flushleft}
-Место выполнения УИР и КП \underline{\hspace{9cm}}
-
-Руководитель \underline{\hspace{9cm} (Муравьёв С.К.)}
-
-Дата выдачи задания \underline{\hspace{11cm}}
-\end{flushleft}
-
-\newpage
 \begin{center}
-\textbf{ОТЗЫВ О РАБОТЕ СТУДЕНТА}
+{\fontfamily{ptm} \fontsize{15pt}{5pt} 
+\selectfont \fontseries{b}
+"Национальный исследовательский ядерный университет "МИФИ"
+\\[10pt]}
+
+\begin{figure}[h]
+\includegraphics[width=0.25\linewidth]{mifi}
+\end{figure}
+{\fontfamily{ptm} \fontsize{12pt}{14pt}
+\selectfont \fontseries{b}
+ФАКУЛЬТЕТ КИБЕРНЕТИКИ
+\\[15pt]
+КАФЕДРА ИНФОРМАЦИОННЫЕ ТЕХНОЛОГИИ
+\\[50pt]}
+
+{\fontfamily{ptm} \fontsize{24pt}{24pt}
+\selectfont \fontseries{b}
+Задание на УИР и КП
+\\[20pt]}
+
+\begin{flushleft}
+{\fontfamily{ptm} \fontsize{14pt}{24pt}
+\selectfont
+Студентке гр. \underline{К7-361 Лаврентьевой Марине Олеговне\hspace{5cm}}
+\\[40pt]}
+\end{flushleft}
+
+{\fontfamily{ptm} \fontsize{16pt}{24pt}
+\selectfont 
+ТЕМА УИР и КП}
+
+\begin{flushleft}
+{\fontfamily{ptm} \fontsize{14pt}{20pt}
+\selectfont
+\underline{Разработка модуля преобразования геоданных из формата\hspace{4cm}} \linebreak
+\underline{OpenStreetMap в формат OpenGIS\hspace{9,4cm}}
+\\[60pt]}
+\end{flushleft}
+
+{\fontfamily{ptm} \fontsize{14pt}{20pt}
+\selectfont
+ЗАДАНИЕ}
 \end{center}
+
+{\fontfamily{ptm} \fontsize{14pt}{20pt}
+\selectfont
+\begin{enumerate}
+\item Изучение структуры xml-документа с геоданными в формате \linebreak
+OpenStreetMap.
+\item Построение XPath-запросов для извлечения геоданных об объектах \linebreak
+заданного типа.
+\item Изучение стандарта OpenGIS и разработка структуры базы \linebreak
+данных для хранения геоданных в формате OpenGIS.
+\item Построение SQL-запросов для сохранения и извлечения геоданных \linebreak
+в формате OpenGIS.
+\item Реализация модуля преобразования геоданных из формата \linebreak
+OpenStreetMap в формат OpenGIS.
+\end{enumerate}}
+
+\newpage
+\begin{flushleft}
+{\fontfamily{ptm} \fontsize{12pt}{20pt}
+\selectfont
+Место выполнения УИР и КП \underline{\hspace{11cm}}
+
+Руководитель \underline{\hspace{10,9cm} (Муравьёв С.К.)}
+\\[10pt]
+Дата выдачи задания \underline{\hspace{12,8cm}}}
+\end{flushleft}
+
+\newpage
+\subsubsection*{ОТЗЫВ О РАБОТЕ СТУДЕНТА}
+
 \vfill
-Руководитель \underline{\hspace{6cm}\glqq{\hspace{1cm}}\grqq\hspace{4cm}2011г.}
+Руководитель \underline{\hspace{8cm}\glqq{\hspace{1cm}}\grqq\hspace{4cm}2011г.}
 %К: задание на уир и кп
 \end{document}
