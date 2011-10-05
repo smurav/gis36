@@ -68,12 +68,14 @@
       <span class="small">by <a href="http://github.com/smurav">smurav</a></span></h2>
 
     <div class="description">
-      РЈС‡РµР±РЅС‹Р№ РїСЂРѕРµРєС‚ РїРѕ СЃРѕР·РґР°РЅРёСЋ Р“РРЎ
+      Учебный проект по созданию ГИС
     </div>
 
 <div id="Layer1" style="width:800px; height:600px;
 z-index:1; left: 0px; top: 0px"> <img src="title2.jpg" width="800" height="600">
 </div>
+
+
 
 <h2>License:</h2>
 <p> GPLv3 </p>
@@ -102,7 +104,8 @@ z-index:1; left: 0px; top: 0px"> <img src="title2.jpg" width="800" height="600">
     </div>
 
   </div>
-
+     <?php
+     ?>
 
 </body>
 </html>
