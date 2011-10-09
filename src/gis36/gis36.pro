@@ -11,12 +11,25 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        mainwindow.cpp \
-    shellinterface.cpp
+    main_window.cpp \
+    shell_interface.cpp \
+    settings_parser.cpp
 
-HEADERS  += mainwindow.h \
-    shellinterface.h
+HEADERS  += \
+    main_window.h \
+    shell_interface.h \
+    settings_parser.h
 
 FORMS    += mainwindow.ui
+
+
+
+
+
+
+
+
+
+
 
 
