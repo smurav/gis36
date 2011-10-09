@@ -1,4 +1,4 @@
-#include "mainwindow.h"
+#include "main_window.h"
 #include "ui_mainwindow.h"
 
 MainWindow::MainWindow(QWidget *parent) :
@@ -10,13 +10,13 @@ MainWindow::MainWindow(QWidget *parent) :
     map = new QGraphicsView(this);
     setCentralWidget(map);
 
-    createActions();
-    createMenu();
-    createToolBar();
+    CreateActions();
+    CreateMenu();
+    CreateToolBar();
 
 }
 
-void MainWindow::createActions()
+void MainWindow::CreateActions()
 {
     action_close = new QAction(tr("Exit"), this);
     action_close->setShortcut(tr("Ctrl+Q"));
@@ -25,7 +25,7 @@ void MainWindow::createActions()
 
 }
 
-void MainWindow::createMenu()
+void MainWindow::CreateMenu()
 {
     file_menu= menuBar()->addMenu(tr("&File"));
     file_menu->addAction(action_close);
@@ -34,7 +34,7 @@ void MainWindow::createMenu()
 
 }
 
-void MainWindow::createToolBar()
+void MainWindow::CreateToolBar()
 {
     plagins_tool_bar= this->addToolBar(tr("Plagins"));
     plagins_tool_bar->addAction(action_close);

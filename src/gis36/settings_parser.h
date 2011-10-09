@@ -8,7 +8,7 @@ class SettingsParser
 public:
     SettingsParser(SettingsParser&);
     SettingsParser(QString&);
-    QDomDocument GetSettings();
+    QDomDocument* GetSettings();
     void WriteSettings(QDomDocument);
     void CreateFileSettings();
 private:

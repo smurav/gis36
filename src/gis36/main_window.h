@@ -19,9 +19,9 @@ public:
 
 private:
     Ui::MainWindow *ui;
-    void createActions();
-    void createMenu();
-    void createToolBar();
+    void CreateActions();
+    void CreateMenu();
+    void CreateToolBar();
 
     QToolBar *plagins_tool_bar;
 
