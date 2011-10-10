@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6">
+	<node id="76475011"/>
+ 
+	<node id="139744952" lat="55.0294985" lon="37.4277889" user="unwrecker" uid="69700" visible="true" version="7" changeset="3437942" timestamp="2009-12-23T21:29:34Z">
+  
+		<tag k="railway" v="level_crossing"/>
+ 
+	</node>
+ 
+	<node id="139744953" lat="55.0277599" lon="37.4273441" user="sanok" uid="39883" visible="true" version="6" changeset="402841" timestamp="2008-12-15T22:35:38Z"/>
+ 
+	<node id="6758392"/>
+	<node id="139750045" lat="55.1882851" lon="37.4998789" user="glebius" uid="94786" visible="true" version="5" changeset="5901209" timestamp="2010-09-28T07:26:33Z"/>
+ 
+	<node id="139750047" lat="55.1870551" lon="37.4982145" user="sanok" uid="39883" visible="true" version="3" changeset="402841" timestamp="2008-12-15T22:35:07Z"/>
+ 
+	<node id="139750048" lat="55.1851146" lon="37.4958370" user="sanok" uid="39883" visible="true" version="3" changeset="402841" timestamp="2008-12-15T22:35:07Z"/>
+
+</osm>
