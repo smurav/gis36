@@ -1,4 +1,4 @@
-#include "main_window.h"
+#include "../includes/main_window.h"
 #include "ui_mainwindow.h"
 
 MainWindow::MainWindow(QWidget *parent) :
@@ -7,13 +7,25 @@ MainWindow::MainWindow(QWidget *parent) :
 {
     ui->setupUi(this);
 
-    map = new QGraphicsView(this);
-    setCentralWidget(map);
+    map_ = new QGraphicsView(this);
+    setCentralWidget(map_);
 
     CreateActions();
     CreateMenu();
     CreateToolBar();
 
+}
+
+QGraphicsView* MainWindow::GetGraphicsView(){
+    return map_;
+}
+
+QToolBar* MainWindow::GetPluginsToolBar(){
+    return plugins_tool_bar;
+}
+
+QMenu* MainWindow::GetPluginsMenu(){
+    return plugins_menu;
 }
 
 void MainWindow::CreateActions()
@@ -29,15 +41,15 @@ void MainWindow::CreateMenu()
 {
     file_menu= menuBar()->addMenu(tr("&File"));
     file_menu->addAction(action_close);
-    plagins_menu = menuBar()->addMenu(tr("&Plugins"));
+    plugins_menu = menuBar()->addMenu(tr("&Plugins"));
     help_menu = menuBar()->addMenu(tr("&Help"));
 
 }
 
 void MainWindow::CreateToolBar()
 {
-    plagins_tool_bar= this->addToolBar(tr("Plagins"));
-    plagins_tool_bar->addAction(action_close);
+    plugins_tool_bar= this->addToolBar(tr("Plagins"));
+    plugins_tool_bar->addAction(action_close);
 }
 
 MainWindow::~MainWindow()

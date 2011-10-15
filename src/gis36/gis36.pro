@@ -4,7 +4,7 @@
 #
 #-------------------------------------------------
 
-QT       += core gui
+QT       += core gui xml
 
 TARGET = gis36
 TEMPLATE = app
@@ -17,10 +17,20 @@ SOURCES += main.cpp\
 
 HEADERS  += \
     main_window.h \
-    shell_interface.h \
-    settings_parser.h
+    settings_parser.h \
+    ../includes/shell_interface.h \
+    ../includes/plugin_interface.h \
+    ../includes/settings_parser.h \
+    ../includes/main_window.h
 
 FORMS    += mainwindow.ui
+
+
+
+
+
+
+
 
 
 
