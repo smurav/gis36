@@ -1,8 +1,9 @@
 #include <QtGui/QApplication>
 #include <QPluginLoader>
-#include "../includes/main_window.h"
-#include "../includes/plugin_interface.h"
-#include "../includes/settings_parser.h"
+#include "main_window.h"
+#include "plugin_interface.h"
+#include "settings_parser.h"
+#include "iostream"
 
 ShellInterface *shell_interface;
 
@@ -13,7 +14,11 @@ void LoadPlugins(QList<QString> *paths){
         QPluginLoader loader(path);
         if (PluginInterface *plugin =
                 qobject_cast<PluginInterface* >(loader.instance())){
-            plugin->Init(shell_interface);
+            int result;
+            if (result=plugin->Init(shell_interface)){
+                std::cerr<<"Error while loading plagin from "<<qPrintable(path)<<
+                           "Number = "<<result<<endl;
+            }
         }
     }
 }

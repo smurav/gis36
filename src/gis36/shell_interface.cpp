@@ -1,4 +1,4 @@
-#include "../includes/shell_interface.h"
+#include "shell_interface.h"
 
 ShellInterface::ShellInterface(MainWindow *main_window, SettingsParser* settings)
 {

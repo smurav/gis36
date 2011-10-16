@@ -1,4 +1,4 @@
-#include "../includes/settings_parser.h"
+#include "settings_parser.h"
 #include "QFile"
 #include <iostream>
 

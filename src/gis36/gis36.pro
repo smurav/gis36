@@ -21,9 +21,12 @@ HEADERS  += \
     ../includes/shell_interface.h \
     ../includes/plugin_interface.h \
     ../includes/settings_parser.h \
-    ../includes/main_window.h
+    ../includes/main_window.h \
+    shell_interface.h \
+    plugin_interface.h
 
 FORMS    += mainwindow.ui
+
 
 
 
