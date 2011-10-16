@@ -6,8 +6,8 @@ class PluginInterface
 {
 public:
     virtual ~PluginInterface(){}
-    virtual void Init(ShellInterface*);
-    virtual void Stop();
+    virtual void Init(ShellInterface*) = 0;
+    virtual void Stop() = 0;
 };
 Q_DECLARE_INTERFACE(PluginInterface,
 "com.gis36.PluginInterface/1.0")
