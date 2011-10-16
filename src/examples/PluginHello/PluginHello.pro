@@ -6,15 +6,12 @@
     ../../includes/plugin_interface.h
  SOURCES += \
      pluginhello.cpp
- TARGET        = $$qtLibraryTarget(gis_hello)
- DESTDIR       = /home/delphist007/
+ TARGET        = $$qtLibraryTarget(gis36_hello)
 
- # install
- target.path = /home/delphist007
+ DESTDIR       =  ./output
+
+ # install	
+ target.path = ./output
  sources.files = $$SOURCES $$HEADERS $$RESOURCES $$FORMS PluginHello.pro
- sources.path = /home/delphist007/projects/DB/example
+ sources.path = ./
  INSTALLS += target sources
-
- symbian: include($$QT_SOURCE_TREE/examples/symbianpkgrules.pri)
-
-s ymbian:TARGET.EPOCALLOWDLLDATA = 1

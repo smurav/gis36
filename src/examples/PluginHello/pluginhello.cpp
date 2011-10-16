@@ -35,4 +35,4 @@ void PluginHello::Hello()
     message.exec();
 }
 
-Q_EXPORT_PLUGIN2(gis_hello, PluginHello)
+Q_EXPORT_PLUGIN2(gis36_hello, PluginHello)
