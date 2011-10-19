@@ -18,7 +18,7 @@ QToolBar* ShellInterface::GetPluginsToolBar(){
     return main_window_->GetPluginsToolBar();
 }
 
-MainWindow* ShellInterface::GetMainWindow(){
+QMainWindow* ShellInterface::GetMainWindow(){
     return main_window_;
 }
 

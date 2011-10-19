@@ -2,8 +2,8 @@
 #define SHELLINTERFACE_H
 #include "QtGui"
 #include "QtXml/QDomDocument"
-#include "settings_parser.h"
-#include "main_window.h"
+#include "../gis36/settings_parser.h"
+#include "../gis36/main_window.h"
 
 class  ShellInterface
 {
@@ -11,7 +11,7 @@ public:
     ShellInterface(MainWindow*, SettingsParser* );
     virtual QMenu* GetPluginsMenu();
     virtual QToolBar* GetPluginsToolBar();
-    virtual MainWindow* GetMainWindow();
+    virtual QMainWindow* GetMainWindow();
     virtual QGraphicsView* GetGraphicsView();
     virtual SettingsParser* GetSettings();
 

@@ -1,10 +1,9 @@
 TEMPLATE      = lib
  CONFIG       += plugin
- INCLUDEPATH  += ../gis36
+ INCLUDEPATH  += ../includes
  HEADERS +=\
-     start_plugin.h \
-    ../gis36/plugin_interface.h \
-    ../gis36/shell_interface.h
+     start_plugin.h
+
  SOURCES += \
      start_plugin.cpp
  TARGET        = $$qtLibraryTarget(gis_hello)

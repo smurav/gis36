@@ -2,7 +2,7 @@
 #define START_PLUGIN_H
 
 #include <QtGui>
-#include "../gis36/plugin_interface.h"
+#include "plugin_interface.h"
 
 class StartPlugin : public QWidget, public PluginInterface
 {

@@ -8,7 +8,7 @@ QT       += core gui xml
 
 TARGET = gis36
 TEMPLATE = app
-
+ INCLUDEPATH  += ../includes
 
 SOURCES += main.cpp\
     main_window.cpp \
@@ -20,8 +20,6 @@ HEADERS  += \
     settings_parser.h \
     ../includes/shell_interface.h \
     ../includes/plugin_interface.h \
-    ../includes/settings_parser.h \
-    ../includes/main_window.h \
     shell_interface.h \
     plugin_interface.h
 
