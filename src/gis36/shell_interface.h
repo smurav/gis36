@@ -9,11 +9,11 @@ class  ShellInterface
 {
 public:
     ShellInterface(MainWindow*, SettingsParser* );
-    QMenu* GetPluginsMenu();
-    QToolBar* GetPluginsToolBar();
-    MainWindow* GetMainWindow();
-    QGraphicsView* GetGraphicsView();
-    SettingsParser* GetSettings();
+    virtual QMenu* GetPluginsMenu();
+    virtual QToolBar* GetPluginsToolBar();
+    virtual MainWindow* GetMainWindow();
+    virtual QGraphicsView* GetGraphicsView();
+    virtual SettingsParser* GetSettings();
 
 private:
     MainWindow *main_window_;

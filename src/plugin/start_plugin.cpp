@@ -3,9 +3,9 @@
 int StartPlugin::Init(ShellInterface * shell){
     ShellInterface* f_shell = shell;
         QToolBar* main_toolbar = f_shell->GetPluginsToolBar();
-
+        //QToolBar* main_toolbar;
         if(main_toolbar != NULL){
-            action_hello = new QAction(tr("Hello world!"), this);
+            action_hello = new QAction(tr("Hello world!111"), this);
             action_hello->setShortcut(tr("Ctrl+H"));
             action_hello->setStatusTip(tr("Hello world!"));
             connect(action_hello, SIGNAL(triggered()), this, SLOT(Hello()));

@@ -3,7 +3,6 @@
 
 #include <QtGui>
 #include "../gis36/plugin_interface.h"
-#include "../gis36/shell_interface.h"
 
 class StartPlugin : public QWidget, public PluginInterface
 {

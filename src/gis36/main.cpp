@@ -14,8 +14,8 @@ void LoadPlugins(QList<QString> *paths){
         QPluginLoader loader(path);
         if (PluginInterface *plugin =
                 qobject_cast<PluginInterface* >(loader.instance())){
-            int result;
-            if (result=plugin->Init(shell_interface)){
+            int result=plugin->Init(shell_interface);
+            if (result){
                 std::cerr<<"Error while loading plagin from "<<qPrintable(path)<<
                            "Number = "<<result<<endl;
             }
@@ -37,6 +37,7 @@ int main(int argc, char *argv[])
     SettingsParser * settings = new SettingsParser();
     shell_interface = new ShellInterface(&main_window, settings);
     LoadPlugins(settings->GetPluginsPaths());
+    LoadPlugins("../plugin/output/gis_hellod.dll");
     main_window.show();
     return application.exec();
 }
