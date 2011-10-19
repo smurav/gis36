@@ -9,10 +9,10 @@ public:
     SettingsParser();
     SettingsParser(SettingsParser&);
     SettingsParser(QString);
-    QDomDocument* GetSettings();
-    void WriteSettings(QDomDocument);
-    void CreateFileSettings();
-    QList<QString> *GetPluginsPaths();
+    virtual QDomDocument* GetSettings();
+    virtual void WriteSettings(QDomDocument);
+    virtual void CreateFileSettings();
+    virtual QList<QString> *GetPluginsPaths();
 private:
     QString file_name_;
     QDomDocument* document;

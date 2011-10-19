@@ -13,9 +13,9 @@ class MainWindow : public QMainWindow
     Q_OBJECT
 
 public:
-    QGraphicsView* GetGraphicsView();
-    QMenu* GetPluginsMenu();
-    QToolBar* GetPluginsToolBar();
+    virtual  QGraphicsView* GetGraphicsView();
+    virtual QMenu* GetPluginsMenu();
+    virtual QToolBar* GetPluginsToolBar();
     explicit MainWindow(QWidget *parent = 0);
     ~MainWindow();
 

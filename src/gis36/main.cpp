@@ -32,6 +32,7 @@ int main(int argc, char *argv[])
     SettingsParser * settings = new SettingsParser();
     shell_interface = new ShellInterface(&main_window, settings);
     LoadPlugins(settings->GetPluginsPaths());
+
     main_window.show();
     return application.exec();
 }
