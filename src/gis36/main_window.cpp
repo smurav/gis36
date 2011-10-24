@@ -1,5 +1,8 @@
-#include "main_window.h"
+#include "plugin_manager.h"
 #include "ui_mainwindow.h"
+#include "main_window.h"
+#include "plugin_interface.h"
+#include "iostream"
 
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
@@ -8,12 +11,16 @@ MainWindow::MainWindow(QWidget *parent) :
     ui->setupUi(this);
 
     map_ = new QGraphicsView(this);
+
     setCentralWidget(map_);
 
     CreateActions();
     CreateMenu();
     CreateToolBar();
-
+    SettingsParser * settings = new SettingsParser();
+    shell_interface_ = new ShellInterface(this, settings);
+    //LoadPlugins(settings->GetPluginsPaths());
+    LoadPlugins("../plugin/output/gis_hellod.dll");
 }
 
 QGraphicsView* MainWindow::GetGraphicsView(){
@@ -35,13 +42,20 @@ void MainWindow::CreateActions()
     action_close->setStatusTip(tr("Exit"));
     connect(action_close, SIGNAL(triggered()), this, SLOT(close()));
 
+    action_start_plugin_manager = new QAction(tr("Plugin Manager"), this);
+    connect(action_start_plugin_manager, SIGNAL(triggered()), this,
+            SLOT(startPluginManager()));
+
 }
 
 void MainWindow::CreateMenu()
 {
     file_menu= menuBar()->addMenu(tr("&File"));
     file_menu->addAction(action_close);
+
     plugins_menu = menuBar()->addMenu(tr("&Plugins"));
+    plugins_menu->addAction(action_start_plugin_manager);
+
     help_menu = menuBar()->addMenu(tr("&Help"));
 
 }
@@ -55,4 +69,34 @@ void MainWindow::CreateToolBar()
 MainWindow::~MainWindow()
 {
     delete ui;
+}
+
+void MainWindow::startPluginManager()
+{
+    PluginManager *manager = new PluginManager(
+                new ShellInterface(this, new SettingsParser()));
+    manager->show();
+}
+
+void MainWindow::LoadPlugins(QList<QString> *paths){
+    if (paths==NULL) return;
+    for(int i=0; i<paths->length(); i++){
+        QString path=paths->at(i);
+        QPluginLoader loader(path);
+        if (PluginInterface *plugin =
+                qobject_cast<PluginInterface* >(loader.instance())){
+            int result=plugin->Init(new ShellInterface(this,
+                                                       new SettingsParser()));
+            if (result){
+                std::cerr<<"Error while loading plagin from "<<qPrintable(path)<<
+                           "Number = "<<result<<endl;
+            }
+        }
+    }
+}
+
+void MainWindow::LoadPlugins(QString path){
+    QList<QString> *paths = new QList<QString>();
+    paths->push_back(path);
+    LoadPlugins(paths);
 }

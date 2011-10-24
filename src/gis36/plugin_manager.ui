@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>PluginManager</class>
+ <widget class="QDialog" name="PluginManager">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>12</x>
+     <y>13</y>
+     <width>381</width>
+     <height>281</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string>Список плагинов</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QListWidget" name="list_plugins"/>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_2">
+        <item>
+         <widget class="QPushButton" name="add_plugin">
+          <property name="text">
+           <string>Добавить</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="remove_plugin">
+          <property name="text">
+           <string>Удалить</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="turn_on_plugin">
+          <property name="text">
+           <string>Включить</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="turn_off_plugin">
+          <property name="text">
+           <string>Отключить</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <spacer name="verticalSpacer">
+          <property name="orientation">
+           <enum>Qt::Vertical</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>20</width>
+            <height>131</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>add_plugin</sender>
+   <signal>clicked()</signal>
+   <receiver>PluginManager</receiver>
+   <slot>addNewPlugin()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>364</x>
+     <y>48</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>399</x>
+     <y>44</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>remove_plugin</sender>
+   <signal>clicked()</signal>
+   <receiver>PluginManager</receiver>
+   <slot>removePlugin()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>352</x>
+     <y>81</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>444</x>
+     <y>75</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>turn_on_plugin</sender>
+   <signal>clicked()</signal>
+   <receiver>PluginManager</receiver>
+   <slot>turnOnPlugin()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>352</x>
+     <y>104</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>395</x>
+     <y>102</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>turn_off_plugin</sender>
+   <signal>clicked()</signal>
+   <receiver>PluginManager</receiver>
+   <slot>turnOffPlugin()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>354</x>
+     <y>129</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>399</x>
+     <y>137</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>addNewPlugin()</slot>
+  <slot>removePlugin()</slot>
+  <slot>turnOnPlugin()</slot>
+  <slot>turnOffPlugin()</slot>
+ </slots>
+</ui>

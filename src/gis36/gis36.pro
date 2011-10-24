@@ -13,7 +13,8 @@ TEMPLATE = app
 SOURCES += main.cpp\
     main_window.cpp \
     settings_parser.cpp \
-    shell_interface.cpp
+    shell_interface.cpp \
+    plugin_manager.cpp
 
 HEADERS  += \
     main_window.h \
@@ -21,9 +22,14 @@ HEADERS  += \
     ../includes/shell_interface.h \
     ../includes/plugin_interface.h \
     shell_interface.h \
-    plugin_interface.h
+    plugin_interface.h \
+    plugin_manager.h
 
-FORMS    += mainwindow.ui
+FORMS    += mainwindow.ui \
+    plugin_manager.ui
+
+
+
 
 
 

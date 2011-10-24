@@ -3,7 +3,7 @@
 #include <iostream>
 
 SettingsParser::SettingsParser(){
-
+    file_name_="settings.xml";
 }
 
 SettingsParser::SettingsParser(SettingsParser &s){
@@ -19,7 +19,8 @@ SettingsParser::SettingsParser(QString file_name="")
 }
 
 QDomDocument* SettingsParser::GetSettings(){
-    if (document==NULL) Reload();
+    //if (document==NULL) Reload();
+    document = Reload();
     return document;
 }
 
@@ -43,6 +44,7 @@ QDomDocument* SettingsParser::Reload(){
     QFile file(file_name_);
     if (!file.open(QFile::ReadOnly|QFile::Text)){
         std::cerr<<"Error: Cannot open settings file"<<std::endl;
+        return NULL;
     }
 
     QString error_string;

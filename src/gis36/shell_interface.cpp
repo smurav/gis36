@@ -1,21 +1,25 @@
 #include "shell_interface.h"
-
-ShellInterface::ShellInterface(MainWindow *main_window, SettingsParser* settings)
+#include "main_window.h"
+MainWindow *my_window;
+ShellInterface::ShellInterface(QMainWindow *main_window, SettingsParser* settings)
 {
     main_window_=main_window;
     settings_=settings;
 }
 
 QGraphicsView* ShellInterface::GetGraphicsView(){
-    return main_window_->GetGraphicsView();
+    my_window =dynamic_cast<MainWindow*>(main_window_);
+    return my_window->GetGraphicsView();
 }
 
 QMenu* ShellInterface::GetPluginsMenu(){
-    return main_window_->GetPluginsMenu();
+    my_window =dynamic_cast<MainWindow*>(main_window_);
+    return my_window->GetPluginsMenu();
 }
 
 QToolBar* ShellInterface::GetPluginsToolBar(){
-    return main_window_->GetPluginsToolBar();
+    my_window =dynamic_cast<MainWindow*>(main_window_);
+    return my_window->GetPluginsToolBar();
 }
 
 QMainWindow* ShellInterface::GetMainWindow(){

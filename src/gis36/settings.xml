@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings>
+<plugins>
+<plugin>
+<name>plugin1</name>
+<directory>b</directory>
+</plugin>
+<plugin>
+<name>plugin2</name>
+<directory>b</directory>
+</plugin>
+</plugins>
+</settings>
