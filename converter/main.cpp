@@ -5,30 +5,16 @@
 #include <QtCore/QFile>
 #include <QLabel>
 #include <QXmlStreamAttributes>
+#include <QtXmlPatterns/QXmlQuery>
+#include "converterinterface.h"
+#include "library.h"
 
 int main(int argc, char *argv[]){
 
     QApplication app(argc, argv);
 
-    QString FilePath("map.xml");
-    QFile inputFile(FilePath);
-    inputFile.open(QIODevice::ReadOnly | QIODevice::Text);
-
-    QXmlStreamReader reader(&inputFile);
-    while (!reader.atEnd()){
-        reader.readNext();
-        if (reader.isStartElement()){
-            //if (reader.name() == "node"){  //это условие для вывода только тегов <node>
-                qDebug() << reader.name().toString();
-                QXmlStreamAttributes attrs = reader.QXmlStreamReader::attributes();
-                for (int i = 0; i < attrs.count(); i++)
-                 qDebug() << attrs[i].name().toString() << "=" << attrs[i].value().toString();
-           // }
-        }
-    }
-
-    inputFile.close();
-
+    ConverterInterface *dialog = new ConverterInterface;
+    dialog->show();
     return app.exec();
 }
 
