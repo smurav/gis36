@@ -32,7 +32,8 @@ int main(int argc, char *argv[])
     SettingsParser * settings = new SettingsParser();
     shell_interface = new ShellInterface(&main_window, settings);
     LoadPlugins(settings->GetPluginsPaths());
-
+    QString plugin_path="../layer_manager/debug/layer_manager.dll";
+    LoadPlugins(plugin_path);
     main_window.show();
     return application.exec();
 }

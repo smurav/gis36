@@ -1,13 +1,13 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'main_window.h'
 **
-** Created: Sat 15. Oct 21:26:19 2011
+** Created: Mon 24. Oct 22:49:55 2011
 **      by: The Qt Meta Object Compiler version 62 (Qt 4.7.4)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
 
-#include "../main_window.h"
+#include "../../includes/main_window.h"
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'main_window.h' doesn't include <QObject>."
 #elif Q_MOC_OUTPUT_REVISION != 62
