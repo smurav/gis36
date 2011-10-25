@@ -19,8 +19,8 @@ MainWindow::MainWindow(QWidget *parent) :
     CreateToolBar();
     SettingsParser * settings = new SettingsParser();
     shell_interface_ = new ShellInterface(this, settings);
-    //LoadPlugins(settings->GetPluginsPaths());
-    LoadPlugins("../plugin/output/gis_hellod.dll");
+    LoadPlugins(settings->GetListPluginInfo());
+    //LoadPlugins("../plugin/output/gis_hellod.dll");
 }
 
 QGraphicsView* MainWindow::GetGraphicsView(){
@@ -78,15 +78,16 @@ void MainWindow::startPluginManager()
     manager->show();
 }
 
-void MainWindow::LoadPlugins(QList<QString> *paths){
-    if (paths==NULL) return;
-    for(int i=0; i<paths->length(); i++){
-        QString path=paths->at(i);
+void MainWindow::LoadPlugins(QList<PluginInfo> *info){
+    if (info==NULL|| info->size()<=0) return;
+    for(int i=0; i<info->length(); i++){
+        if (!info->at(i).IsEnabled()){
+            continue;
+        }
+        QString path=info->at(i).GetDirectory();
         QPluginLoader loader(path);
-        if (PluginInterface *plugin =
-                qobject_cast<PluginInterface* >(loader.instance())){
-            int result=plugin->Init(new ShellInterface(this,
-                                                       new SettingsParser()));
+        if (PluginInterface *plugin =qobject_cast<PluginInterface* >(loader.instance())){
+            int result=plugin->Init(new ShellInterface(this,new SettingsParser()));
             if (result){
                 std::cerr<<"Error while loading plagin from "<<qPrintable(path)<<
                            "Number = "<<result<<endl;
@@ -98,5 +99,5 @@ void MainWindow::LoadPlugins(QList<QString> *paths){
 void MainWindow::LoadPlugins(QString path){
     QList<QString> *paths = new QList<QString>();
     paths->push_back(path);
-    LoadPlugins(paths);
+    //LoadPlugins(paths);
 }

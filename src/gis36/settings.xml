@@ -2,12 +2,14 @@
 <settings>
 <plugins>
 <plugin>
+<enabled>true</enabled>
 <name>plugin1</name>
-<directory>b</directory>
+<directory>../plugin/output/gis_hellod.dll</directory>
 </plugin>
 <plugin>
+<enabled>true</enabled>
 <name>plugin2</name>
-<directory>b</directory>
+<directory>../examples/PluginHello/output/gis36_hellod.dll</directory>
 </plugin>
 </plugins>
 </settings>

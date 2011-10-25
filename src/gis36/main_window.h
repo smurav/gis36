@@ -4,6 +4,7 @@
 #include <QGraphicsView>
 #include <QMainWindow>
 #include "shell_interface.h"
+#include "settings_parser.h"
 
 namespace Ui {
     class MainWindow;
@@ -39,7 +40,7 @@ private:
     QAction *action_start_plugin_manager;
 
     ShellInterface* shell_interface_;
-    void LoadPlugins(QList<QString>*);
+    void LoadPlugins(QList<PluginInfo>*);
     void LoadPlugins(QString);
 private slots:
     void startPluginManager();

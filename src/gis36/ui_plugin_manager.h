@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'plugin_manager.ui'
 **
-** Created: Mon 24. Oct 19:29:37 2011
+** Created: Tue 25. Oct 13:48:48 2011
 **      by: Qt User Interface Compiler version 4.7.4
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
@@ -29,7 +29,7 @@ QT_BEGIN_NAMESPACE
 class Ui_PluginManager
 {
 public:
-    QWidget *widget;
+    QWidget *layoutWidget;
     QVBoxLayout *verticalLayout;
     QLabel *label;
     QHBoxLayout *horizontalLayout;
@@ -46,42 +46,42 @@ public:
         if (PluginManager->objectName().isEmpty())
             PluginManager->setObjectName(QString::fromUtf8("PluginManager"));
         PluginManager->resize(400, 300);
-        widget = new QWidget(PluginManager);
-        widget->setObjectName(QString::fromUtf8("widget"));
-        widget->setGeometry(QRect(12, 13, 381, 281));
-        verticalLayout = new QVBoxLayout(widget);
+        layoutWidget = new QWidget(PluginManager);
+        layoutWidget->setObjectName(QString::fromUtf8("layoutWidget"));
+        layoutWidget->setGeometry(QRect(12, 13, 381, 281));
+        verticalLayout = new QVBoxLayout(layoutWidget);
         verticalLayout->setObjectName(QString::fromUtf8("verticalLayout"));
         verticalLayout->setContentsMargins(0, 0, 0, 0);
-        label = new QLabel(widget);
+        label = new QLabel(layoutWidget);
         label->setObjectName(QString::fromUtf8("label"));
 
         verticalLayout->addWidget(label);
 
         horizontalLayout = new QHBoxLayout();
         horizontalLayout->setObjectName(QString::fromUtf8("horizontalLayout"));
-        list_plugins = new QListWidget(widget);
+        list_plugins = new QListWidget(layoutWidget);
         list_plugins->setObjectName(QString::fromUtf8("list_plugins"));
 
         horizontalLayout->addWidget(list_plugins);
 
         verticalLayout_2 = new QVBoxLayout();
         verticalLayout_2->setObjectName(QString::fromUtf8("verticalLayout_2"));
-        add_plugin = new QPushButton(widget);
+        add_plugin = new QPushButton(layoutWidget);
         add_plugin->setObjectName(QString::fromUtf8("add_plugin"));
 
         verticalLayout_2->addWidget(add_plugin);
 
-        remove_plugin = new QPushButton(widget);
+        remove_plugin = new QPushButton(layoutWidget);
         remove_plugin->setObjectName(QString::fromUtf8("remove_plugin"));
 
         verticalLayout_2->addWidget(remove_plugin);
 
-        turn_on_plugin = new QPushButton(widget);
+        turn_on_plugin = new QPushButton(layoutWidget);
         turn_on_plugin->setObjectName(QString::fromUtf8("turn_on_plugin"));
 
         verticalLayout_2->addWidget(turn_on_plugin);
 
-        turn_off_plugin = new QPushButton(widget);
+        turn_off_plugin = new QPushButton(layoutWidget);
         turn_off_plugin->setObjectName(QString::fromUtf8("turn_off_plugin"));
 
         verticalLayout_2->addWidget(turn_off_plugin);
@@ -108,7 +108,7 @@ public:
 
     void retranslateUi(QDialog *PluginManager)
     {
-        PluginManager->setWindowTitle(QApplication::translate("PluginManager", "Dialog", 0, QApplication::UnicodeUTF8));
+        PluginManager->setWindowTitle(QApplication::translate("PluginManager", "Plugin Manager", 0, QApplication::UnicodeUTF8));
         label->setText(QApplication::translate("PluginManager", "\320\241\320\277\320\270\321\201\320\276\320\272 \320\277\320\273\320\260\320\263\320\270\320\275\320\276\320\262", 0, QApplication::UnicodeUTF8));
         add_plugin->setText(QApplication::translate("PluginManager", "\320\224\320\276\320\261\320\260\320\262\320\270\321\202\321\214", 0, QApplication::UnicodeUTF8));
         remove_plugin->setText(QApplication::translate("PluginManager", "\320\243\320\264\320\260\320\273\320\270\321\202\321\214", 0, QApplication::UnicodeUTF8));

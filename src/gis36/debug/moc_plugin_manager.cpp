@@ -1,7 +1,7 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'plugin_manager.h'
 **
-** Created: Tue 25. Oct 01:32:58 2011
+** Created: Tue 25. Oct 14:00:03 2011
 **      by: The Qt Meta Object Compiler version 62 (Qt 4.7.4)
 **
 ** WARNING! All changes made in this file will be lost!

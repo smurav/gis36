@@ -11,9 +11,9 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Dialog</string>
+   <string>Plugin Manager</string>
   </property>
-  <widget class="QWidget" name="">
+  <widget class="QWidget" name="layoutWidget">
    <property name="geometry">
     <rect>
      <x>12</x>
@@ -39,6 +39,9 @@
        <layout class="QVBoxLayout" name="verticalLayout_2">
         <item>
          <widget class="QPushButton" name="add_plugin">
+          <property name="enabled">
+           <bool>false</bool>
+          </property>
           <property name="text">
            <string>Добавить</string>
           </property>
@@ -46,6 +49,9 @@
         </item>
         <item>
          <widget class="QPushButton" name="remove_plugin">
+          <property name="enabled">
+           <bool>false</bool>
+          </property>
           <property name="text">
            <string>Удалить</string>
           </property>
@@ -53,6 +59,9 @@
         </item>
         <item>
          <widget class="QPushButton" name="turn_on_plugin">
+          <property name="enabled">
+           <bool>false</bool>
+          </property>
           <property name="text">
            <string>Включить</string>
           </property>
@@ -60,6 +69,9 @@
         </item>
         <item>
          <widget class="QPushButton" name="turn_off_plugin">
+          <property name="enabled">
+           <bool>false</bool>
+          </property>
           <property name="text">
            <string>Отключить</string>
           </property>
