@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'plugin_manager.ui'
 **
-** Created: Tue 25. Oct 13:48:48 2011
+** Created: Tue 25. Oct 21:33:27 2011
 **      by: Qt User Interface Compiler version 4.7.4
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
@@ -68,21 +68,25 @@ public:
         verticalLayout_2->setObjectName(QString::fromUtf8("verticalLayout_2"));
         add_plugin = new QPushButton(layoutWidget);
         add_plugin->setObjectName(QString::fromUtf8("add_plugin"));
+        add_plugin->setEnabled(false);
 
         verticalLayout_2->addWidget(add_plugin);
 
         remove_plugin = new QPushButton(layoutWidget);
         remove_plugin->setObjectName(QString::fromUtf8("remove_plugin"));
+        remove_plugin->setEnabled(true);
 
         verticalLayout_2->addWidget(remove_plugin);
 
         turn_on_plugin = new QPushButton(layoutWidget);
         turn_on_plugin->setObjectName(QString::fromUtf8("turn_on_plugin"));
+        turn_on_plugin->setEnabled(true);
 
         verticalLayout_2->addWidget(turn_on_plugin);
 
         turn_off_plugin = new QPushButton(layoutWidget);
         turn_off_plugin->setObjectName(QString::fromUtf8("turn_off_plugin"));
+        turn_off_plugin->setEnabled(true);
 
         verticalLayout_2->addWidget(turn_off_plugin);
 

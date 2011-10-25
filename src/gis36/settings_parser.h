@@ -34,12 +34,16 @@ public:
     void WriteSettings(QDomDocument);
     void CreateFileSettings();
     QList<PluginInfo> *GetListPluginInfo();
+    int WriteListPluginInfo(QList<PluginInfo>*);
+    int WriteNewPluginInfo(PluginInfo*);
+
 private:
     QString file_name_;
     QDomDocument* document;
 
     QDomDocument* Reload();
     QDomNode FindElementByTag(QDomNode node, QString tag);
+    QDomNode MakePluginsNode(QList<PluginInfo>* plugins_info);
 };
 
 

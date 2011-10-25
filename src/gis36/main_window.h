@@ -3,8 +3,11 @@
 
 #include <QGraphicsView>
 #include <QMainWindow>
+#include <QList>
+#include <QPair>
 #include "shell_interface.h"
 #include "settings_parser.h"
+#include "plugin_interface.h"
 
 namespace Ui {
     class MainWindow;
@@ -40,8 +43,11 @@ private:
     QAction *action_start_plugin_manager;
 
     ShellInterface* shell_interface_;
+
+    QList<QPair<QString, PluginInterface*> > runing_plugins_;
     void LoadPlugins(QList<PluginInfo>*);
     void LoadPlugins(QString);
+    void StopPlugins();
 private slots:
     void startPluginManager();
 };

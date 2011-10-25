@@ -7,6 +7,10 @@ class  ShellInterface
 {
 public:
     ShellInterface(QMainWindow*, SettingsParser*);
+    /**
+      *
+      *
+      */
     virtual QMenu* GetPluginsMenu();
     virtual QToolBar* GetPluginsToolBar();
     virtual QMainWindow* GetMainWindow();

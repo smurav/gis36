@@ -1,15 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <settings>
-<plugins>
-<plugin>
-<enabled>true</enabled>
-<name>plugin1</name>
-<directory>../plugin/output/gis_hellod.dll</directory>
-</plugin>
-<plugin>
-<enabled>true</enabled>
-<name>plugin2</name>
-<directory>../examples/PluginHello/output/gis36_hellod.dll</directory>
-</plugin>
-</plugins>
+    <plugins>
+        <plugin>
+            <name>plugin1</name>
+            <directory>../plugin/output/gis_hellod.dll</directory>
+            <enabled>true</enabled>
+        </plugin>
+        <plugin>
+            <name>plugin2</name>
+            <directory>../examples/PluginHello/output/gis36_hellod.dll</directory>
+            <enabled>true</enabled>
+        </plugin>
+    </plugins>
 </settings>

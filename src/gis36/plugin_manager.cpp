@@ -10,55 +10,10 @@ PluginManager::PluginManager(ShellInterface *shell, QWidget *parent) :
 
 
     ui->setupUi(this);
-//    QDomDocument *settings = shell->GetSettings()->GetSettings();
-//    /*if (!settings->isNull()){
-//    QDomNode child = settings->firstChild();
-
-//    while (!child.isNull()){
-
-//        std::cerr<<qPrintable(child.toElement().tagName())<<std::endl;
-//        if (child.toElement().tagName()=="settings"){
-//            QDomNode plugins = child.firstChild();
-//            while (!plugins.isNull()){
-//                std::cerr<<qPrintable(plugins.toElement().tagName())<<std::endl;
-//                if (plugins.toElement().tagName()=="plugins"){
-//                    setupListPlugins(plugins);
-//                    break;
-//                } else {
-//                    plugins=plugins.nextSibling();
-//                }
-//            }
-//            break;
-//        }else {
-//            child=child.nextSibling();
-//        }
-//    }
-//    }*/
-//    if (settings->isNull()){
-//        return;
-//    }
-//    QDomNode child = settings->firstChild();
-//    while (!child.isNull()){
-//        if (child.toElement().tagName()=="settings"){
-//            break;
-//        } else {
-//            child = child.nextSibling();
-//        }
-//    }
-//    if (child.isNull()){
-//        std::cerr<<"settings tag not found"<<std::endl;
-//        return;
-//    }
-//    QDomNode plugins = child.firstChild();
-//    while (!plugins.isNull()&&plugins.toElement().tagName()!="plugins"){
-//        plugins= plugins.nextSibling();
-//    }
-//    if (plugins.isNull()){
-//        std::cerr<<"plugins tag not found"<<std::endl;
-//    }
-    QList<PluginInfo> *info = shell_interface_->GetSettings()->GetListPluginInfo();
-    if (info!=NULL && !info->isEmpty()){
-        SetupListPlugins(*info);
+    setFixedSize(400,300);
+    plugin_info_ = shell_interface_->GetSettings()->GetListPluginInfo();
+    if (plugin_info_!=NULL && !plugin_info_->isEmpty()){
+        SetupListPlugins(*plugin_info_);
     }
 }
 
@@ -68,55 +23,90 @@ PluginManager::~PluginManager()
 }
 
 void PluginManager::SetupListPlugins(const QList<PluginInfo> &plugins){
+    ui->list_plugins->clear();
     for (int i=0; i<plugins.size(); i++){
         QListWidgetItem *list_item= new QListWidgetItem();
         list_item->setData(Qt::DisplayRole, plugins.at(i).GetName());
         if (plugins.at(i).IsEnabled()){
-            list_item->setBackgroundColor(QColor(200,200,200));
+            list_item->setBackgroundColor(QColor(0,200,0));
         } else {
-            list_item->setBackgroundColor(QColor(240,240,240));
+            list_item->setBackgroundColor(QColor(200,0,0));
         }
         ui->list_plugins->addItem(list_item);
     }
-//    QDomNode child = plugins.firstChild();
-//    while (!child.isNull()){
-//        if (child.toElement().tagName()=="plugin"){
-//            QDomNode plugin_node = child.firstChild();
-//            while (!plugin_node.isNull()){
-//                if (plugin_node.toElement().tagName()=="name"){
-//                    QListWidgetItem* list_item=
-//                            new QListWidgetItem();
-//                    list_item->setData(Qt::DisplayRole,
-//                                       plugin_node.toElement().text());
-//                    std::cerr<<qPrintable(plugin_node.toElement().tagName())<<std::endl;
-//                    ui->list_plugins->addItem(list_item);
-//                }
-//                plugin_node = plugin_node.nextSibling();
-//            }
-//        }
-//        child = child.nextSibling();
-//    }
-    ui->list_plugins;
 }
 
 void PluginManager::addNewPlugin()
 {
+    plugin_info_ =shell_interface_->GetSettings()->GetListPluginInfo();
+    shell_interface_->GetSettings()->WriteListPluginInfo(plugin_info_);
     std::cerr<<"addPlugin"<<std::endl;
 }
 
 void PluginManager::removePlugin()
 {
+    QListWidgetItem *current_item = ui->list_plugins->currentItem();
+    if (current_item==NULL){
+        ShowMessage("Select plugin");
+        return;
+    }
+    QString current_name = current_item->text();
+    for (int i=0; i<plugin_info_->size(); i++){
+        if( plugin_info_->at(i).GetName()==current_name){
+            plugin_info_->removeAt(i);
+        }
+    }
+    shell_interface_->GetSettings()->WriteListPluginInfo(plugin_info_);
+    SetupListPlugins(*plugin_info_);
     std::cerr<<"removePlugin"<<std::endl;
 }
 
 void PluginManager::turnOnPlugin()
 {
+    QListWidgetItem *current_item = ui->list_plugins->currentItem();
+    if (current_item==NULL){
+        ShowMessage("Select plugin");
+        return;
+    }
+    QString current_name = current_item->text();
+    for (int i=0; i<plugin_info_->size(); i++){
+        if( plugin_info_->at(i).GetName()==current_name){
+            PluginInfo info(plugin_info_->at(i).GetName(),
+                            plugin_info_->at(i).GetDirectory(), true);
+            //plugin_info_->at(i).SetEnabled(true);
+            plugin_info_->replace(i, info);
+        }
+    }
+    shell_interface_->GetSettings()->WriteListPluginInfo(plugin_info_);
+    SetupListPlugins(*plugin_info_);
     std::cerr<<"turnOnPlugin"<<std::endl;
 }
 
 void PluginManager::turnOffPlugin()
 {
+    QListWidgetItem *current_item = ui->list_plugins->currentItem();
+    if (current_item==NULL){
+        ShowMessage("Select plugin");
+        return;
+    }
+    QString current_name = current_item->text();
+    for (int i=0; i<plugin_info_->size(); i++){
+        if( plugin_info_->at(i).GetName()==current_name){
+            PluginInfo info(plugin_info_->at(i).GetName(),
+                            plugin_info_->at(i).GetDirectory(), false);
+            //plugin_info_->at(i).SetEnabled(false);
+            plugin_info_->replace(i, info);
+        }
+    }
+    shell_interface_->GetSettings()->WriteListPluginInfo(plugin_info_);
+    SetupListPlugins(*plugin_info_);
     std::cerr<<"turnOffPlugin"<<std::endl;
+}
+void PluginManager::ShowMessage(const QString& str){
+    QMessageBox message;
+    message.setIcon(QMessageBox::Information);
+    message.setText(str);
+    message.exec();
 }
 
 

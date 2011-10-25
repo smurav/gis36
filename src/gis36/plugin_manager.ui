@@ -50,7 +50,7 @@
         <item>
          <widget class="QPushButton" name="remove_plugin">
           <property name="enabled">
-           <bool>false</bool>
+           <bool>true</bool>
           </property>
           <property name="text">
            <string>Удалить</string>
@@ -60,7 +60,7 @@
         <item>
          <widget class="QPushButton" name="turn_on_plugin">
           <property name="enabled">
-           <bool>false</bool>
+           <bool>true</bool>
           </property>
           <property name="text">
            <string>Включить</string>
@@ -70,7 +70,7 @@
         <item>
          <widget class="QPushButton" name="turn_off_plugin">
           <property name="enabled">
-           <bool>false</bool>
+           <bool>true</bool>
           </property>
           <property name="text">
            <string>Отключить</string>

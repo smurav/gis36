@@ -19,7 +19,9 @@ public:
 private:
     Ui::PluginManager *ui;
     ShellInterface *shell_interface_;
+    QList<PluginInfo> *plugin_info_;
     void SetupListPlugins(const QList<PluginInfo>&);
+    void ShowMessage(const QString&);
 private slots:
     void addNewPlugin();
     void removePlugin();

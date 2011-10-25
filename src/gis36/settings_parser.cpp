@@ -1,5 +1,6 @@
 #include "settings_parser.h"
 #include "QFile"
+#include "QTextStream"
 #include <iostream>
 
 SettingsParser::SettingsParser(){
@@ -35,6 +36,10 @@ void SettingsParser::WriteSettings(QDomDocument doc){
 
 }
 
+/**
+  *–ó–∞–≥—Ä—É–∂–∞–µ—Ç –¥–∞–Ω–Ω—ã–µ –∏–∑ file_name_ –≤ document
+  *
+  */
 QDomDocument* SettingsParser::Reload(){
     QDomDocument* doc= new QDomDocument();
     QFile file(file_name_);
@@ -53,11 +58,12 @@ QDomDocument* SettingsParser::Reload(){
                <<qPrintable(error_string)<<std::endl;
         return NULL;
     }
+    document=doc;
     return doc;
 }
 
 /**
-  *‘ÛÌÍˆËˇ ˜ËÚ‡ÂÚ ËÁ Ù‡ÈÎ‡ Ì‡ÒÚÓÂÍ ËÌÙÓÏ‡ˆË˛ Ó ÔÎ‡„ËÌ‡ı
+  *–î–æ—Å—Ç–∞–µ—Ç –∏–∑ document –∑–∞–ø–∏—Å–∏ –æ –ø–ª–∞–≥–∏–Ω–∞—Ö, –≤–æ–∑–≤—Ä–∞—â–∞–µ—Ç –∏–Ω—Ñ–æ—Ä–º–∞—Ü–∏—é –æ –ø–ª–∞–≥–∏–Ω–∞—Ö.
   *
   */
 QList<PluginInfo> * SettingsParser::GetListPluginInfo()
@@ -114,6 +120,71 @@ QDomNode SettingsParser::FindElementByTag(QDomNode node, QString tag){
 
 }
 
+int SettingsParser::WriteListPluginInfo(QList<PluginInfo> *plugins_info)
+{
+    Reload();
+    QDomNode settings= FindElementByTag(*document, "settings");
+    if (settings.isNull()){
+        CreateFileSettings();
+        Reload();
+        QDomNode settings= FindElementByTag(*document, "settings");
+        if (settings.isNull()){
+            return -1;
+        }
+    }
+    QDomNode plugins = FindElementByTag(settings, "plugins");
+    if (!plugins.isNull()){
+        settings.replaceChild(MakePluginsNode(plugins_info), plugins);
+    } else {
+        settings.appendChild(MakePluginsNode(plugins_info));
+    }
+
+    QFile file(file_name_);
+    if(file.exists()){
+        file.remove();
+
+    }
+    if (!file.open(QFile::ReadWrite|QFile::Text)){
+        std::cerr<<"Error: Cannot open settings file"<<std::endl;
+        return -2;
+    }
+
+    QTextStream stream(&file);
+    document->save(stream,4);
+    return 0;
+}
+QDomNode SettingsParser::MakePluginsNode(QList<PluginInfo>* plugins_info){
+    QDomDocument doc;
+    QDomElement plugins=doc.createElement("plugins");
+    doc.appendChild(plugins);
+    //QDomNode plugins = QDomNode();
+    plugins.toElement().setTagName("plugins");
+    for (int i=0; i<plugins_info->size(); i++){
+        QDomElement plugin = doc.createElement("plugin");
+        QDomElement name = doc.createElement("name");
+        QDomElement directory = doc.createElement("directory");
+        QDomElement enabled = doc.createElement("enabled");
+        QDomText nameText = doc.createTextNode(plugins_info->at(i).GetName());
+        QDomText directoryText = doc.createTextNode(plugins_info->at(i).GetDirectory());
+        QString en;
+        if (plugins_info->at(i).IsEnabled()){
+            en="true";
+        } else {
+            en="false";
+        }
+        QDomText enabledText = doc.createTextNode(en);
+        plugins.appendChild(plugin);
+        plugin.appendChild(name);
+        name.appendChild(nameText);
+        plugin.appendChild(directory);
+        directory.appendChild(directoryText);
+        plugin.appendChild(enabled);
+        enabled.appendChild(enabledText);
+    }
+    return plugins;
+}
+
+
 /**
   *Class provide information about plugin
   *
@@ -154,6 +225,8 @@ bool PluginInfo::IsEnabled() const
 {
     return enabled_;
 }
+
+
 
 
 

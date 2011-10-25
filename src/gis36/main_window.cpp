@@ -91,6 +91,9 @@ void MainWindow::LoadPlugins(QList<PluginInfo> *info){
             if (result){
                 std::cerr<<"Error while loading plagin from "<<qPrintable(path)<<
                            "Number = "<<result<<endl;
+            } else {
+                QPair<QString, PluginInterface*>  pair(info->at(i).GetName(), plugin);
+                runing_plugins_.append(pair);
             }
         }
     }
@@ -100,4 +103,9 @@ void MainWindow::LoadPlugins(QString path){
     QList<QString> *paths = new QList<QString>();
     paths->push_back(path);
     //LoadPlugins(paths);
+}
+void MainWindow::StopPlugins(){
+    for (int i=0; i<runing_plugins_.size(); i++){
+        runing_plugins_.at(i).second->Stop();
+    }
 }
