@@ -8,7 +8,7 @@ QT       += core gui xml
 
 TARGET = gis36
 TEMPLATE = app
-
+INCLUDEPATH=../includes
 
 SOURCES += main.cpp\
     main_window.cpp \
