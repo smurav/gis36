@@ -9,6 +9,7 @@ class QPushButton;
 class QComboBox;
 class QString;
 class QStringList;
+class QTextEdit;
 
 class ConverterInterface : public QDialog
 {
@@ -21,18 +22,23 @@ signals:
     void findNext(const QString &str, Qt::CaseSensitivity cs);
 
 private slots:
-    void okClicked();
     void enableOkButton(const QString &text);
+    void setQuery();
+    void empty();
+    bool error();
 
 private:
-    QLabel *label;
-    QLabel *process;
+    QLabel *labelbox;
+    QLineEdit *lineEdit;
+    QLineEdit *path;
+    QTextEdit *process;
     QComboBox *box;
     QStringList stringList;
-    QLineEdit *lineEdit;
     QPushButton *okButton;
     QPushButton *closeButton;
     QString *text;
+    QString *str;
+    //QString *file;
 };
 
 #endif // CONVERTERINTERFACE_H
