@@ -73,7 +73,7 @@ QString ConverterLibrary::Parser(const QString &file){
                 objLon.remove(QChar('\n'), Qt::CaseInsensitive);
                 listObjLon = objLon.split(QRegExp("\\s+"));
 
-                rezalt += "lat = " + objLat + "lon = " + objLon + "\n";
+                rezalt += "lat = " + objLat + " lon = " + objLon + "\n";
                 forPost += objLat + " " + objLon + ", ";
             }
             forPost = forPost.left(forPost.length()-2);
