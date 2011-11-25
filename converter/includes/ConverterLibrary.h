@@ -1,5 +1,5 @@
-#ifndef LIBRARY_H
-#define LIBRARY_H
+#ifndef CONVERTERLIBRARY_H
+#define CONVERTERLIBRARY_H
 
 #include <QObject>
 #include <QtXmlPatterns/QXmlQuery>
@@ -8,6 +8,7 @@
 #include <QtCore/QString>
 #include <QtCore/QFile>
 #include <QXmlStreamAttributes>
+#include <QtCore/QXmlStreamAttributes>
 #include <QtCore/qglobal.h>
 
 #if defined(GIS36_LIBRARY_EXPORTS)
@@ -17,14 +18,13 @@
 #endif
 
 
-class GIS36_LIBRARY_API Library : public QObject {
+class GIS36_LIBRARY_API ConverterLibrary : public QObject {
   Q_OBJECT
 
  public:
-    Library();
+    ConverterLibrary();
 
-    virtual int Sum(int a, int b);
-    virtual QString Parser(const QString &prs);
+    virtual QString Parser(const QString &file);
 };
 
-#endif // LIBRARY_H
+#endif // CONVERTERLIBRARY_H

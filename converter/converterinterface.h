@@ -1,7 +1,7 @@
 #ifndef CONVERTERINTERFACE_H
 #define CONVERTERINTERFACE_H
 #include <QDialog>
-#include "library.h"
+#include "ConverterLibrary.h"
 
 class QLabel;
 class QLineEdit;
@@ -13,7 +13,7 @@ class QTextEdit;
 
 class ConverterInterface : public QDialog
 {
-    Q_OBJECT // макрос для любых классов, включающих сигналы и слоты
+    Q_OBJECT
 
 public:
     ConverterInterface(QWidget *parent = 0);
@@ -22,10 +22,9 @@ signals:
     void findNext(const QString &str, Qt::CaseSensitivity cs);
 
 private slots:
-    void enableOkButton(const QString &text);
-    void setQuery();
-    void empty();
-    bool error();
+
+public slots:
+    void OnOkButton();
 
 private:
     QLabel *labelbox;
@@ -38,6 +37,7 @@ private:
     QPushButton *closeButton;
     QString *text;
     QString *str;
+    ConverterLibrary *lib;
     //QString *file;
 };
 

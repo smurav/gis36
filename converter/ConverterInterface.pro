@@ -1,13 +1,6 @@
-#-------------------------------------------------
-#
-# Project created by QtCreator 2011-10-17T20:55:07
-#
-#-------------------------------------------------
+п»їQT+= gui core
 
-QT       += gui core
-
-#вот сюда как правильно сделать
-LIBS += -Lbin -lMyLibrary1
+LIBS += -Lbin -lConverterLibrary1
 INCLUDEPATH += ./includes
 TARGET = ConverterInterface
 TEMPLATE = app
@@ -32,14 +25,3 @@ debug {
   DESTDIR     = $${OUTPUT}/bin
   OBJECTS_DIR = $${TEMP}/release
 }
-
-
-
-
-
-
-
-
-
-
-

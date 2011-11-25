@@ -1,0 +1,32 @@
+CREATE TABLE spatial_ref_sys (
+	srid       INTEGER NOT NULL PRIMARY KEY,
+	auth_name  VARCHAR(256),
+	auth_srid  INTEGER,
+	srtext     VARCHAR(2048),
+	proj4text  VARCHAR(2048)
+)
+
+CREATE TABLE geometry_columns (
+	f_table_catalog    VARCHAR(256) NOT NULL,
+	f_table_schema     VARCHAR(256) NOT NULL,
+	f_table_nam        VARCHAR(256) NOT NULL,
+	f_geometry_column  VARCHAR(256) NOT NULL,
+	coord_dimension    INTEGER NOT NULL,
+	srid               INTEGER NOT NULL,
+	type               VARCHAR(30) NOT NULL
+)
+
+CREATE TABLE tags (
+	id_tag       INTEGER NOT NULL,
+	key_tag  VARCHAR(50),
+	value_tag     VARCHAR(50),
+	id_obj  INTEGER NOT NULL
+) 
+
+
+CREATE TABLE objects (
+	id_obj       INTEGER NOT NULL,
+	CONSTRAINT tag_pkey PRIMARY KEY (id_obj)
+) 
+
+SELECT AddGeometryColumn( 'objects', 'geometry_obj', -1, 'GEOMETRY', 3 );

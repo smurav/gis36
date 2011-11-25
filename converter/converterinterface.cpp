@@ -1,7 +1,8 @@
-#include <QtGui>
+п»ї#include <QtGui>
 #include <QtXmlPatterns/QXmlQuery>
 #include <qlayout.h>
 #include "converterinterface.h"
+#include <iostream>
 
 ConverterInterface::ConverterInterface(QWidget *parent)
     : QDialog(parent){
@@ -10,32 +11,23 @@ ConverterInterface::ConverterInterface(QWidget *parent)
     box = new QComboBox(false);
     labelbox->setBuddy(box);
 
-    stringList << "examplemap.xml" << "map.xml" << "c1.xml" << "a2.xml"; //список имен xml документов
+    stringList << "examplemap.xml" << "mapch.xml";
     box->addItems(stringList);
-    box->setEditable(true); //возможность редактировать имеющийся список
+    box->setEditable(true);
 
-    QLabel *labelpath = new QLabel (tr("XPath-query: "));
-    path = new QLineEdit(tr("osm/way[*/@k='building']/nd[@ref]"));
-    labelpath->setBuddy(path);
-    path->setEnabled(true);
+    QLabel *labelPath = new QLabel (tr("The rezalts of parsing"));
 
     okButton = new QPushButton(tr("Do it!!!"));
-    okButton->setDefault(true); //кнопка по умолчанию, подсветка
+    okButton->setDefault(true);
     okButton->setEnabled(true);
 
     process = new QTextEdit();
-    Library *lib = new Library();
-    QString str = QString::QString(lib->Parser(box->currentText(), path->text()));
-    QTextCursor cursor = process->textCursor();
-    cursor.movePosition(QTextCursor::End);
-    cursor.insertText(str);
     process->setReadOnly(true);
+    lib = new ConverterLibrary();
+    connect(okButton, SIGNAL(clicked()), this, SLOT(OnOkButton()));
+    connect(box, SIGNAL(activated(int)), process, SLOT(clear()));
 
     closeButton = new QPushButton(tr("Close"));
-
-    connect(box, SIGNAL(activated(int)), process, SLOT(clear()));
-    connect(path, SIGNAL(textChanged(QString)), process, SLOT(clear()));
-
     connect(closeButton, SIGNAL(clicked()), this, SLOT(close()));
 
     QHBoxLayout *upperLayout = new QHBoxLayout;
@@ -44,13 +36,12 @@ ConverterInterface::ConverterInterface(QWidget *parent)
 
 
     QHBoxLayout *topLayout = new QHBoxLayout;
-    topLayout->addWidget(labelpath);
-    topLayout->addWidget(path);
+    topLayout->addWidget(okButton);
 
     QVBoxLayout *middleLayout = new QVBoxLayout;
     middleLayout->addLayout(upperLayout);
     middleLayout->addLayout(topLayout);
-    middleLayout->addWidget(okButton);
+    middleLayout->addWidget(labelPath);
     middleLayout->addWidget(process);
     middleLayout->addWidget(closeButton);
 
@@ -63,21 +54,23 @@ ConverterInterface::ConverterInterface(QWidget *parent)
     setFixedSize(QSize(300, 500));
 }
 
-bool ConverterInterface::error(){
-    return true;
+void ConverterInterface::OnOkButton(){
+
+    QString str = "";
+
+    if(lib)
+    {
+        str = QString::QString(lib->Parser(box->currentText()));
+    }else
+        str = "The connection with ConverterLibrary is not established"//РІС‹РґР°С‚СЊ РѕС€РёР±РєСѓ
+        ;
+
+    QTextCursor cursor = process->textCursor();
+    cursor.movePosition(QTextCursor::End);
+    cursor.insertText(str);
+    process->setText(str);
 }
 
 
-void ConverterInterface::setQuery(){
-
-}
-
-void ConverterInterface::empty(){
-
-}
-
-void ConverterInterface::enableOkButton(const QString &text){
-    okButton->setEnabled(!text.isEmpty());
-}
 
 
