@@ -1,0 +1,6 @@
+<!DOCTYPE RCC>
+<RCC VERSION = "1.0">
+	<qresource>
+		<file>open.png</file>
+	</qresource>
+</RCC>
