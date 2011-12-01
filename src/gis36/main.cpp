@@ -13,7 +13,7 @@ void LoadPlugins(QList<QString> *paths){
         QPluginLoader loader(path);
         if (PluginInterface *plugin =
                 qobject_cast<PluginInterface* >(loader.instance())){
-            plugin->Init(shell_interface);
+            plugi->Init(shell_interface);
         }
     }
 }
@@ -32,7 +32,7 @@ int main(int argc, char *argv[])
     SettingsParser * settings = new SettingsParser();
     shell_interface = new ShellInterface(&main_window, settings);
     LoadPlugins(settings->GetPluginsPaths());
-
+    LoadPlugins("../layer_manager/debug/layer_manager.dll");
     main_window.show();
     return application.exec();
 }
