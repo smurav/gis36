@@ -1,0 +1,1478 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="CGImap 0.0.2">
+ <bounds minlat="55.1459100" minlon="37.4816600" maxlat="55.1496300" maxlon="37.4939500"/>
+ <node id="139750054" lat="55.1800131" lon="37.4868763" user="Alexey Guseynov" uid="205137" visible="true" version="9" changeset="3453269" timestamp="2009-12-26T10:14:50Z"/>
+ <node id="139750073" lat="55.1424173" lon="37.4522411" user="Dimon62" uid="457129" visible="true" version="8" changeset="8299510" timestamp="2011-05-31T09:10:15Z">
+  <tag k="highway" v="traffic_signals"/>
+ </node>
+ <node id="139753922" lat="55.1839581" lon="37.4865244" user="Alexey Guseynov" uid="205137" visible="true" version="7" changeset="3453269" timestamp="2009-12-26T10:14:50Z"/>
+ <node id="139753942" lat="55.1519882" lon="37.4898120" user="trolleway" uid="397326" visible="true" version="9" changeset="7880722" timestamp="2011-04-16T18:18:19Z"/>
+ <node id="139753943" lat="55.1488700" lon="37.4902966" user="trolleway" uid="397326" visible="true" version="10" changeset="7880722" timestamp="2011-04-16T18:18:16Z">
+  <tag k="name" v="Чехов"/>
+  <tag k="railway" v="station"/>
+ </node>
+ <node id="139753944" lat="55.1459021" lon="37.4905637" user="trolleway" uid="397326" visible="true" version="9" changeset="7880722" timestamp="2011-04-16T18:18:19Z"/>
+ <node id="139757193" lat="55.2427593" lon="37.4916313" user="Alexey Guseynov" uid="205137" visible="true" version="6" changeset="3453269" timestamp="2009-12-26T10:14:51Z"/>
+ <node id="139757194" lat="55.2193300" lon="37.4840211" user="Alexey Guseynov" uid="205137" visible="true" version="7" changeset="3453269" timestamp="2009-12-26T10:14:50Z"/>
+ <node id="322047047" lat="55.2242625" lon="37.4853944" user="desilex" uid="334156" visible="true" version="5" changeset="7013129" timestamp="2011-01-18T18:34:41Z">
+  <tag k="name" v="66 км"/>
+  <tag k="railway" v="halt"/>
+ </node>
+ <node id="329667743" lat="55.2155353" lon="37.4838924" user="Alexey Guseynov" uid="205137" visible="true" version="3" changeset="3453269" timestamp="2009-12-26T10:14:50Z"/>
+ <node id="329667749" lat="55.2211537" lon="37.4843859" user="Alexey Guseynov" uid="205137" visible="true" version="3" changeset="3453269" timestamp="2009-12-26T10:14:50Z"/>
+ <node id="472618908" lat="55.1410883" lon="37.4579169" user="Dima3" uid="91009" visible="true" version="1" changeset="2240782" timestamp="2009-08-24T09:11:04Z"/>
+ <node id="472618910" lat="55.1410883" lon="37.4587555" user="Dima3" uid="91009" visible="true" version="1" changeset="2240782" timestamp="2009-08-24T09:11:04Z"/>
+ <node id="472618913" lat="55.1430014" lon="37.4658405" user="Dimon62" uid="457129" visible="true" version="2" changeset="8379496" timestamp="2011-06-08T13:46:36Z"/>
+ <node id="472618915" lat="55.1447309" lon="37.4725505" user="Dimon62" uid="457129" visible="true" version="3" changeset="8303598" timestamp="2011-05-31T17:43:15Z"/>
+ <node id="472618916" lat="55.1483281" lon="37.4878156" user="Dimon62" uid="457129" visible="true" version="2" changeset="8399736" timestamp="2011-06-10T18:40:24Z"/>
+ <node id="472618918" lat="55.1485510" lon="37.4884577" user="LexIgnatov" uid="316868" visible="true" version="3" changeset="6244397" timestamp="2010-10-31T18:43:45Z"/>
+ <node id="472618922" lat="55.1471416" lon="37.4895534" user="LexIgnatov" uid="316868" visible="true" version="2" changeset="6244397" timestamp="2010-10-31T18:43:49Z"/>
+ <node id="472618924" lat="55.1433338" lon="37.4899273" user="Dimon62" uid="457129" visible="true" version="3" changeset="8430785" timestamp="2011-06-13T19:46:56Z"/>
+ <node id="472618931" lat="55.1423546" lon="37.4894751" user="Dimon62" uid="457129" visible="true" version="4" changeset="8430785" timestamp="2011-06-13T19:46:54Z"/>
+ <node id="472618932" lat="55.1416650" lon="37.4895670" user="Dimon62" uid="457129" visible="true" version="3" changeset="8408414" timestamp="2011-06-11T18:26:03Z"/>
+ <node id="472618933" lat="55.1408058" lon="37.4901656" user="Dima3" uid="91009" visible="true" version="1" changeset="2240782" timestamp="2009-08-24T09:11:05Z"/>
+ <node id="472618934" lat="55.1407440" lon="37.4905538" user="Alexey Guseynov" uid="205137" visible="true" version="3" changeset="3453269" timestamp="2009-12-26T10:14:49Z">
+  <tag k="railway" v="level_crossing"/>
+ </node>
+ <node id="473600306" lat="55.2602889" lon="37.4978243" user="Alexey Guseynov" uid="205137" visible="true" version="2" changeset="3453269" timestamp="2009-12-26T10:14:51Z"/>
+ <node id="473709387" lat="55.2599989" lon="37.4976732" user="VikDD" uid="198482" visible="true" version="3" changeset="8027845" timestamp="2011-05-02T06:00:30Z">
+  <tag k="railway" v="level_crossing"/>
+  <tag k="supervised" v="yes"/>
+ </node>
+ <node id="590951223" lat="55.1420513" lon="37.4623769" user="Dimon62" uid="457129" visible="true" version="2" changeset="8299510" timestamp="2011-05-31T09:10:18Z"/>
+ <node id="590951255" lat="55.1508451" lon="37.4877533" user="Dimon62" uid="457129" visible="true" version="2" changeset="8399736" timestamp="2011-06-10T18:40:25Z"/>
+ <node id="601247476" lat="55.2294603" lon="37.4871467" user="ipodolsk" uid="16319" visible="true" version="1" changeset="3486491" timestamp="2009-12-29T23:58:33Z"/>
+ <node id="683818635" lat="55.1489000" lon="37.4888100" user="Zidar" uid="218021" visible="true" version="1" changeset="4320185" timestamp="2010-04-04T08:39:23Z"/>
+ <node id="683818636" lat="55.1489200" lon="37.4897100" user="Zidar" uid="218021" visible="true" version="1" changeset="4320185" timestamp="2010-04-04T08:39:23Z"/>
+ <node id="805431195" lat="55.1475059" lon="37.4843793" user="Dimon62" uid="457129" visible="true" version="2" changeset="8419960" timestamp="2011-06-12T21:01:07Z"/>
+ <node id="805431212" lat="55.1483427" lon="37.4881841" user="LexIgnatov" uid="316868" visible="true" version="2" changeset="6244397" timestamp="2010-10-31T18:43:45Z"/>
+ <node id="805431223" lat="55.1484261" lon="37.4885718" user="LexIgnatov" uid="316868" visible="true" version="2" changeset="6244397" timestamp="2010-10-31T18:43:45Z"/>
+ <node id="805431231" lat="55.1483740" lon="37.4879548" user="LexIgnatov" uid="316868" visible="true" version="2" changeset="6244397" timestamp="2010-10-31T18:43:47Z"/>
+ <node id="805431236" lat="55.1498242" lon="37.4882919" user="j-wills" uid="173900" visible="true" version="1" changeset="5160143" timestamp="2010-07-07T17:24:50Z"/>
+ <node id="805431241" lat="55.1485148" lon="37.4881625" user="LexIgnatov" uid="316868" visible="true" version="2" changeset="6244397" timestamp="2010-10-31T18:43:46Z"/>
+ <node id="805431269" lat="55.1484215" lon="37.4881238" user="LexIgnatov" uid="316868" visible="true" version="2" changeset="6244397" timestamp="2010-10-31T18:43:46Z"/>
+ <node id="805431279" lat="55.1483370" lon="37.4884984" user="LexIgnatov" uid="316868" visible="true" version="2" changeset="6244397" timestamp="2010-10-31T18:43:45Z"/>
+ <node id="805431287" lat="55.1483733" lon="37.4881441" user="LexIgnatov" uid="316868" visible="true" version="2" changeset="6244397" timestamp="2010-10-31T18:43:45Z"/>
+ <node id="805431297" lat="55.1485640" lon="37.4882951" user="LexIgnatov" uid="316868" visible="true" version="2" changeset="6244397" timestamp="2010-10-31T18:43:46Z"/>
+ <node id="805431339" lat="55.1484751" lon="37.4881265" user="LexIgnatov" uid="316868" visible="true" version="2" changeset="6244397" timestamp="2010-10-31T18:43:46Z"/>
+ <node id="805431358" lat="55.1483044" lon="37.4883467" user="LexIgnatov" uid="316868" visible="true" version="2" changeset="6244397" timestamp="2010-10-31T18:43:43Z"/>
+ <node id="805431382" lat="55.1480000" lon="37.4840693" user="j-wills" uid="173900" visible="true" version="1" changeset="5160143" timestamp="2010-07-07T17:24:56Z"/>
+ <node id="805431394" lat="55.1485144" lon="37.4885311" user="LexIgnatov" uid="316868" visible="true" version="2" changeset="6244397" timestamp="2010-10-31T18:43:45Z"/>
+ <node id="805431423" lat="55.1481977" lon="37.4887461" user="LexIgnatov" uid="316868" visible="true" version="2" changeset="6244397" timestamp="2010-10-31T18:43:42Z"/>
+ <node id="811196510" lat="55.1486379" lon="37.4882972" user="gogast" uid="48711" visible="true" version="1" changeset="5188801" timestamp="2010-07-11T10:20:50Z"/>
+ <node id="811196517" lat="55.1486395" lon="37.4885473" user="gogast" uid="48711" visible="true" version="1" changeset="5188801" timestamp="2010-07-11T10:20:51Z"/>
+ <node id="811196532" lat="55.1485834" lon="37.4886381" user="gogast" uid="48711" visible="true" version="1" changeset="5188801" timestamp="2010-07-11T10:20:51Z"/>
+ <node id="811196535" lat="55.1483895" lon="37.4887439" user="gogast" uid="48711" visible="true" version="1" changeset="5188801" timestamp="2010-07-11T10:20:51Z"/>
+ <node id="811196538" lat="55.1484561" lon="37.4897490" user="gogast" uid="48711" visible="true" version="1" changeset="5188801" timestamp="2010-07-11T10:20:52Z"/>
+ <node id="811196540" lat="55.1486500" lon="37.4898654" user="gogast" uid="48711" visible="true" version="1" changeset="5188801" timestamp="2010-07-11T10:20:52Z"/>
+ <node id="811196542" lat="55.1486543" lon="37.4900574" user="gogast" uid="48711" visible="true" version="1" changeset="5188801" timestamp="2010-07-11T10:20:52Z"/>
+ <node id="811196544" lat="55.1487653" lon="37.4900754" user="gogast" uid="48711" visible="true" version="1" changeset="5188801" timestamp="2010-07-11T10:20:52Z"/>
+ <node id="811196545" lat="55.1487524" lon="37.4901746" user="gogast" uid="48711" visible="true" version="1" changeset="5188801" timestamp="2010-07-11T10:20:52Z"/>
+ <node id="811196550" lat="55.1487008" lon="37.4901746" user="gogast" uid="48711" visible="true" version="1" changeset="5188801" timestamp="2010-07-11T10:20:52Z"/>
+ <node id="811196552" lat="55.1487240" lon="37.4906210" user="gogast" uid="48711" visible="true" version="1" changeset="5188801" timestamp="2010-07-11T10:20:52Z"/>
+ <node id="811196554" lat="55.1490674" lon="37.4907156" user="gogast" uid="48711" visible="true" version="1" changeset="5188801" timestamp="2010-07-11T10:20:52Z"/>
+ <node id="811196556" lat="55.1491036" lon="37.4907382" user="gogast" uid="48711" visible="true" version="1" changeset="5188801" timestamp="2010-07-11T10:20:52Z"/>
+ <node id="811196559" lat="55.1491669" lon="37.4915101" user="gogast" uid="48711" visible="true" version="1" changeset="5188801" timestamp="2010-07-11T10:20:52Z"/>
+ <node id="811196561" lat="55.1492866" lon="37.4932010" user="gogast" uid="48711" visible="true" version="1" changeset="5188801" timestamp="2010-07-11T10:20:52Z"/>
+ <node id="811196564" lat="55.1494171" lon="37.4940559" user="gogast" uid="48711" visible="true" version="1" changeset="5188801" timestamp="2010-07-11T10:20:52Z"/>
+ <node id="811196568" lat="55.1496263" lon="37.4947478" user="gogast" uid="48711" visible="true" version="1" changeset="5188801" timestamp="2010-07-11T10:20:52Z"/>
+ <node id="811196575" lat="55.1499389" lon="37.4959930" user="gogast" uid="48711" visible="true" version="1" changeset="5188801" timestamp="2010-07-11T10:20:53Z"/>
+ <node id="811196577" lat="55.1501929" lon="37.4976135" user="gogast" uid="48711" visible="true" version="1" changeset="5188801" timestamp="2010-07-11T10:20:53Z"/>
+ <node id="811196580" lat="55.1502125" lon="37.4988758" user="gogast" uid="48711" visible="true" version="1" changeset="5188801" timestamp="2010-07-11T10:20:53Z"/>
+ <node id="811196583" lat="55.1502320" lon="37.4997969" user="gogast" uid="48711" visible="true" version="1" changeset="5188801" timestamp="2010-07-11T10:20:53Z"/>
+ <node id="811196585" lat="55.1502711" lon="37.5013832" user="gogast" uid="48711" visible="true" version="1" changeset="5188801" timestamp="2010-07-11T10:20:53Z"/>
+ <node id="811196587" lat="55.1505544" lon="37.5035495" user="gogast" uid="48711" visible="true" version="1" changeset="5188801" timestamp="2010-07-11T10:20:53Z"/>
+ <node id="811196588" lat="55.1508865" lon="37.5053235" user="gogast" uid="48711" visible="true" version="1" changeset="5188801" timestamp="2010-07-11T10:20:53Z"/>
+ <node id="811196589" lat="55.1511112" lon="37.5070804" user="gogast" uid="48711" visible="true" version="1" changeset="5188801" timestamp="2010-07-11T10:20:53Z"/>
+ <node id="811196594" lat="55.1513554" lon="37.5098949" user="gogast" uid="48711" visible="true" version="1" changeset="5188801" timestamp="2010-07-11T10:20:53Z"/>
+ <node id="811196597" lat="55.1517656" lon="37.5132723" user="gogast" uid="48711" visible="true" version="1" changeset="5188801" timestamp="2010-07-11T10:20:53Z"/>
+ <node id="811196600" lat="55.1519024" lon="37.5143811" user="gogast" uid="48711" visible="true" version="1" changeset="5188801" timestamp="2010-07-11T10:20:54Z"/>
+ <node id="811196601" lat="55.1522834" lon="37.5172979" user="gogast" uid="48711" visible="true" version="1" changeset="5188801" timestamp="2010-07-11T10:20:54Z"/>
+ <node id="811196604" lat="55.1526155" lon="37.5218523" user="gogast" uid="48711" visible="true" version="1" changeset="5188801" timestamp="2010-07-11T10:20:54Z"/>
+ <node id="811196608" lat="55.1524494" lon="37.5221081" user="gogast" uid="48711" visible="true" version="1" changeset="5188801" timestamp="2010-07-11T10:20:54Z"/>
+ <node id="811196612" lat="55.1526936" lon="37.5242915" user="gogast" uid="48711" visible="true" version="1" changeset="5188801" timestamp="2010-07-11T10:20:54Z"/>
+ <node id="811196654" lat="55.1427092" lon="37.4896591" user="Dimon62" uid="457129" visible="true" version="2" changeset="8430785" timestamp="2011-06-13T19:46:47Z"/>
+ <node id="811196655" lat="55.1431591" lon="37.4888323" user="gogast" uid="48711" visible="true" version="1" changeset="5188801" timestamp="2010-07-11T10:20:56Z"/>
+ <node id="811196657" lat="55.1433971" lon="37.4886418" user="gogast" uid="48711" visible="true" version="1" changeset="5188801" timestamp="2010-07-11T10:20:56Z"/>
+ <node id="811196672" lat="55.1449140" lon="37.4883999" user="Dimon62" uid="457129" visible="true" version="2" changeset="8430785" timestamp="2011-06-13T19:46:49Z"/>
+ <node id="811196683" lat="55.1463650" lon="37.4896552" user="Dimon62" uid="457129" visible="true" version="2" changeset="8430785" timestamp="2011-06-13T19:46:48Z"/>
+ <node id="811196707" lat="55.1478184" lon="37.4890339" user="Dimon62" uid="457129" visible="true" version="3" changeset="8408736" timestamp="2011-06-11T18:40:59Z"/>
+ <node id="811196747" lat="55.1482693" lon="37.4875580" user="Dimon62" uid="457129" visible="true" version="2" changeset="8399736" timestamp="2011-06-10T18:40:24Z"/>
+ <node id="852862378" lat="55.1479098" lon="37.4860802" user="Headache" uid="217830" visible="true" version="1" changeset="5452611" timestamp="2010-08-10T10:36:10Z"/>
+ <node id="852862403" lat="55.1491086" lon="37.4853780" user="Headache" uid="217830" visible="true" version="1" changeset="5452611" timestamp="2010-08-10T10:36:11Z"/>
+ <node id="852862695" lat="55.1480943" lon="37.4805167" user="Dimon62" uid="457129" visible="true" version="2" changeset="8419960" timestamp="2011-06-12T21:01:10Z"/>
+ <node id="852862825" lat="55.1460219" lon="37.4716095" user="Headache" uid="217830" visible="true" version="1" changeset="5452611" timestamp="2010-08-10T10:36:21Z"/>
+ <node id="852862864" lat="55.1475122" lon="37.4779760" user="Dimon62" uid="457129" visible="true" version="2" changeset="8299510" timestamp="2011-05-31T09:10:09Z"/>
+ <node id="852863004" lat="55.1468378" lon="37.4813744" user="Dimon62" uid="457129" visible="true" version="2" changeset="8419960" timestamp="2011-06-12T21:01:05Z"/>
+ <node id="852863114" lat="55.1487684" lon="37.4835941" user="Headache" uid="217830" visible="true" version="1" changeset="5452611" timestamp="2010-08-10T10:36:28Z"/>
+ <node id="852863188" lat="55.1462686" lon="37.4787634" user="trolleway" uid="397326" visible="true" version="2" changeset="7882255" timestamp="2011-04-16T22:02:59Z"/>
+ <node id="866553200" lat="55.1473973" lon="37.4950375" user="Headache" uid="217830" visible="true" version="1" changeset="5525641" timestamp="2010-08-18T11:08:00Z"/>
+ <node id="866553413" lat="55.1462344" lon="37.5076639" user="Headache" uid="217830" visible="true" version="1" changeset="5525641" timestamp="2010-08-18T11:08:10Z"/>
+ <node id="866553613" lat="55.1482693" lon="37.4926330" user="Headache" uid="217830" visible="true" version="1" changeset="5525641" timestamp="2010-08-18T11:08:18Z"/>
+ <node id="866553786" lat="55.1456532" lon="37.5155220" user="Headache" uid="217830" visible="true" version="1" changeset="5525641" timestamp="2010-08-18T11:08:26Z"/>
+ <node id="866554494" lat="55.1464989" lon="37.5029446" user="Headache" uid="217830" visible="true" version="1" changeset="5525641" timestamp="2010-08-18T11:08:49Z"/>
+ <node id="866554809" lat="55.1497337" lon="37.4901806" user="trolleway" uid="397326" visible="true" version="3" changeset="7880722" timestamp="2011-04-16T18:18:13Z"/>
+ <node id="866555231" lat="55.1470802" lon="37.4967947" user="Headache" uid="217830" visible="true" version="1" changeset="5525641" timestamp="2010-08-18T11:09:13Z"/>
+ <node id="913790563" lat="55.1825517" lon="37.4866444" user="trolleway" uid="397326" visible="true" version="3" changeset="8819171" timestamp="2011-07-24T17:45:06Z">
+  <tag k="esr:user" v="190510"/>
+  <tag k="name" v="Чепелёво"/>
+  <tag k="railway" v="halt"/>
+  <tag k="ticket_office" v="no"/>
+ </node>
+ <node id="972567441" lat="55.1484819" lon="37.4885621" user="LexIgnatov" uid="316868" visible="true" version="1" changeset="6244397" timestamp="2010-10-31T18:43:42Z"/>
+ <node id="972567447" lat="55.1483004" lon="37.4884940" user="LexIgnatov" uid="316868" visible="true" version="1" changeset="6244397" timestamp="2010-10-31T18:43:43Z"/>
+ <node id="972567448" lat="55.1482881" lon="37.4885852" user="LexIgnatov" uid="316868" visible="true" version="1" changeset="6244397" timestamp="2010-10-31T18:43:43Z"/>
+ <node id="972567450" lat="55.1482636" lon="37.4886656" user="LexIgnatov" uid="316868" visible="true" version="1" changeset="6244397" timestamp="2010-10-31T18:43:43Z"/>
+ <node id="972567500" lat="55.1483166" lon="37.4882497" user="LexIgnatov" uid="316868" visible="true" version="1" changeset="6244397" timestamp="2010-10-31T18:43:45Z"/>
+ <node id="972567501" lat="55.1483123" lon="37.4884254" user="LexIgnatov" uid="316868" visible="true" version="1" changeset="6244397" timestamp="2010-10-31T18:43:45Z"/>
+ <node id="972567503" lat="55.1483727" lon="37.4885484" user="LexIgnatov" uid="316868" visible="true" version="1" changeset="6244397" timestamp="2010-10-31T18:43:45Z"/>
+ <node id="972567507" lat="55.1485658" lon="37.4883821" user="LexIgnatov" uid="316868" visible="true" version="1" changeset="6244397" timestamp="2010-10-31T18:43:45Z"/>
+ <node id="972567512" lat="55.1485463" lon="37.4882215" user="LexIgnatov" uid="316868" visible="true" version="1" changeset="6244397" timestamp="2010-10-31T18:43:46Z"/>
+ <node id="972567527" lat="55.1484337" lon="37.4880782" user="LexIgnatov" uid="316868" visible="true" version="1" changeset="6244397" timestamp="2010-10-31T18:43:47Z"/>
+ <node id="972567533" lat="55.1483479" lon="37.4879629" user="LexIgnatov" uid="316868" visible="true" version="1" changeset="6244397" timestamp="2010-10-31T18:43:47Z"/>
+ <node id="972567535" lat="55.1483372" lon="37.4881319" user="LexIgnatov" uid="316868" visible="true" version="1" changeset="6244397" timestamp="2010-10-31T18:43:47Z"/>
+ <node id="972567594" lat="55.1473011" lon="37.4894365" user="LexIgnatov" uid="316868" visible="true" version="1" changeset="6244397" timestamp="2010-10-31T18:43:49Z"/>
+ <node id="972567598" lat="55.1469519" lon="37.4896049" user="LexIgnatov" uid="316868" visible="true" version="1" changeset="6244397" timestamp="2010-10-31T18:43:49Z"/>
+ <node id="972567600" lat="55.1435181" lon="37.4899085" user="Dimon62" uid="457129" visible="true" version="2" changeset="8430785" timestamp="2011-06-13T19:46:48Z"/>
+ <node id="972567604" lat="55.1431446" lon="37.4899074" user="Dimon62" uid="457129" visible="true" version="2" changeset="8430785" timestamp="2011-06-13T19:46:47Z"/>
+ <node id="972567607" lat="55.1420818" lon="37.4894550" user="Dimon62" uid="457129" visible="true" version="3" changeset="8430785" timestamp="2011-06-13T19:46:49Z"/>
+ <node id="972567611" lat="55.1409057" lon="37.4900362" user="LexIgnatov" uid="316868" visible="true" version="1" changeset="6244397" timestamp="2010-10-31T18:43:49Z"/>
+ <node id="972567613" lat="55.1407524" lon="37.4903366" user="LexIgnatov" uid="316868" visible="true" version="1" changeset="6244397" timestamp="2010-10-31T18:43:49Z"/>
+ <node id="1109313903" lat="55.2708433" lon="37.5013374" user="desilex" uid="334156" visible="true" version="1" changeset="7013129" timestamp="2011-01-18T18:32:57Z"/>
+ <node id="1109313905" lat="55.2462320" lon="37.4928482" user="desilex" uid="334156" visible="true" version="1" changeset="7013129" timestamp="2011-01-18T18:32:57Z">
+  <tag k="name" v="Столбовая"/>
+  <tag k="railway" v="station"/>
+ </node>
+ <node id="1247215841" lat="55.1488759" lon="37.4901732" user="trolleway" uid="397326" visible="true" version="2" changeset="7880722" timestamp="2011-04-16T18:18:16Z"/>
+ <node id="1247215848" lat="55.1488242" lon="37.4902334" user="trolleway" uid="397326" visible="true" version="2" changeset="7880722" timestamp="2011-04-16T18:18:17Z"/>
+ <node id="1247215850" lat="55.1477830" lon="37.4906183" user="trolleway" uid="397326" visible="true" version="2" changeset="7880722" timestamp="2011-04-16T18:18:19Z"/>
+ <node id="1247215866" lat="55.1495924" lon="37.4901995" user="trolleway" uid="397326" visible="true" version="2" changeset="7880722" timestamp="2011-04-16T18:18:17Z"/>
+ <node id="1247215868" lat="55.1488844" lon="37.4902946" user="trolleway" uid="397326" visible="true" version="2" changeset="7880722" timestamp="2011-04-16T18:18:19Z"/>
+ <node id="1247215871" lat="55.1490151" lon="37.4903396" user="trolleway" uid="397326" visible="true" version="2" changeset="7880722" timestamp="2011-04-16T18:18:18Z"/>
+ <node id="1247215875" lat="55.1507868" lon="37.4901532" user="trolleway" uid="397326" visible="true" version="2" changeset="7880722" timestamp="2011-04-16T18:18:18Z"/>
+ <node id="1247215884" lat="55.1510507" lon="37.4898722" user="trolleway" uid="397326" visible="true" version="2" changeset="7880722" timestamp="2011-04-16T18:18:15Z"/>
+ <node id="1247215886" lat="55.1495868" lon="37.4900809" user="trolleway" uid="397326" visible="true" version="2" changeset="7880722" timestamp="2011-04-16T18:18:17Z"/>
+ <node id="1247215887" lat="55.1511337" lon="37.4898627" user="trolleway" uid="397326" visible="true" version="2" changeset="7880722" timestamp="2011-04-16T18:18:20Z"/>
+ <node id="1247215889" lat="55.1492435" lon="37.4901255" user="trolleway" uid="397326" visible="true" version="2" changeset="7880722" timestamp="2011-04-16T18:18:15Z"/>
+ <node id="1247215890" lat="55.1511327" lon="37.4898010" user="trolleway" uid="397326" visible="true" version="2" changeset="7880722" timestamp="2011-04-16T18:18:19Z"/>
+ <node id="1247215896" lat="55.1510118" lon="37.4900283" user="trolleway" uid="397326" visible="true" version="2" changeset="7880722" timestamp="2011-04-16T18:18:17Z"/>
+ <node id="1247215911" lat="55.1497080" lon="37.4901840" user="trolleway" uid="397326" visible="true" version="2" changeset="7880722" timestamp="2011-04-16T18:18:17Z"/>
+ <node id="1247358505" lat="55.1489748" lon="37.4902825" user="trolleway" uid="397326" visible="true" version="1" changeset="7880722" timestamp="2011-04-16T18:18:06Z"/>
+ <node id="1247358508" lat="55.1478855" lon="37.4902811" user="trolleway" uid="397326" visible="true" version="1" changeset="7880722" timestamp="2011-04-16T18:18:06Z"/>
+ <node id="1247358514" lat="55.1511120" lon="37.4903050" user="trolleway" uid="397326" visible="true" version="1" changeset="7880722" timestamp="2011-04-16T18:18:06Z"/>
+ <node id="1247358516" lat="55.1490103" lon="37.4904283" user="trolleway" uid="397326" visible="true" version="1" changeset="7880722" timestamp="2011-04-16T18:18:06Z"/>
+ <node id="1247358518" lat="55.1512217" lon="37.4899425" user="trolleway" uid="397326" visible="true" version="1" changeset="7880722" timestamp="2011-04-16T18:18:06Z"/>
+ <node id="1247358533" lat="55.1482389" lon="37.4906590" user="trolleway" uid="397326" visible="true" version="1" changeset="7880722" timestamp="2011-04-16T18:18:07Z"/>
+ <node id="1247358553" lat="55.1501375" lon="37.4906753" user="trolleway" uid="397326" visible="true" version="1" changeset="7880722" timestamp="2011-04-16T18:18:07Z"/>
+ <node id="1247358555" lat="55.1470415" lon="37.4906203" user="trolleway" uid="397326" visible="true" version="1" changeset="7880722" timestamp="2011-04-16T18:18:07Z"/>
+ <node id="1247358558" lat="55.1485899" lon="37.4901321" user="trolleway" uid="397326" visible="true" version="1" changeset="7880722" timestamp="2011-04-16T18:18:08Z"/>
+ <node id="1247358567" lat="55.1515956" lon="37.4900001" user="trolleway" uid="397326" visible="true" version="1" changeset="7880722" timestamp="2011-04-16T18:18:08Z"/>
+ <node id="1247358571" lat="55.1488990" lon="37.4903649" user="trolleway" uid="397326" visible="true" version="1" changeset="7880722" timestamp="2011-04-16T18:18:08Z"/>
+ <node id="1247358572" lat="55.1862124" lon="37.4865036" user="trolleway" uid="397326" visible="true" version="1" changeset="7880722" timestamp="2011-04-16T18:18:08Z"/>
+ <node id="1247358582" lat="55.1514108" lon="37.4901699" user="trolleway" uid="397326" visible="true" version="1" changeset="7880722" timestamp="2011-04-16T18:18:08Z"/>
+ <node id="1247358583" lat="55.1500937" lon="37.4899929" user="trolleway" uid="397326" visible="true" version="1" changeset="7880722" timestamp="2011-04-16T18:18:08Z"/>
+ <node id="1247358586" lat="55.1507881" lon="37.4902959" user="trolleway" uid="397326" visible="true" version="1" changeset="7880722" timestamp="2011-04-16T18:18:08Z"/>
+ <node id="1247358587" lat="55.1489389" lon="37.4903597" user="trolleway" uid="397326" visible="true" version="1" changeset="7880722" timestamp="2011-04-16T18:18:08Z"/>
+ <node id="1247358589" lat="55.1486563" lon="37.4901971" user="trolleway" uid="397326" visible="true" version="1" changeset="7880722" timestamp="2011-04-16T18:18:08Z"/>
+ <node id="1247358593" lat="55.1482405" lon="37.4908746" user="trolleway" uid="397326" visible="true" version="1" changeset="7880722" timestamp="2011-04-16T18:18:09Z"/>
+ <node id="1247358594" lat="55.1478754" lon="37.4901921" user="trolleway" uid="397326" visible="true" version="1" changeset="7880722" timestamp="2011-04-16T18:18:09Z"/>
+ <node id="1247358609" lat="55.1507818" lon="37.4904542" user="trolleway" uid="397326" visible="true" version="1" changeset="7880722" timestamp="2011-04-16T18:18:09Z"/>
+ <node id="1247358613" lat="55.1518252" lon="37.4899566" user="trolleway" uid="397326" visible="true" version="1" changeset="7880722" timestamp="2011-04-16T18:18:09Z"/>
+ <node id="1247714513" lat="55.1466378" lon="37.4742547" user="trolleway" uid="397326" visible="true" version="1" changeset="7882255" timestamp="2011-04-16T21:18:19Z"/>
+ <node id="1247737826" lat="55.1466595" lon="37.4743482" user="trolleway" uid="397326" visible="true" version="1" changeset="7882255" timestamp="2011-04-16T21:49:09Z"/>
+ <node id="1247737832" lat="55.1454085" lon="37.4752748" user="Dimon62" uid="457129" visible="true" version="2" changeset="8373698" timestamp="2011-06-07T20:13:33Z"/>
+ <node id="1247737840" lat="55.1447931" lon="37.4728087" user="Dimon62" uid="457129" visible="true" version="2" changeset="8299510" timestamp="2011-05-31T09:10:17Z"/>
+ <node id="1247741370" lat="55.1470792" lon="37.4857788" user="Dimon62" uid="457129" visible="true" version="2" changeset="8430785" timestamp="2011-06-13T19:46:47Z"/>
+ <node id="1247741383" lat="55.1461246" lon="37.4853925" user="Dimon62" uid="457129" visible="true" version="2" changeset="8430785" timestamp="2011-06-13T19:46:56Z"/>
+ <node id="1247741398" lat="55.1466478" lon="37.4855831" user="Dimon62" uid="457129" visible="true" version="2" changeset="8430785" timestamp="2011-06-13T19:46:47Z"/>
+ <node id="1247741407" lat="55.1465762" lon="37.4842395" user="Dimon62" uid="457129" visible="true" version="2" changeset="8430785" timestamp="2011-06-13T19:46:49Z"/>
+ <node id="1247741417" lat="55.1460562" lon="37.4851177" user="Dimon62" uid="457129" visible="true" version="2" changeset="8430785" timestamp="2011-06-13T19:46:56Z"/>
+ <node id="1247741418" lat="55.1457655" lon="37.4823272" user="Dimon62" uid="457129" visible="true" version="3" changeset="8555636" timestamp="2011-06-26T19:46:22Z"/>
+ <node id="1247741420" lat="55.1465267" lon="37.4850821" user="Dimon62" uid="457129" visible="true" version="2" changeset="8430785" timestamp="2011-06-13T19:46:57Z"/>
+ <node id="1247741436" lat="55.1470454" lon="37.4852834" user="Dimon62" uid="457129" visible="true" version="3" changeset="8430785" timestamp="2011-06-13T19:46:56Z"/>
+ <node id="1247746544" lat="55.1483094" lon="37.4866947" user="TarzanASG" uid="126304" visible="true" version="4" changeset="9232210" timestamp="2011-09-06T22:48:21Z">
+  <tag k="amenity" v="bank"/>
+  <tag k="atm" v="yes"/>
+  <tag k="operator" v="Сбербанк России"/>
+  <tag k="website" v="http://sberbank.ru/"/>
+ </node>
+ <node id="1247746576" lat="55.1417669" lon="37.4550193" user="Dimon62" uid="457129" visible="true" version="3" changeset="8391001" timestamp="2011-06-09T18:44:15Z"/>
+ <node id="1247746590" lat="55.1450736" lon="37.4739260" user="trolleway" uid="397326" visible="true" version="1" changeset="7882255" timestamp="2011-04-16T22:02:49Z"/>
+ <node id="1247746597" lat="55.1421914" lon="37.4532258" user="Dimon62" uid="457129" visible="true" version="2" changeset="8289532" timestamp="2011-05-30T08:04:16Z"/>
+ <node id="1247746599" lat="55.1467835" lon="37.4854796" user="Dimon62" uid="457129" visible="true" version="2" changeset="8430785" timestamp="2011-06-13T19:46:54Z"/>
+ <node id="1270025327" lat="55.2573057" lon="37.4967292" user="VikDD" uid="198482" visible="true" version="1" changeset="8027845" timestamp="2011-05-02T06:00:30Z"/>
+ <node id="1305572838" lat="55.1441557" lon="37.4702628" user="Dimon62" uid="457129" visible="true" version="1" changeset="8289532" timestamp="2011-05-30T08:03:39Z"/>
+ <node id="1305572839" lat="55.1421657" lon="37.4627840" user="Dimon62" uid="457129" visible="true" version="1" changeset="8289532" timestamp="2011-05-30T08:03:40Z"/>
+ <node id="1305572915" lat="55.1422934" lon="37.4632552" user="Dimon62" uid="457129" visible="true" version="1" changeset="8289532" timestamp="2011-05-30T08:03:43Z"/>
+ <node id="1305573025" lat="55.1414316" lon="37.4600421" user="Dimon62" uid="457129" visible="true" version="1" changeset="8289532" timestamp="2011-05-30T08:03:49Z"/>
+ <node id="1305573035" lat="55.1410441" lon="37.4584695" user="Dimon62" uid="457129" visible="true" version="1" changeset="8289532" timestamp="2011-05-30T08:03:49Z"/>
+ <node id="1305573044" lat="55.1410561" lon="37.4581521" user="Dimon62" uid="457129" visible="true" version="1" changeset="8289532" timestamp="2011-05-30T08:03:50Z"/>
+ <node id="1305573057" lat="55.1417880" lon="37.4613754" user="Dimon62" uid="457129" visible="true" version="1" changeset="8289532" timestamp="2011-05-30T08:03:50Z"/>
+ <node id="1305573084" lat="55.1438134" lon="37.4689350" user="Dimon62" uid="457129" visible="true" version="1" changeset="8289532" timestamp="2011-05-30T08:03:52Z"/>
+ <node id="1306548608" lat="55.1466771" lon="37.4744237" user="Dimon62" uid="457129" visible="true" version="1" changeset="8299510" timestamp="2011-05-31T09:09:44Z"/>
+ <node id="1306548619" lat="55.1466079" lon="37.4741265" user="Dimon62" uid="457129" visible="true" version="1" changeset="8299510" timestamp="2011-05-31T09:09:45Z"/>
+ <node id="1306548620" lat="55.1413343" lon="37.4568704" user="Dimon62" uid="457129" visible="true" version="1" changeset="8299510" timestamp="2011-05-31T09:09:45Z"/>
+ <node id="1315482599" lat="55.1448445" lon="37.4724627" user="Dimon62" uid="457129" visible="true" version="1" changeset="8373698" timestamp="2011-06-07T20:13:29Z"/>
+ <node id="1315482606" lat="55.1454383" lon="37.4720339" user="Dimon62" uid="457129" visible="true" version="1" changeset="8373698" timestamp="2011-06-07T20:13:29Z"/>
+ <node id="1316298160" lat="55.1412100" lon="37.4573994" user="Dimon62" uid="457129" visible="true" version="1" changeset="8381291" timestamp="2011-06-08T16:50:55Z"/>
+ <node id="1319245381" lat="55.1458306" lon="37.4717404" user="Dimon62" uid="457129" visible="true" version="1" changeset="8399621" timestamp="2011-06-10T18:26:40Z"/>
+ <node id="1319271133" lat="55.1512921" lon="37.4870917" user="Dimon62" uid="457129" visible="true" version="1" changeset="8399736" timestamp="2011-06-10T18:40:22Z"/>
+ <node id="1320535833" lat="55.1472007" lon="37.4766511" user="Dimon62" uid="457129" visible="true" version="1" changeset="8408414" timestamp="2011-06-11T18:25:56Z"/>
+ <node id="1320535853" lat="55.1448197" lon="37.4729146" user="Dimon62" uid="457129" visible="true" version="1" changeset="8408414" timestamp="2011-06-11T18:25:56Z"/>
+ <node id="1320535871" lat="55.1461875" lon="37.4723210" user="Dimon62" uid="457129" visible="true" version="1" changeset="8408414" timestamp="2011-06-11T18:25:57Z"/>
+ <node id="1320535928" lat="55.1452361" lon="37.4745806" user="Dimon62" uid="457129" visible="true" version="1" changeset="8408414" timestamp="2011-06-11T18:25:58Z"/>
+ <node id="1320535935" lat="55.1450030" lon="37.4736447" user="Dimon62" uid="457129" visible="true" version="1" changeset="8408414" timestamp="2011-06-11T18:25:58Z"/>
+ <node id="1320535949" lat="55.1461091" lon="37.4719840" user="Dimon62" uid="457129" visible="true" version="1" changeset="8408414" timestamp="2011-06-11T18:25:59Z"/>
+ <node id="1320549973" lat="55.1477023" lon="37.4876995" user="Dimon62" uid="457129" visible="true" version="1" changeset="8408736" timestamp="2011-06-11T18:40:58Z"/>
+ <node id="1320549974" lat="55.1482256" lon="37.4882863" user="Dimon62" uid="457129" visible="true" version="1" changeset="8408736" timestamp="2011-06-11T18:40:58Z"/>
+ <node id="1320549975" lat="55.1480132" lon="37.4876066" user="Dimon62" uid="457129" visible="true" version="1" changeset="8408736" timestamp="2011-06-11T18:40:58Z"/>
+ <node id="1320549976" lat="55.1477506" lon="37.4887454" user="Dimon62" uid="457129" visible="true" version="1" changeset="8408736" timestamp="2011-06-11T18:40:58Z"/>
+ <node id="1320549978" lat="55.1480283" lon="37.4874688" user="Dimon62" uid="457129" visible="true" version="1" changeset="8408736" timestamp="2011-06-11T18:40:58Z"/>
+ <node id="1320549979" lat="55.1482111" lon="37.4883411" user="Dimon62" uid="457129" visible="true" version="1" changeset="8408736" timestamp="2011-06-11T18:40:58Z"/>
+ <node id="1320549980" lat="55.1471037" lon="37.4762384" user="Dimon62" uid="457129" visible="true" version="1" changeset="8408736" timestamp="2011-06-11T18:40:58Z"/>
+ <node id="1320549981" lat="55.1482144" lon="37.4873517" user="Dimon62" uid="457129" visible="true" version="1" changeset="8408736" timestamp="2011-06-11T18:40:58Z"/>
+ <node id="1320549982" lat="55.1476975" lon="37.4886280" user="Dimon62" uid="457129" visible="true" version="1" changeset="8408736" timestamp="2011-06-11T18:40:58Z"/>
+ <node id="1320549983" lat="55.1475367" lon="37.4879555" user="Dimon62" uid="457129" visible="true" version="1" changeset="8408736" timestamp="2011-06-11T18:40:58Z"/>
+ <node id="1320549984" lat="55.1477589" lon="37.4886967" user="Dimon62" uid="457129" visible="true" version="1" changeset="8408736" timestamp="2011-06-11T18:40:58Z"/>
+ <node id="1320549986" lat="55.1481740" lon="37.4882791" user="Dimon62" uid="457129" visible="true" version="1" changeset="8408736" timestamp="2011-06-11T18:40:59Z"/>
+ <node id="1320586753" lat="55.1502180" lon="37.4826764" user="Dimon62" uid="457129" visible="true" version="2" changeset="8419960" timestamp="2011-06-12T21:01:04Z"/>
+ <node id="1320692546" lat="55.1470945" lon="37.4863639" user="Dimon62" uid="457129" visible="true" version="2" changeset="8430785" timestamp="2011-06-13T19:46:54Z"/>
+ <node id="1322825001" lat="55.1496910" lon="37.4852239" user="Dimon62" uid="457129" visible="true" version="1" changeset="8419960" timestamp="2011-06-12T21:00:44Z"/>
+ <node id="1322825014" lat="55.1495782" lon="37.4870158" user="Dimon62" uid="457129" visible="true" version="1" changeset="8419960" timestamp="2011-06-12T21:00:45Z"/>
+ <node id="1322825018" lat="55.1455397" lon="37.4812314" user="Dimon62" uid="457129" visible="true" version="1" changeset="8419960" timestamp="2011-06-12T21:00:45Z"/>
+ <node id="1322825035" lat="55.1497091" lon="37.4859141" user="Dimon62" uid="457129" visible="true" version="1" changeset="8419960" timestamp="2011-06-12T21:00:45Z"/>
+ <node id="1322825045" lat="55.1505276" lon="37.4845801" user="Dimon62" uid="457129" visible="true" version="1" changeset="8419960" timestamp="2011-06-12T21:00:45Z"/>
+ <node id="1322825047" lat="55.1461966" lon="37.4796466" user="Dimon62" uid="457129" visible="true" version="1" changeset="8419960" timestamp="2011-06-12T21:00:45Z"/>
+ <node id="1322825050" lat="55.1494246" lon="37.4873984" user="Dimon62" uid="457129" visible="true" version="1" changeset="8419960" timestamp="2011-06-12T21:00:45Z"/>
+ <node id="1322825052" lat="55.1459192" lon="37.4773460" user="Dimon62" uid="457129" visible="true" version="1" changeset="8419960" timestamp="2011-06-12T21:00:46Z"/>
+ <node id="1322825061" lat="55.1472909" lon="37.4851904" user="Dimon62" uid="457129" visible="true" version="1" changeset="8419960" timestamp="2011-06-12T21:00:46Z"/>
+ <node id="1322825079" lat="55.1496685" lon="37.4856891" user="Dimon62" uid="457129" visible="true" version="1" changeset="8419960" timestamp="2011-06-12T21:00:46Z"/>
+ <node id="1322825081" lat="55.1470880" lon="37.4838379" user="Dimon62" uid="457129" visible="true" version="1" changeset="8419960" timestamp="2011-06-12T21:00:46Z"/>
+ <node id="1322825083" lat="55.1460479" lon="37.4789456" user="Dimon62" uid="457129" visible="true" version="2" changeset="8459327" timestamp="2011-06-16T19:39:40Z"/>
+ <node id="1322825084" lat="55.1491460" lon="37.4857705" user="Dimon62" uid="457129" visible="true" version="1" changeset="8419960" timestamp="2011-06-12T21:00:46Z"/>
+ <node id="1322825086" lat="55.1495914" lon="37.4873963" user="Dimon62" uid="457129" visible="true" version="1" changeset="8419960" timestamp="2011-06-12T21:00:46Z"/>
+ <node id="1322825091" lat="55.1487221" lon="37.4870461" user="Dimon62" uid="457129" visible="true" version="2" changeset="8459327" timestamp="2011-06-16T19:39:43Z"/>
+ <node id="1322825104" lat="55.1485820" lon="37.4856865" user="Dimon62" uid="457129" visible="true" version="1" changeset="8419960" timestamp="2011-06-12T21:00:47Z"/>
+ <node id="1322825107" lat="55.1473669" lon="37.4851467" user="Dimon62" uid="457129" visible="true" version="1" changeset="8419960" timestamp="2011-06-12T21:00:47Z"/>
+ <node id="1322825108" lat="55.1458587" lon="37.4813652" user="Dimon62" uid="457129" visible="true" version="1" changeset="8419960" timestamp="2011-06-12T21:00:47Z"/>
+ <node id="1322825109" lat="55.1486796" lon="37.4861324" user="Dimon62" uid="457129" visible="true" version="1" changeset="8419960" timestamp="2011-06-12T21:00:47Z"/>
+ <node id="1322825110" lat="55.1487240" lon="37.4874459" user="Dimon62" uid="457129" visible="true" version="3" changeset="8496517" timestamp="2011-06-20T17:26:14Z"/>
+ <node id="1322825115" lat="55.1494087" lon="37.4867846" user="Dimon62" uid="457129" visible="true" version="1" changeset="8419960" timestamp="2011-06-12T21:00:47Z"/>
+ <node id="1322825126" lat="55.1491692" lon="37.4855081" user="Dimon62" uid="457129" visible="true" version="1" changeset="8419960" timestamp="2011-06-12T21:00:47Z"/>
+ <node id="1322825141" lat="55.1472906" lon="37.4851902" user="Dimon62" uid="457129" visible="true" version="1" changeset="8419960" timestamp="2011-06-12T21:00:48Z"/>
+ <node id="1322825146" lat="55.1457847" lon="37.4821524" user="Dimon62" uid="457129" visible="true" version="1" changeset="8419960" timestamp="2011-06-12T21:00:48Z"/>
+ <node id="1322825162" lat="55.1493079" lon="37.4862877" user="Dimon62" uid="457129" visible="true" version="1" changeset="8419960" timestamp="2011-06-12T21:00:48Z"/>
+ <node id="1322825163" lat="55.1471163" lon="37.4852634" user="Dimon62" uid="457129" visible="true" version="1" changeset="8419960" timestamp="2011-06-12T21:00:48Z"/>
+ <node id="1322825164" lat="55.1496888" lon="37.4867189" user="Dimon62" uid="457129" visible="true" version="1" changeset="8419960" timestamp="2011-06-12T21:00:48Z"/>
+ <node id="1322825167" lat="55.1494227" lon="37.4870406" user="Dimon62" uid="457129" visible="true" version="1" changeset="8419960" timestamp="2011-06-12T21:00:48Z"/>
+ <node id="1322825173" lat="55.1504767" lon="37.4866963" user="Dimon62" uid="457129" visible="true" version="1" changeset="8419960" timestamp="2011-06-12T21:00:48Z"/>
+ <node id="1322825184" lat="55.1498665" lon="37.4849519" user="Dimon62" uid="457129" visible="true" version="1" changeset="8419960" timestamp="2011-06-12T21:00:49Z"/>
+ <node id="1322825194" lat="55.1493715" lon="37.4858454" user="Dimon62" uid="457129" visible="true" version="1" changeset="8419960" timestamp="2011-06-12T21:00:49Z"/>
+ <node id="1322825199" lat="55.1487936" lon="37.4877992" user="Dimon62" uid="457129" visible="true" version="1" changeset="8419960" timestamp="2011-06-12T21:00:49Z"/>
+ <node id="1322825201" lat="55.1491041" lon="37.4855494" user="Dimon62" uid="457129" visible="true" version="1" changeset="8419960" timestamp="2011-06-12T21:00:49Z"/>
+ <node id="1322825203" lat="55.1495822" lon="37.4874152" user="Dimon62" uid="457129" visible="true" version="1" changeset="8419960" timestamp="2011-06-12T21:00:49Z"/>
+ <node id="1322825205" lat="55.1487014" lon="37.4860288" user="Dimon62" uid="457129" visible="true" version="1" changeset="8419960" timestamp="2011-06-12T21:00:49Z"/>
+ <node id="1322825217" lat="55.1472098" lon="37.4869225" user="Dimon62" uid="457129" visible="true" version="2" changeset="8477250" timestamp="2011-06-18T19:53:46Z"/>
+ <node id="1322825238" lat="55.1485661" lon="37.4874475" user="Dimon62" uid="457129" visible="true" version="3" changeset="8496517" timestamp="2011-06-20T17:26:14Z"/>
+ <node id="1322825240" lat="55.1461495" lon="37.4811569" user="Dimon62" uid="457129" visible="true" version="1" changeset="8419960" timestamp="2011-06-12T21:00:50Z"/>
+ <node id="1322825249" lat="55.1494111" lon="37.4870175" user="Dimon62" uid="457129" visible="true" version="1" changeset="8419960" timestamp="2011-06-12T21:00:50Z"/>
+ <node id="1322825251" lat="55.1489403" lon="37.4867997" user="Dimon62" uid="457129" visible="true" version="1" changeset="8419960" timestamp="2011-06-12T21:00:50Z"/>
+ <node id="1322825264" lat="55.1471341" lon="37.4844247" user="Dimon62" uid="457129" visible="true" version="1" changeset="8419960" timestamp="2011-06-12T21:00:50Z"/>
+ <node id="1322825268" lat="55.1474253" lon="37.4862674" user="Dimon62" uid="457129" visible="true" version="1" changeset="8419960" timestamp="2011-06-12T21:00:51Z"/>
+ <node id="1322825269" lat="55.1464691" lon="37.4809280" user="Dimon62" uid="457129" visible="true" version="1" changeset="8419960" timestamp="2011-06-12T21:00:51Z"/>
+ <node id="1322825270" lat="55.1491625" lon="37.4858529" user="Dimon62" uid="457129" visible="true" version="1" changeset="8419960" timestamp="2011-06-12T21:00:51Z"/>
+ <node id="1322825271" lat="55.1459488" lon="37.4820188" user="Dimon62" uid="457129" visible="true" version="1" changeset="8419960" timestamp="2011-06-12T21:00:51Z"/>
+ <node id="1322825287" lat="55.1498296" lon="37.4860036" user="Dimon62" uid="457129" visible="true" version="1" changeset="8419960" timestamp="2011-06-12T21:00:51Z"/>
+ <node id="1322825299" lat="55.1472899" lon="37.4851906" user="Dimon62" uid="457129" visible="true" version="1" changeset="8419960" timestamp="2011-06-12T21:00:51Z"/>
+ <node id="1322825301" lat="55.1494330" lon="37.4870182" user="Dimon62" uid="457129" visible="true" version="1" changeset="8419960" timestamp="2011-06-12T21:00:51Z"/>
+ <node id="1322825330" lat="55.1457315" lon="37.4765849" user="Dimon62" uid="457129" visible="true" version="1" changeset="8419960" timestamp="2011-06-12T21:00:52Z"/>
+ <node id="1322825335" lat="55.1494121" lon="37.4860706" user="Dimon62" uid="457129" visible="true" version="1" changeset="8419960" timestamp="2011-06-12T21:00:52Z"/>
+ <node id="1322825337" lat="55.1486595" lon="37.4858076" user="Dimon62" uid="457129" visible="true" version="1" changeset="8419960" timestamp="2011-06-12T21:00:52Z"/>
+ <node id="1322825340" lat="55.1494353" lon="37.4874177" user="Dimon62" uid="457129" visible="true" version="1" changeset="8419960" timestamp="2011-06-12T21:00:52Z"/>
+ <node id="1322825349" lat="55.1505057" lon="37.4860595" user="Dimon62" uid="457129" visible="true" version="1" changeset="8419960" timestamp="2011-06-12T21:00:52Z"/>
+ <node id="1322825352" lat="55.1473868" lon="37.4868872" user="Dimon62" uid="457129" visible="true" version="2" changeset="8477250" timestamp="2011-06-18T19:53:46Z"/>
+ <node id="1322825386" lat="55.1507723" lon="37.4859506" user="Dimon62" uid="457129" visible="true" version="1" changeset="8419960" timestamp="2011-06-12T21:00:53Z"/>
+ <node id="1322825388" lat="55.1487938" lon="37.4867446" user="Dimon62" uid="457129" visible="true" version="1" changeset="8419960" timestamp="2011-06-12T21:00:53Z"/>
+ <node id="1322825391" lat="55.1460368" lon="37.4821306" user="Dimon62" uid="457129" visible="true" version="2" changeset="8555636" timestamp="2011-06-26T19:46:18Z"/>
+ <node id="1322825394" lat="55.1495895" lon="37.4870374" user="Dimon62" uid="457129" visible="true" version="1" changeset="8419960" timestamp="2011-06-12T21:00:53Z"/>
+ <node id="1322825397" lat="55.1485646" lon="37.4870485" user="Dimon62" uid="457129" visible="true" version="2" changeset="8459327" timestamp="2011-06-16T19:39:37Z"/>
+ <node id="1322825417" lat="55.1474547" lon="37.4868834" user="Dimon62" uid="457129" visible="true" version="2" changeset="8477250" timestamp="2011-06-18T19:53:46Z"/>
+ <node id="1322825424" lat="55.1489428" lon="37.4870326" user="Dimon62" uid="457129" visible="true" version="1" changeset="8419960" timestamp="2011-06-12T21:00:53Z"/>
+ <node id="1322825436" lat="55.1469663" lon="37.4845297" user="Dimon62" uid="457129" visible="true" version="1" changeset="8419960" timestamp="2011-06-12T21:00:53Z"/>
+ <node id="1322825448" lat="55.1457039" lon="37.4810978" user="Dimon62" uid="457129" visible="true" version="1" changeset="8419960" timestamp="2011-06-12T21:00:53Z"/>
+ <node id="1322825456" lat="55.1496958" lon="37.4877817" user="Dimon62" uid="457129" visible="true" version="1" changeset="8419960" timestamp="2011-06-12T21:00:54Z"/>
+ <node id="1324204833" lat="55.1477335" lon="37.4844223" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:18Z"/>
+ <node id="1324204857" lat="55.1467920" lon="37.4840724" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:18Z"/>
+ <node id="1324204866" lat="55.1473839" lon="37.4817540" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:19Z"/>
+ <node id="1324204876" lat="55.1459723" lon="37.4867357" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:19Z"/>
+ <node id="1324204884" lat="55.1477323" lon="37.4841412" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:19Z"/>
+ <node id="1324204889" lat="55.1456131" lon="37.4849998" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:19Z"/>
+ <node id="1324204921" lat="55.1417367" lon="37.4551487" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:19Z"/>
+ <node id="1324204939" lat="55.1458788" lon="37.4878468" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:20Z"/>
+ <node id="1324204975" lat="55.1462996" lon="37.4843369" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:20Z"/>
+ <node id="1324205002" lat="55.1464241" lon="37.4867690" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:21Z"/>
+ <node id="1324205016" lat="55.1477940" lon="37.4835593" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:21Z"/>
+ <node id="1324205025" lat="55.1468543" lon="37.4868595" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:21Z"/>
+ <node id="1324205034" lat="55.1460117" lon="37.4856267" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:21Z"/>
+ <node id="1324205041" lat="55.1466708" lon="37.4858237" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:21Z"/>
+ <node id="1324205089" lat="55.1456965" lon="37.4848255" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:22Z"/>
+ <node id="1324205107" lat="55.1459336" lon="37.4870197" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:22Z"/>
+ <node id="1324205114" lat="55.1456564" lon="37.4881369" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:22Z"/>
+ <node id="1324205118" lat="55.1465397" lon="37.4847458" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:22Z"/>
+ <node id="1324205123" lat="55.1463866" lon="37.4859520" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:22Z"/>
+ <node id="1324205132" lat="55.1470346" lon="37.4868353" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:22Z"/>
+ <node id="1324205167" lat="55.1470719" lon="37.4876850" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:23Z"/>
+ <node id="1324205169" lat="55.1474760" lon="37.4879538" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:23Z"/>
+ <node id="1324205173" lat="55.1471015" lon="37.4860722" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:23Z"/>
+ <node id="1324205181" lat="55.1468062" lon="37.4880723" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:23Z"/>
+ <node id="1324205201" lat="55.1465193" lon="37.4859333" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:23Z"/>
+ <node id="1324205208" lat="55.1479988" lon="37.4842618" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:23Z"/>
+ <node id="1324205211" lat="55.1470789" lon="37.4878485" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:23Z"/>
+ <node id="1324205216" lat="55.1468387" lon="37.4877237" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:23Z"/>
+ <node id="1324205219" lat="55.1467674" lon="37.4857730" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:23Z"/>
+ <node id="1324205237" lat="55.1481367" lon="37.4831649" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:23Z"/>
+ <node id="1324205240" lat="55.1482644" lon="37.4857878" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:24Z"/>
+ <node id="1324205243" lat="55.1474692" lon="37.4821298" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:24Z"/>
+ <node id="1324205249" lat="55.1464843" lon="37.4809995" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:24Z"/>
+ <node id="1324205275" lat="55.1476691" lon="37.4838443" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:24Z"/>
+ <node id="1324205281" lat="55.1464550" lon="37.4854518" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:24Z"/>
+ <node id="1324205285" lat="55.1485701" lon="37.4835229" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:24Z"/>
+ <node id="1324205300" lat="55.1458858" lon="37.4880103" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:24Z"/>
+ <node id="1324205309" lat="55.1477116" lon="37.4831816" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:25Z"/>
+ <node id="1324205318" lat="55.1463106" lon="37.4859790" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:25Z"/>
+ <node id="1324205324" lat="55.1473010" lon="37.4822467" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:25Z"/>
+ <node id="1324205344" lat="55.1428593" lon="37.4891890" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:25Z"/>
+ <node id="1324205349" lat="55.1459622" lon="37.4875809" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:25Z"/>
+ <node id="1324205352" lat="55.1482574" lon="37.4834457" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:25Z"/>
+ <node id="1324205356" lat="55.1476249" lon="37.4836723" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:25Z"/>
+ <node id="1324205377" lat="55.1471138" lon="37.4879405" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:26Z"/>
+ <node id="1324205382" lat="55.1457054" lon="37.4880339" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:26Z"/>
+ <node id="1324205393" lat="55.1473550" lon="37.4824863" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:26Z"/>
+ <node id="1324205413" lat="55.1456236" lon="37.4845500" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:26Z"/>
+ <node id="1324205415" lat="55.1463831" lon="37.4875226" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:26Z"/>
+ <node id="1324205425" lat="55.1477575" lon="37.4814088" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:26Z"/>
+ <node id="1324205447" lat="55.1475424" lon="37.4832946" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:27Z"/>
+ <node id="1324205451" lat="55.1471875" lon="37.4843047" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:27Z"/>
+ <node id="1324205467" lat="55.1465902" lon="37.4857561" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:27Z"/>
+ <node id="1324205477" lat="55.1477559" lon="37.4843184" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:27Z"/>
+ <node id="1324205488" lat="55.1475228" lon="37.4823677" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:27Z"/>
+ <node id="1324205504" lat="55.1459985" lon="37.4882163" user="Dimon62" uid="457129" visible="true" version="2" changeset="8555636" timestamp="2011-06-26T19:46:21Z"/>
+ <node id="1324205510" lat="55.1461449" lon="37.4878780" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:27Z"/>
+ <node id="1324205514" lat="55.1465568" lon="37.4867505" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:27Z"/>
+ <node id="1324205535" lat="55.1482929" lon="37.4838882" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:28Z"/>
+ <node id="1324205540" lat="55.1482841" lon="37.4856926" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:28Z"/>
+ <node id="1324205548" lat="55.1468985" lon="37.4878722" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:28Z"/>
+ <node id="1324205551" lat="55.1462396" lon="37.4856070" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:28Z"/>
+ <node id="1324205579" lat="55.1471027" lon="37.4876810" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:28Z"/>
+ <node id="1324205586" lat="55.1480892" lon="37.4858955" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:28Z"/>
+ <node id="1324205612" lat="55.1476584" lon="37.4829555" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:29Z"/>
+ <node id="1324205630" lat="55.1478856" lon="37.4837032" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:29Z"/>
+ <node id="1324205636" lat="55.1461335" lon="37.4876459" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:29Z"/>
+ <node id="1324205647" lat="55.1474480" lon="37.4841190" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:29Z"/>
+ <node id="1324205657" lat="55.1483060" lon="37.4836863" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:30Z"/>
+ <node id="1324205662" lat="55.1468919" lon="37.4877168" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:30Z"/>
+ <node id="1324205670" lat="55.1466116" lon="37.4878077" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:30Z"/>
+ <node id="1324205687" lat="55.1480390" lon="37.4858656" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:30Z"/>
+ <node id="1324205691" lat="55.1472157" lon="37.4818710" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:30Z"/>
+ <node id="1324205693" lat="55.1485215" lon="37.4832823" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:30Z"/>
+ <node id="1324205695" lat="55.1456456" lon="37.4878855" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:30Z"/>
+ <node id="1324205698" lat="55.1479488" lon="37.4840000" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:30Z"/>
+ <node id="1324205699" lat="55.1460203" lon="37.4859317" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:30Z"/>
+ <node id="1324205700" lat="55.1476329" lon="37.4808317" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:30Z"/>
+ <node id="1324205702" lat="55.1460975" lon="37.4855589" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:31Z"/>
+ <node id="1324205721" lat="55.1456988" lon="37.4878785" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:31Z"/>
+ <node id="1324205725" lat="55.1459590" lon="37.4850461" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:31Z"/>
+ <node id="1324205727" lat="55.1462266" lon="37.4840613" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:31Z"/>
+ <node id="1324205735" lat="55.1425437" lon="37.4895328" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:31Z"/>
+ <node id="1324205738" lat="55.1456717" lon="37.4854534" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:31Z"/>
+ <node id="1324205749" lat="55.1459096" lon="37.4878427" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:31Z"/>
+ <node id="1324205751" lat="55.1466206" lon="37.4848092" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:31Z"/>
+ <node id="1324205757" lat="55.1468495" lon="37.4879751" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:32Z"/>
+ <node id="1324205768" lat="55.1479325" lon="37.4842065" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:32Z"/>
+ <node id="1324205775" lat="55.1471469" lon="37.4880100" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:32Z"/>
+ <node id="1324205791" lat="55.1467774" lon="37.4874681" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:32Z"/>
+ <node id="1324205810" lat="55.1459207" lon="37.4881022" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:32Z"/>
+ <node id="1324205811" lat="55.1474722" lon="37.4816577" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:32Z"/>
+ <node id="1324205813" lat="55.1462482" lon="37.4859120" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:32Z"/>
+ <node id="1324205817" lat="55.1468736" lon="37.4855250" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:33Z"/>
+ <node id="1324205841" lat="55.1478547" lon="37.4833694" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:33Z"/>
+ <node id="1324205846" lat="55.1463376" lon="37.4881580" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:33Z"/>
+ <node id="1324205849" lat="55.1456136" lon="37.4882823" user="Dimon62" uid="457129" visible="true" version="2" changeset="8555636" timestamp="2011-06-26T19:46:18Z"/>
+ <node id="1324205854" lat="55.1474905" lon="37.4830740" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:33Z"/>
+ <node id="1324205871" lat="55.1467197" lon="37.4808327" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:33Z"/>
+ <node id="1324205881" lat="55.1459132" lon="37.4854252" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:33Z"/>
+ <node id="1324205884" lat="55.1466002" lon="37.4875756" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:33Z"/>
+ <node id="1324205887" lat="55.1466388" lon="37.4845100" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:34Z"/>
+ <node id="1324205902" lat="55.1444584" lon="37.4884810" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:34Z"/>
+ <node id="1327857154" lat="55.1483193" lon="37.4866493" user="Dimon62" uid="457129" visible="true" version="1" changeset="8459327" timestamp="2011-06-16T19:39:22Z"/>
+ <node id="1327857156" lat="55.1483324" lon="37.4864720" user="Dimon62" uid="457129" visible="true" version="1" changeset="8459327" timestamp="2011-06-16T19:39:22Z"/>
+ <node id="1327857170" lat="55.1482024" lon="37.4851392" user="Dimon62" uid="457129" visible="true" version="1" changeset="8459327" timestamp="2011-06-16T19:39:22Z"/>
+ <node id="1327857195" lat="55.1483702" lon="37.4870080" user="Dimon62" uid="457129" visible="true" version="1" changeset="8459327" timestamp="2011-06-16T19:39:23Z"/>
+ <node id="1327857196" lat="55.1481252" lon="37.4866510" user="Dimon62" uid="457129" visible="true" version="1" changeset="8459327" timestamp="2011-06-16T19:39:23Z"/>
+ <node id="1327857200" lat="55.1483553" lon="37.4839450" user="Dimon62" uid="457129" visible="true" version="1" changeset="8459327" timestamp="2011-06-16T19:39:23Z"/>
+ <node id="1327857221" lat="55.1482445" lon="37.4853488" user="Dimon62" uid="457129" visible="true" version="1" changeset="8459327" timestamp="2011-06-16T19:39:23Z"/>
+ <node id="1327857232" lat="55.1481979" lon="37.4844781" user="Dimon62" uid="457129" visible="true" version="1" changeset="8459327" timestamp="2011-06-16T19:39:24Z"/>
+ <node id="1327857235" lat="55.1485278" lon="37.4870060" user="Dimon62" uid="457129" visible="true" version="2" changeset="8459367" timestamp="2011-06-16T19:42:59Z"/>
+ <node id="1327857241" lat="55.1481732" lon="37.4861699" user="Dimon62" uid="457129" visible="true" version="1" changeset="8459327" timestamp="2011-06-16T19:39:24Z"/>
+ <node id="1327857243" lat="55.1485152" lon="37.4870888" user="Dimon62" uid="457129" visible="true" version="2" changeset="8496517" timestamp="2011-06-20T17:26:14Z"/>
+ <node id="1327857245" lat="55.1486296" lon="37.4852952" user="Dimon62" uid="457129" visible="true" version="1" changeset="8459327" timestamp="2011-06-16T19:39:24Z"/>
+ <node id="1327857249" lat="55.1485276" lon="37.4869112" user="Dimon62" uid="457129" visible="true" version="1" changeset="8459327" timestamp="2011-06-16T19:39:24Z"/>
+ <node id="1327857267" lat="55.1483327" lon="37.4865669" user="Dimon62" uid="457129" visible="true" version="1" changeset="8459327" timestamp="2011-06-16T19:39:25Z"/>
+ <node id="1327857282" lat="55.1460640" lon="37.4779334" user="Dimon62" uid="457129" visible="true" version="1" changeset="8459327" timestamp="2011-06-16T19:39:25Z"/>
+ <node id="1327857283" lat="55.1484642" lon="37.4852663" user="Dimon62" uid="457129" visible="true" version="1" changeset="8459327" timestamp="2011-06-16T19:39:25Z"/>
+ <node id="1327857284" lat="55.1483207" lon="37.4870901" user="Dimon62" uid="457129" visible="true" version="1" changeset="8459327" timestamp="2011-06-16T19:39:25Z"/>
+ <node id="1327857286" lat="55.1483201" lon="37.4850652" user="Dimon62" uid="457129" visible="true" version="1" changeset="8459327" timestamp="2011-06-16T19:39:25Z"/>
+ <node id="1327857315" lat="55.1483686" lon="37.4866486" user="Dimon62" uid="457129" visible="true" version="2" changeset="8459391" timestamp="2011-06-16T19:45:14Z"/>
+ <node id="1327857317" lat="55.1480030" lon="37.4841605" user="Dimon62" uid="457129" visible="true" version="1" changeset="8459327" timestamp="2011-06-16T19:39:26Z"/>
+ <node id="1327857320" lat="55.1483689" lon="37.4866090" user="Dimon62" uid="457129" visible="true" version="2" changeset="8459367" timestamp="2011-06-16T19:42:59Z"/>
+ <node id="1327857345" lat="55.1487243" lon="37.4875262" user="Dimon62" uid="457129" visible="true" version="2" changeset="8496517" timestamp="2011-06-20T17:26:13Z"/>
+ <node id="1327857369" lat="55.1481731" lon="37.4861699" user="Dimon62" uid="457129" visible="true" version="2" changeset="8459391" timestamp="2011-06-16T19:45:15Z"/>
+ <node id="1327857374" lat="55.1481649" lon="37.4843128" user="Dimon62" uid="457129" visible="true" version="1" changeset="8459327" timestamp="2011-06-16T19:39:27Z"/>
+ <node id="1327857378" lat="55.1483706" lon="37.4870072" user="Dimon62" uid="457129" visible="true" version="2" changeset="8459367" timestamp="2011-06-16T19:42:59Z"/>
+ <node id="1327857390" lat="55.1483308" lon="37.4861675" user="Dimon62" uid="457129" visible="true" version="1" changeset="8459327" timestamp="2011-06-16T19:39:27Z"/>
+ <node id="1327857399" lat="55.1486749" lon="37.4855188" user="Dimon62" uid="457129" visible="true" version="1" changeset="8459327" timestamp="2011-06-16T19:39:27Z"/>
+ <node id="1327857403" lat="55.1484341" lon="37.4841936" user="Dimon62" uid="457129" visible="true" version="1" changeset="8459327" timestamp="2011-06-16T19:39:27Z"/>
+ <node id="1327857418" lat="55.1483328" lon="37.4865673" user="Dimon62" uid="457129" visible="true" version="1" changeset="8459327" timestamp="2011-06-16T19:39:27Z"/>
+ <node id="1327857434" lat="55.1481752" lon="37.4865693" user="Dimon62" uid="457129" visible="true" version="1" changeset="8459327" timestamp="2011-06-16T19:39:28Z"/>
+ <node id="1327857450" lat="55.1485649" lon="37.4870883" user="Dimon62" uid="457129" visible="true" version="3" changeset="8496517" timestamp="2011-06-20T17:26:14Z"/>
+ <node id="1327857452" lat="55.1483614" lon="37.4852762" user="Dimon62" uid="457129" visible="true" version="1" changeset="8459327" timestamp="2011-06-16T19:39:28Z"/>
+ <node id="1327857456" lat="55.1485644" lon="37.4870877" user="Dimon62" uid="457129" visible="true" version="1" changeset="8459327" timestamp="2011-06-16T19:39:28Z"/>
+ <node id="1327857460" lat="55.1482419" lon="37.4846839" user="Dimon62" uid="457129" visible="true" version="1" changeset="8459327" timestamp="2011-06-16T19:39:28Z"/>
+ <node id="1327857467" lat="55.1487237" lon="37.4873513" user="Dimon62" uid="457129" visible="true" version="1" changeset="8459327" timestamp="2011-06-16T19:39:28Z"/>
+ <node id="1327857490" lat="55.1483686" lon="37.4866489" user="Dimon62" uid="457129" visible="true" version="2" changeset="8459391" timestamp="2011-06-16T19:45:15Z"/>
+ <node id="1327857491" lat="55.1483681" lon="37.4864716" user="Dimon62" uid="457129" visible="true" version="1" changeset="8459327" timestamp="2011-06-16T19:39:28Z"/>
+ <node id="1327857506" lat="55.1480808" lon="37.4845497" user="Dimon62" uid="457129" visible="true" version="1" changeset="8459327" timestamp="2011-06-16T19:39:29Z"/>
+ <node id="1327857508" lat="55.1485261" lon="37.4866066" user="Dimon62" uid="457129" visible="true" version="1" changeset="8459327" timestamp="2011-06-16T19:39:29Z"/>
+ <node id="1327857516" lat="55.1481242" lon="37.4847578" user="Dimon62" uid="457129" visible="true" version="1" changeset="8459327" timestamp="2011-06-16T19:39:29Z"/>
+ <node id="1327857543" lat="55.1485279" lon="37.4870065" user="Dimon62" uid="457129" visible="true" version="1" changeset="8459327" timestamp="2011-06-16T19:39:29Z"/>
+ <node id="1327857546" lat="55.1481226" lon="37.4861708" user="Dimon62" uid="457129" visible="true" version="2" changeset="8496517" timestamp="2011-06-20T17:26:13Z"/>
+ <node id="1327857552" lat="55.1484000" lon="37.4841689" user="Dimon62" uid="457129" visible="true" version="1" changeset="8459327" timestamp="2011-06-16T19:39:29Z"/>
+ <node id="1327857563" lat="55.1485168" lon="37.4875284" user="Dimon62" uid="457129" visible="true" version="2" changeset="8496517" timestamp="2011-06-20T17:26:14Z"/>
+ <node id="1327857568" lat="55.1483233" lon="37.4857373" user="Dimon62" uid="457129" visible="true" version="1" changeset="8459327" timestamp="2011-06-16T19:39:30Z"/>
+ <node id="1327857583" lat="55.1483691" lon="37.4838421" user="Dimon62" uid="457129" visible="true" version="1" changeset="8459327" timestamp="2011-06-16T19:39:30Z"/>
+ <node id="1327857600" lat="55.1481750" lon="37.4865697" user="Dimon62" uid="457129" visible="true" version="2" changeset="8459391" timestamp="2011-06-16T19:45:14Z"/>
+ <node id="1327857638" lat="55.1483948" lon="37.4854411" user="Dimon62" uid="457129" visible="true" version="1" changeset="8459327" timestamp="2011-06-16T19:39:31Z"/>
+ <node id="1327857644" lat="55.1483058" lon="37.4844354" user="Dimon62" uid="457129" visible="true" version="1" changeset="8459327" timestamp="2011-06-16T19:39:31Z"/>
+ <node id="1327857648" lat="55.1485638" lon="37.4869108" user="Dimon62" uid="457129" visible="true" version="1" changeset="8459327" timestamp="2011-06-16T19:39:31Z"/>
+ <node id="1329983401" lat="55.1434271" lon="37.4674630" user="Dimon62" uid="457129" visible="true" version="1" changeset="8476933" timestamp="2011-06-18T19:23:57Z"/>
+ <node id="1329983414" lat="55.1437779" lon="37.4687996" user="Dimon62" uid="457129" visible="true" version="1" changeset="8476933" timestamp="2011-06-18T19:23:57Z"/>
+ <node id="1330009452" lat="55.1477577" lon="37.4875434" user="Dimon62" uid="457129" visible="true" version="1" changeset="8477250" timestamp="2011-06-18T19:53:39Z"/>
+ <node id="1330009457" lat="55.1480637" lon="37.4873319" user="Dimon62" uid="457129" visible="true" version="1" changeset="8477250" timestamp="2011-06-18T19:53:39Z"/>
+ <node id="1330009464" lat="55.1479784" lon="37.4869538" user="Dimon62" uid="457129" visible="true" version="1" changeset="8477250" timestamp="2011-06-18T19:53:39Z"/>
+ <node id="1330009519" lat="55.1476723" lon="37.4871653" user="Dimon62" uid="457129" visible="true" version="1" changeset="8477250" timestamp="2011-06-18T19:53:41Z"/>
+ <node id="1330045516" lat="55.1473024" lon="37.4770837" user="Dimon62" uid="457129" visible="true" version="1" changeset="8477453" timestamp="2011-06-18T20:14:53Z"/>
+ <node id="1340291729" lat="55.1469298" lon="37.4835320" user="Dimon62" uid="457129" visible="true" version="1" changeset="8555636" timestamp="2011-06-26T19:45:52Z"/>
+ <node id="1340291819" lat="55.1467719" lon="37.4834138" user="Dimon62" uid="457129" visible="true" version="1" changeset="8555636" timestamp="2011-06-26T19:45:54Z"/>
+ <node id="1340291868" lat="55.1460033" lon="37.4824603" user="Dimon62" uid="457129" visible="true" version="1" changeset="8555636" timestamp="2011-06-26T19:45:55Z"/>
+ <node id="1340291891" lat="55.1465901" lon="37.4835380" user="Dimon62" uid="457129" visible="true" version="1" changeset="8555636" timestamp="2011-06-26T19:45:55Z"/>
+ <node id="1340291918" lat="55.1444923" lon="37.4885893" user="Dimon62" uid="457129" visible="true" version="1" changeset="8555636" timestamp="2011-06-26T19:45:55Z"/>
+ <node id="1340291922" lat="55.1462523" lon="37.4835384" user="Dimon62" uid="457129" visible="true" version="1" changeset="8555636" timestamp="2011-06-26T19:45:56Z"/>
+ <node id="1340291968" lat="55.1461238" lon="37.4836293" user="Dimon62" uid="457129" visible="true" version="1" changeset="8555636" timestamp="2011-06-26T19:45:56Z"/>
+ <node id="1340292007" lat="55.1493314" lon="37.4815222" user="Dimon62" uid="457129" visible="true" version="1" changeset="8555636" timestamp="2011-06-26T19:45:57Z"/>
+ <node id="1340292031" lat="55.1444382" lon="37.4884841" user="Dimon62" uid="457129" visible="true" version="1" changeset="8555636" timestamp="2011-06-26T19:45:57Z"/>
+ <node id="1340292161" lat="55.1461494" lon="37.4815724" user="Dimon62" uid="457129" visible="true" version="1" changeset="8555636" timestamp="2011-06-26T19:45:59Z"/>
+ <node id="1340292205" lat="55.1463395" lon="37.4882609" user="Dimon62" uid="457129" visible="true" version="1" changeset="8555636" timestamp="2011-06-26T19:46:00Z"/>
+ <node id="1340292206" lat="55.1458747" lon="37.4825512" user="Dimon62" uid="457129" visible="true" version="1" changeset="8555636" timestamp="2011-06-26T19:46:00Z"/>
+ <node id="1340292227" lat="55.1464455" lon="37.4813713" user="Dimon62" uid="457129" visible="true" version="1" changeset="8555636" timestamp="2011-06-26T19:46:00Z"/>
+ <node id="1340292327" lat="55.1464733" lon="37.4834637" user="toly2008" uid="503065" visible="true" version="2" changeset="8959824" timestamp="2011-08-08T17:54:11Z"/>
+ <node id="1340292344" lat="55.1463749" lon="37.4816452" user="Dimon62" uid="457129" visible="true" version="1" changeset="8555636" timestamp="2011-06-26T19:46:02Z"/>
+ <node id="1340292378" lat="55.1484236" lon="37.4820200" user="Dimon62" uid="457129" visible="true" version="1" changeset="8555636" timestamp="2011-06-26T19:46:03Z"/>
+ <node id="1340292399" lat="55.1461930" lon="37.4817688" user="Dimon62" uid="457129" visible="true" version="1" changeset="8555636" timestamp="2011-06-26T19:46:03Z"/>
+ <node id="1340292407" lat="55.1466339" lon="37.4837342" user="Dimon62" uid="457129" visible="true" version="1" changeset="8555636" timestamp="2011-06-26T19:46:03Z"/>
+ <node id="1340350216" lat="55.1422519" lon="37.4894675" user="Dimon62" uid="457129" visible="true" version="1" changeset="8556037" timestamp="2011-06-26T20:19:35Z"/>
+ <node id="1340350262" lat="55.1427683" lon="37.4894742" user="Dimon62" uid="457129" visible="true" version="1" changeset="8556037" timestamp="2011-06-26T20:19:36Z"/>
+ <node id="1372676103" lat="55.1505610" lon="37.4900482" user="trolleway" uid="397326" visible="true" version="1" changeset="8819171" timestamp="2011-07-24T17:44:48Z">
+  <tag k="railway" v="milestone"/>
+  <tag k="ref" v="75"/>
+ </node>
+ <node id="1372676104" lat="55.1603312" lon="37.4889383" user="trolleway" uid="397326" visible="true" version="1" changeset="8819171" timestamp="2011-07-24T17:44:48Z">
+  <tag k="railway" v="milestone"/>
+  <tag k="ref" v="74"/>
+ </node>
+ <node id="1372676110" lat="55.1695066" lon="37.4879771" user="trolleway" uid="397326" visible="true" version="1" changeset="8819171" timestamp="2011-07-24T17:44:49Z">
+  <tag k="railway" v="milestone"/>
+  <tag k="ref" v="73"/>
+ </node>
+ <node id="1372676112" lat="55.1786197" lon="37.4870223" user="trolleway" uid="397326" visible="true" version="1" changeset="8819171" timestamp="2011-07-24T17:44:49Z">
+  <tag k="railway" v="milestone"/>
+  <tag k="ref" v="72"/>
+ </node>
+ <node id="1372676114" lat="55.1874845" lon="37.4862306" user="trolleway" uid="397326" visible="true" version="1" changeset="8819171" timestamp="2011-07-24T17:44:49Z">
+  <tag k="railway" v="milestone"/>
+  <tag k="ref" v="71"/>
+ </node>
+ <node id="1372676116" lat="55.1964834" lon="37.4854807" user="trolleway" uid="397326" visible="true" version="1" changeset="8819171" timestamp="2011-07-24T17:44:49Z">
+  <tag k="railway" v="milestone"/>
+  <tag k="ref" v="70"/>
+ </node>
+ <node id="1372676119" lat="55.2053883" lon="37.4847384" user="trolleway" uid="397326" visible="true" version="1" changeset="8819171" timestamp="2011-07-24T17:44:49Z">
+  <tag k="railway" v="milestone"/>
+  <tag k="ref" v="69"/>
+ </node>
+ <node id="1372676121" lat="55.2143714" lon="37.4839895" user="trolleway" uid="397326" visible="true" version="1" changeset="8819171" timestamp="2011-07-24T17:44:49Z">
+  <tag k="railway" v="milestone"/>
+  <tag k="ref" v="68"/>
+ </node>
+ <node id="1372676123" lat="55.2322206" lon="37.4880774" user="trolleway" uid="397326" visible="true" version="1" changeset="8819171" timestamp="2011-07-24T17:44:49Z">
+  <tag k="railway" v="milestone"/>
+  <tag k="ref" v="66"/>
+ </node>
+ <node id="1372676127" lat="55.2411147" lon="37.4910766" user="trolleway" uid="397326" visible="true" version="1" changeset="8819171" timestamp="2011-07-24T17:44:49Z">
+  <tag k="railway" v="milestone"/>
+  <tag k="ref" v="65"/>
+ </node>
+ <node id="1372676130" lat="55.2497882" lon="37.4940944" user="trolleway" uid="397326" visible="true" version="1" changeset="8819171" timestamp="2011-07-24T17:44:49Z">
+  <tag k="railway" v="milestone"/>
+  <tag k="ref" v="64"/>
+ </node>
+ <node id="1372676134" lat="55.2586915" lon="37.4972149" user="trolleway" uid="397326" visible="true" version="1" changeset="8819171" timestamp="2011-07-24T17:44:50Z">
+  <tag k="railway" v="milestone"/>
+  <tag k="ref" v="63"/>
+ </node>
+ <node id="1372676136" lat="55.2674952" lon="37.5002229" user="trolleway" uid="397326" visible="true" version="1" changeset="8819171" timestamp="2011-07-24T17:44:50Z">
+  <tag k="railway" v="milestone"/>
+  <tag k="ref" v="62"/>
+ </node>
+ <node id="1394613147" lat="55.1461097" lon="37.4837638" user="Front_Line" uid="503294" visible="true" version="1" changeset="8983255" timestamp="2011-08-11T08:26:21Z"/>
+ <node id="1394613150" lat="55.1462641" lon="37.4819928" user="Front_Line" uid="503294" visible="true" version="1" changeset="8983255" timestamp="2011-08-11T08:26:22Z"/>
+ <node id="1394613154" lat="55.1465847" lon="37.4833685" user="Front_Line" uid="503294" visible="true" version="1" changeset="8983255" timestamp="2011-08-11T08:26:22Z"/>
+ <node id="1394613155" lat="55.1466470" lon="37.4841847" user="Front_Line" uid="503294" visible="true" version="1" changeset="8983255" timestamp="2011-08-11T08:26:22Z"/>
+ <way id="119226635" user="Dimon62" uid="457129" visible="true" version="1" changeset="8555636" timestamp="2011-06-26T19:46:11Z">
+  <nd ref="1340292031"/>
+  <nd ref="1340291918"/>
+  <nd ref="1340292205"/>
+  <tag k="highway" v="residential"/>
+  <tag k="oneway" v="yes"/>
+ </way>
+ <way id="117967104" user="Dimon62" uid="457129" visible="true" version="1" changeset="8459327" timestamp="2011-06-16T19:39:36Z">
+  <nd ref="1327857460"/>
+  <nd ref="1327857286"/>
+  <nd ref="1327857170"/>
+  <nd ref="1327857516"/>
+  <nd ref="1327857460"/>
+  <tag k="addr:housename" v="Дом детского творчества"/>
+  <tag k="addr:housenumber" v="13"/>
+  <tag k="addr:street" v="улица Чехова"/>
+  <tag k="building" v="yes"/>
+ </way>
+ <way id="117567204" user="Dimon62" uid="457129" visible="true" version="2" changeset="8555636" timestamp="2011-06-26T19:46:18Z">
+  <nd ref="1324205846"/>
+  <nd ref="1340292205"/>
+  <nd ref="811196683"/>
+  <tag k="highway" v="service"/>
+  <tag k="oneway" v="yes"/>
+ </way>
+ <way id="108794531" user="trolleway" uid="397326" visible="true" version="1" changeset="7880722" timestamp="2011-04-16T18:18:10Z">
+  <nd ref="1247358558"/>
+  <nd ref="1247358594"/>
+  <tag k="railway" v="rail"/>
+  <tag k="service" v="siding"/>
+ </way>
+ <way id="119226621" user="Dimon62" uid="457129" visible="true" version="1" changeset="8555636" timestamp="2011-06-26T19:46:09Z">
+  <nd ref="1340291922"/>
+  <nd ref="1340291968"/>
+  <nd ref="1340292206"/>
+  <nd ref="1340291868"/>
+  <nd ref="1340291922"/>
+  <tag k="addr:street" v="улица Чехова"/>
+  <tag k="building" v="yes"/>
+ </way>
+ <way id="117967051" user="Dimon62" uid="457129" visible="true" version="1" changeset="8459327" timestamp="2011-06-16T19:39:32Z">
+  <nd ref="1327857583"/>
+  <nd ref="1327857403"/>
+  <nd ref="1327857644"/>
+  <nd ref="1327857283"/>
+  <tag k="highway" v="service"/>
+ </way>
+ <way id="108782947" user="trolleway" uid="397326" visible="true" version="2" changeset="7880722" timestamp="2011-04-16T18:18:17Z">
+  <nd ref="1247358572"/>
+  <nd ref="1247358613"/>
+  <nd ref="1247358567"/>
+  <nd ref="1247215875"/>
+  <nd ref="1247358516"/>
+  <nd ref="1247215850"/>
+  <tag k="description" v="2-й главный (восточный)"/>
+  <tag k="electrified" v="contact_line"/>
+  <tag k="railway" v="rail"/>
+  <tag k="usage" v="main"/>
+  <tag k="voltage" v="3000"/>
+ </way>
+ <way id="108794538" user="trolleway" uid="397326" visible="true" version="1" changeset="7880722" timestamp="2011-04-16T18:18:11Z">
+  <nd ref="1247358567"/>
+  <nd ref="1247358582"/>
+  <nd ref="1247358514"/>
+  <nd ref="1247358609"/>
+  <nd ref="1247358553"/>
+  <nd ref="1247358593"/>
+  <tag k="railway" v="rail"/>
+  <tag k="service" v="siding"/>
+ </way>
+ <way id="117967066" user="Dimon62" uid="457129" visible="true" version="1" changeset="8459327" timestamp="2011-06-16T19:39:33Z">
+  <nd ref="1327857506"/>
+  <nd ref="1327857317"/>
+  <nd ref="1327857200"/>
+  <nd ref="1327857552"/>
+  <nd ref="1327857374"/>
+  <nd ref="1327857232"/>
+  <nd ref="1327857506"/>
+  <tag k="addr:housenumber" v="15"/>
+  <tag k="addr:street" v="улица Чехова"/>
+  <tag k="building" v="yes"/>
+ </way>
+ <way id="117417976" user="Dimon62" uid="457129" visible="true" version="1" changeset="8419960" timestamp="2011-06-12T21:00:59Z">
+  <nd ref="1322825388"/>
+  <nd ref="1322825164"/>
+  <nd ref="1322825173"/>
+  <nd ref="1322825349"/>
+  <nd ref="1322825386"/>
+  <tag k="highway" v="service"/>
+ </way>
+ <way id="117567107" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:36Z">
+  <nd ref="1324205425"/>
+  <nd ref="1324205811"/>
+  <nd ref="1324205841"/>
+  <nd ref="1324205237"/>
+  <tag k="highway" v="service"/>
+ </way>
+ <way id="117567157" user="Sergey Astakhov" uid="143266" visible="true" version="4" changeset="10114234" timestamp="2011-12-14T10:30:21Z">
+  <nd ref="1324205167"/>
+  <nd ref="1324205579"/>
+  <nd ref="1324205377"/>
+  <nd ref="1324205757"/>
+  <nd ref="1324205216"/>
+  <nd ref="1324205662"/>
+  <nd ref="1324205548"/>
+  <nd ref="1324205211"/>
+  <nd ref="1324205167"/>
+  <tag k="alt_name" v="Пятерочка"/>
+  <tag k="building" v="yes"/>
+  <tag k="name" v="Пятёрочка"/>
+  <tag k="shop" v="supermarket"/>
+  <tag k="website" v="http://e5.ru/"/>
+ </way>
+ <way id="117967081" user="Sergey Astakhov" uid="143266" visible="true" version="5" changeset="10113313" timestamp="2011-12-14T06:56:03Z">
+  <nd ref="1327857156"/>
+  <nd ref="1327857491"/>
+  <nd ref="1327857315"/>
+  <nd ref="1327857196"/>
+  <nd ref="1327857546"/>
+  <nd ref="1327857369"/>
+  <nd ref="1327857600"/>
+  <nd ref="1327857418"/>
+  <nd ref="1327857156"/>
+  <tag k="building" v="yes"/>
+  <tag k="shop" v="sports"/>
+ </way>
+ <way id="108794557" user="trolleway" uid="397326" visible="true" version="1" changeset="7880722" timestamp="2011-04-16T18:18:13Z">
+  <nd ref="1247215887"/>
+  <nd ref="1247215884"/>
+  <nd ref="1247215848"/>
+  <nd ref="1247358589"/>
+  <tag k="railway" v="rail"/>
+  <tag k="service" v="siding"/>
+ </way>
+ <way id="117567170" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:41Z">
+  <nd ref="1320692546"/>
+  <nd ref="1324205775"/>
+  <tag k="highway" v="service"/>
+ </way>
+ <way id="83524548" user="LexIgnatov" uid="316868" visible="true" version="1" changeset="6244397" timestamp="2010-10-31T18:43:46Z">
+  <nd ref="805431287"/>
+  <nd ref="805431212"/>
+  <nd ref="972567500"/>
+  <nd ref="805431358"/>
+  <nd ref="972567501"/>
+  <nd ref="805431279"/>
+  <nd ref="972567503"/>
+  <nd ref="805431223"/>
+  <nd ref="972567441"/>
+  <nd ref="805431394"/>
+  <nd ref="472618918"/>
+  <nd ref="972567507"/>
+  <nd ref="805431297"/>
+  <nd ref="972567512"/>
+  <nd ref="805431241"/>
+  <nd ref="805431339"/>
+  <nd ref="805431269"/>
+  <nd ref="805431287"/>
+  <tag k="highway" v="secondary"/>
+  <tag k="junction" v="roundabout"/>
+  <tag k="lanes" v="1"/>
+  <tag k="oneway" v="yes"/>
+ </way>
+ <way id="117417995" user="Dimon62" uid="457129" visible="true" version="1" changeset="8419960" timestamp="2011-06-12T21:01:00Z">
+  <nd ref="1322825448"/>
+  <nd ref="1322825271"/>
+  <nd ref="1322825146"/>
+  <nd ref="1322825018"/>
+  <nd ref="1322825448"/>
+  <tag k="addr:housename" v="Вишневый сад"/>
+  <tag k="building" v="yes"/>
+ </way>
+ <way id="108831777" user="Dimon62" uid="457129" visible="true" version="4" changeset="8430785" timestamp="2011-06-13T19:46:51Z">
+  <nd ref="1247741436"/>
+  <nd ref="1247741370"/>
+  <nd ref="1324205173"/>
+  <nd ref="1320692546"/>
+  <tag k="highway" v="footway"/>
+ </way>
+ <way id="117567120" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:37Z">
+  <nd ref="1324205700"/>
+  <nd ref="1324205425"/>
+  <nd ref="1324205237"/>
+  <nd ref="1324205535"/>
+  <tag k="highway" v="service"/>
+ </way>
+ <way id="117567218" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:45Z">
+  <nd ref="1324205510"/>
+  <nd ref="1324205636"/>
+  <nd ref="1324205884"/>
+  <nd ref="1324205670"/>
+  <nd ref="1324205510"/>
+  <tag k="addr:housenumber" v="3"/>
+  <tag k="addr:street" v="Вишневый бульвар"/>
+  <tag k="building" v="yes"/>
+ </way>
+ <way id="117567146" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:39Z">
+  <nd ref="1324205504"/>
+  <nd ref="1324205349"/>
+  <nd ref="1324205107"/>
+  <nd ref="1324204876"/>
+  <nd ref="1324205881"/>
+  <nd ref="1324205738"/>
+  <tag k="highway" v="service"/>
+ </way>
+ <way id="117417992" user="Dimon62" uid="457129" visible="true" version="2" changeset="8430785" timestamp="2011-06-13T19:46:52Z">
+  <nd ref="1322825083"/>
+  <nd ref="1322825047"/>
+  <nd ref="1322825269"/>
+  <nd ref="1324205249"/>
+  <nd ref="1322825081"/>
+  <nd ref="1324205451"/>
+  <nd ref="1322825107"/>
+  <nd ref="1322825268"/>
+  <nd ref="852862378"/>
+  <tag k="highway" v="service"/>
+ </way>
+ <way id="117567137" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:39Z">
+  <nd ref="1324205208"/>
+  <nd ref="1324205540"/>
+  <nd ref="1324205240"/>
+  <nd ref="1324205586"/>
+  <nd ref="1324205687"/>
+  <nd ref="1324204833"/>
+  <nd ref="1324205477"/>
+  <nd ref="1324205768"/>
+  <nd ref="1324205208"/>
+  <tag k="leisure" v="park"/>
+ </way>
+ <way id="66522376" user="Dimon62" uid="457129" visible="true" version="7" changeset="8419960" timestamp="2011-06-12T21:01:09Z">
+  <nd ref="472618916"/>
+  <nd ref="1322825199"/>
+  <nd ref="1322825456"/>
+  <nd ref="590951255"/>
+  <nd ref="1319271133"/>
+  <tag k="highway" v="tertiary"/>
+  <tag k="name" v="Вокзальная улица"/>
+ </way>
+ <way id="117567143" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:39Z">
+  <nd ref="1324204866"/>
+  <nd ref="1324205243"/>
+  <nd ref="1324205324"/>
+  <nd ref="1324205691"/>
+  <nd ref="1324204866"/>
+  <tag k="addr:housename" v="Дом детского творчества"/>
+  <tag k="addr:housenumber" v="23"/>
+  <tag k="addr:street" v="улица Чехова"/>
+  <tag k="building" v="yes"/>
+ </way>
+ <way id="73013299" user="trolleway" uid="397326" visible="true" version="2" changeset="7880722" timestamp="2011-04-16T18:18:15Z">
+  <nd ref="866553786"/>
+  <nd ref="866553413"/>
+  <nd ref="866554494"/>
+  <nd ref="866555231"/>
+  <nd ref="866553200"/>
+  <nd ref="866553613"/>
+  <nd ref="1247358553"/>
+  <tag k="railway" v="rail"/>
+  <tag k="service" v="spur"/>
+ </way>
+ <way id="66522407" user="Dimon62" uid="457129" visible="true" version="6" changeset="8556037" timestamp="2011-06-26T20:19:39Z">
+  <nd ref="805431423"/>
+  <nd ref="811196707"/>
+  <nd ref="972567594"/>
+  <nd ref="472618922"/>
+  <nd ref="972567598"/>
+  <nd ref="811196683"/>
+  <nd ref="972567600"/>
+  <nd ref="472618924"/>
+  <nd ref="972567604"/>
+  <nd ref="811196654"/>
+  <nd ref="1324205735"/>
+  <nd ref="472618931"/>
+  <nd ref="1340350216"/>
+  <nd ref="972567607"/>
+  <nd ref="472618932"/>
+  <nd ref="972567611"/>
+  <nd ref="472618933"/>
+  <nd ref="972567613"/>
+  <nd ref="472618934"/>
+  <tag k="highway" v="tertiary"/>
+ </way>
+ <way id="117236974" user="Dimon62" uid="457129" visible="true" version="2" changeset="8419960" timestamp="2011-06-12T21:01:10Z">
+  <nd ref="1320549981"/>
+  <nd ref="1320549978"/>
+  <nd ref="1320549973"/>
+  <tag k="highway" v="service"/>
+ </way>
+ <way id="117567086" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:34Z">
+  <nd ref="1324205275"/>
+  <nd ref="1324205630"/>
+  <nd ref="1324205698"/>
+  <nd ref="1324204884"/>
+  <nd ref="1324205275"/>
+  <tag k="addr:housename" v="Дом детского творчества"/>
+  <tag k="addr:housenumber" v="17"/>
+  <tag k="addr:street" v="улица Чехова"/>
+  <tag k="building" v="yes"/>
+ </way>
+ <way id="66522398" user="Dimon62" uid="457129" visible="true" version="3" changeset="8419960" timestamp="2011-06-12T21:01:05Z">
+  <nd ref="805431297"/>
+  <nd ref="811196510"/>
+  <nd ref="805431236"/>
+  <tag k="highway" v="tertiary"/>
+ </way>
+ <way id="71742250" user="trolleway" uid="397326" visible="true" version="3" changeset="7880722" timestamp="2011-04-16T18:18:17Z">
+  <nd ref="1247358508"/>
+  <nd ref="1247358589"/>
+  <nd ref="1247215841"/>
+  <nd ref="1247215889"/>
+  <nd ref="1247215886"/>
+  <tag k="railway" v="rail"/>
+  <tag k="service" v="siding"/>
+ </way>
+ <way id="117567132" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:38Z">
+  <nd ref="1324204857"/>
+  <nd ref="1247741436"/>
+  <tag k="highway" v="service"/>
+ </way>
+ <way id="117417937" user="Dimon62" uid="457129" visible="true" version="2" changeset="8459327" timestamp="2011-06-16T19:39:41Z">
+  <nd ref="1322825091"/>
+  <nd ref="1322825397"/>
+  <nd ref="1327857450"/>
+  <nd ref="1322825238"/>
+  <nd ref="1322825110"/>
+  <nd ref="1327857467"/>
+  <nd ref="1322825091"/>
+  <tag k="addr:housenumber" v="1"/>
+  <tag k="addr:street" v="улица Чехова"/>
+  <tag k="building" v="yes"/>
+ </way>
+ <way id="117567118" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:37Z">
+  <nd ref="1324205132"/>
+  <nd ref="1324205167"/>
+  <nd ref="1324205211"/>
+  <nd ref="1324205548"/>
+  <nd ref="1324205662"/>
+  <nd ref="1324205025"/>
+  <nd ref="1324205132"/>
+  <tag k="addr:housenumber" v="2"/>
+  <tag k="addr:street" v="Вишневый бульвар"/>
+  <tag k="building" v="yes"/>
+ </way>
+ <way id="117967064" user="Dimon62" uid="457129" visible="true" version="2" changeset="8459367" timestamp="2011-06-16T19:42:59Z">
+  <nd ref="1327857508"/>
+  <nd ref="1327857320"/>
+  <nd ref="1327857378"/>
+  <nd ref="1327857235"/>
+  <nd ref="1327857508"/>
+  <tag k="addr:housenumber" v="3"/>
+  <tag k="addr:street" v="улица Чехова"/>
+  <tag k="building" v="yes"/>
+ </way>
+ <way id="117567099" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:35Z">
+  <nd ref="1324205551"/>
+  <nd ref="1324205813"/>
+  <nd ref="1324205699"/>
+  <nd ref="1324205034"/>
+  <nd ref="1324205551"/>
+  <tag k="amenity" v="university"/>
+  <tag k="name" v="МФЮА"/>
+ </way>
+ <way id="117567130" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:38Z">
+  <nd ref="1324205647"/>
+  <nd ref="1324205451"/>
+  <tag k="highway" v="service"/>
+ </way>
+ <way id="117236971" user="Dimon62" uid="457129" visible="true" version="2" changeset="8419960" timestamp="2011-06-12T21:01:04Z">
+  <nd ref="1320549978"/>
+  <nd ref="1320549974"/>
+  <nd ref="1320549979"/>
+  <nd ref="1320549984"/>
+  <nd ref="1320549976"/>
+  <nd ref="811196707"/>
+  <tag k="highway" v="service"/>
+ </way>
+ <way id="118224352" user="Sergey Astakhov" uid="143266" visible="true" version="3" changeset="10114234" timestamp="2011-12-14T11:04:16Z">
+  <nd ref="1330009457"/>
+  <nd ref="1330009452"/>
+  <nd ref="1330009519"/>
+  <nd ref="1330009464"/>
+  <nd ref="1330009457"/>
+  <tag k="building" v="yes"/>
+  <tag k="name" v="ТД Дарина"/>
+  <tag k="shop" v="supermarket"/>
+ </way>
+ <way id="117567203" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:44Z">
+  <nd ref="1324205488"/>
+  <nd ref="1324205612"/>
+  <nd ref="1324205854"/>
+  <nd ref="1324205393"/>
+  <nd ref="1324205488"/>
+  <tag k="addr:housename" v="Дом детского творчества"/>
+  <tag k="addr:housenumber" v="21"/>
+  <tag k="addr:street" v="улица Чехова"/>
+  <tag k="building" v="yes"/>
+ </way>
+ <way id="108794542" user="trolleway" uid="397326" visible="true" version="1" changeset="7880722" timestamp="2011-04-16T18:18:11Z">
+  <nd ref="1247358571"/>
+  <nd ref="1247358516"/>
+  <tag k="railway" v="rail"/>
+  <tag k="service" v="siding"/>
+ </way>
+ <way id="117417949" user="Dimon62" uid="457129" visible="true" version="1" changeset="8419960" timestamp="2011-06-12T21:00:56Z">
+  <nd ref="1322825126"/>
+  <nd ref="1322825001"/>
+  <nd ref="1322825287"/>
+  <nd ref="1322825162"/>
+  <nd ref="1322825126"/>
+  <tag k="amenity" v="kindergarten"/>
+ </way>
+ <way id="117967047" user="Sergey Astakhov" uid="143266" visible="true" version="5" changeset="10113313" timestamp="2011-12-14T06:56:02Z">
+  <nd ref="1327857345"/>
+  <nd ref="1327857563"/>
+  <nd ref="1327857243"/>
+  <nd ref="1327857450"/>
+  <nd ref="1322825238"/>
+  <nd ref="1322825110"/>
+  <nd ref="1327857345"/>
+  <tag k="building" v="yes"/>
+  <tag k="shop" v="electronics"/>
+ </way>
+ <way id="117417920" user="Dimon62" uid="457129" visible="true" version="2" changeset="8496517" timestamp="2011-06-20T17:26:13Z">
+  <nd ref="1247741418"/>
+  <nd ref="1322825391"/>
+  <nd ref="1322825108"/>
+  <nd ref="1322825240"/>
+  <nd ref="1322825269"/>
+  <tag k="highway" v="service"/>
+ </way>
+ <way id="66522381" user="LexIgnatov" uid="316868" visible="true" version="2" changeset="6244397" timestamp="2010-10-31T18:43:43Z">
+  <nd ref="805431423"/>
+  <nd ref="972567441"/>
+  <tag k="highway" v="tertiary"/>
+  <tag k="oneway" v="yes"/>
+ </way>
+ <way id="119226616" user="Dimon62" uid="457129" visible="true" version="1" changeset="8555636" timestamp="2011-06-26T19:46:08Z">
+  <nd ref="1340292378"/>
+  <nd ref="1340292007"/>
+  <tag k="highway" v="service"/>
+  <tag k="name" v="Поселковый тупик"/>
+ </way>
+ <way id="108794561" user="trolleway" uid="397326" visible="true" version="1" changeset="7880722" timestamp="2011-04-16T18:18:13Z">
+  <nd ref="1247215896"/>
+  <nd ref="1247215871"/>
+  <tag k="railway" v="platform"/>
+ </way>
+ <way id="46273506" user="LexIgnatov" uid="316868" visible="true" version="4" changeset="6244397" timestamp="2010-10-31T18:43:47Z">
+  <nd ref="472618916"/>
+  <nd ref="972567533"/>
+  <nd ref="972567535"/>
+  <nd ref="972567500"/>
+  <tag k="highway" v="secondary"/>
+  <tag k="oneway" v="yes"/>
+ </way>
+ <way id="126766540" user="Kostik" uid="384084" visible="true" version="1" changeset="9064280" timestamp="2011-08-19T10:07:38Z">
+  <nd ref="1340292327"/>
+  <nd ref="1394613154"/>
+  <nd ref="1394613150"/>
+  <nd ref="1322825391"/>
+  <tag k="highway" v="service"/>
+ </way>
+ <way id="117567186" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:43Z">
+  <nd ref="1324205309"/>
+  <nd ref="1324205016"/>
+  <nd ref="1324205356"/>
+  <nd ref="1324205447"/>
+  <nd ref="1324205309"/>
+  <tag k="addr:housename" v="Дом детского творчества"/>
+  <tag k="addr:housenumber" v="19"/>
+  <tag k="addr:street" v="улица Чехова"/>
+  <tag k="building" v="yes"/>
+ </way>
+ <way id="117567188" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:43Z">
+  <nd ref="1324205285"/>
+  <nd ref="1324205657"/>
+  <nd ref="1324205352"/>
+  <nd ref="1324205693"/>
+  <nd ref="1324205285"/>
+  <tag k="addr:housename" v="Дом детского творчества"/>
+  <tag k="addr:housenumber" v="3"/>
+  <tag k="addr:street" v="Монтажная улица"/>
+  <tag k="building" v="yes"/>
+ </way>
+ <way id="67162666" user="boga70" uid="357731" visible="true" version="2" changeset="8232159" timestamp="2011-05-24T05:52:29Z">
+  <nd ref="811196510"/>
+  <nd ref="811196517"/>
+  <nd ref="811196532"/>
+  <nd ref="811196535"/>
+  <nd ref="811196538"/>
+  <nd ref="811196540"/>
+  <nd ref="811196542"/>
+  <nd ref="811196544"/>
+  <nd ref="811196545"/>
+  <nd ref="811196550"/>
+  <nd ref="811196552"/>
+  <nd ref="811196554"/>
+  <nd ref="811196556"/>
+  <nd ref="811196559"/>
+  <nd ref="811196561"/>
+  <nd ref="811196564"/>
+  <nd ref="811196568"/>
+  <nd ref="811196575"/>
+  <nd ref="811196577"/>
+  <nd ref="811196580"/>
+  <nd ref="811196583"/>
+  <nd ref="811196585"/>
+  <nd ref="811196587"/>
+  <nd ref="811196588"/>
+  <nd ref="811196589"/>
+  <nd ref="811196594"/>
+  <nd ref="811196597"/>
+  <nd ref="811196600"/>
+  <nd ref="811196601"/>
+  <nd ref="811196604"/>
+  <nd ref="811196608"/>
+  <nd ref="811196612"/>
+  <tag k="highway" v="footway"/>
+ </way>
+ <way id="117567198" user="Front_Line" uid="503294" visible="true" version="2" changeset="8983255" timestamp="2011-08-11T08:26:22Z">
+  <nd ref="1322825081"/>
+  <nd ref="1324204857"/>
+  <nd ref="1394613155"/>
+  <nd ref="1247741407"/>
+  <nd ref="1324204889"/>
+  <tag k="highway" v="service"/>
+ </way>
+ <way id="66522414" user="LexIgnatov" uid="316868" visible="true" version="2" changeset="6244397" timestamp="2010-10-31T18:43:43Z">
+  <nd ref="805431358"/>
+  <nd ref="972567447"/>
+  <nd ref="972567448"/>
+  <nd ref="972567450"/>
+  <nd ref="805431423"/>
+  <tag k="highway" v="tertiary"/>
+  <tag k="oneway" v="yes"/>
+ </way>
+ <way id="108794568" user="trolleway" uid="397326" visible="true" version="1" changeset="7880722" timestamp="2011-04-16T18:18:13Z">
+  <nd ref="1247358582"/>
+  <nd ref="1247358586"/>
+  <nd ref="1247358533"/>
+  <tag k="railway" v="rail"/>
+  <tag k="service" v="siding"/>
+ </way>
+ <way id="117417929" user="Dimon62" uid="457129" visible="true" version="1" changeset="8419960" timestamp="2011-06-12T21:00:54Z">
+  <nd ref="1322825014"/>
+  <nd ref="1322825301"/>
+  <nd ref="1322825167"/>
+  <nd ref="1322825050"/>
+  <nd ref="1322825340"/>
+  <nd ref="1322825203"/>
+  <nd ref="1322825086"/>
+  <nd ref="1322825394"/>
+  <nd ref="1322825014"/>
+  <tag k="addr:housenumber" v="3"/>
+  <tag k="addr:street" v="Вокзальная улица"/>
+  <tag k="building" v="yes"/>
+ </way>
+ <way id="117417993" user="Dimon62" uid="457129" visible="true" version="1" changeset="8419960" timestamp="2011-06-12T21:01:00Z">
+  <nd ref="1322825109"/>
+  <nd ref="1322825270"/>
+  <tag k="highway" v="service"/>
+ </way>
+ <way id="39464406" user="Dimon62" uid="457129" visible="true" version="18" changeset="8476933" timestamp="2011-06-18T19:23:58Z">
+  <nd ref="139750073"/>
+  <nd ref="1247746597"/>
+  <nd ref="1247746576"/>
+  <nd ref="1324204921"/>
+  <nd ref="1306548620"/>
+  <nd ref="1316298160"/>
+  <nd ref="472618908"/>
+  <nd ref="1305573044"/>
+  <nd ref="1305573035"/>
+  <nd ref="472618910"/>
+  <nd ref="1305573025"/>
+  <nd ref="1305573057"/>
+  <nd ref="590951223"/>
+  <nd ref="1305572839"/>
+  <nd ref="1305572915"/>
+  <nd ref="472618913"/>
+  <nd ref="1329983401"/>
+  <nd ref="1329983414"/>
+  <nd ref="1305573084"/>
+  <nd ref="1305572838"/>
+  <nd ref="472618915"/>
+  <nd ref="1247737840"/>
+  <nd ref="1320535853"/>
+  <nd ref="1320535935"/>
+  <nd ref="1247746590"/>
+  <nd ref="1320535928"/>
+  <nd ref="1247737832"/>
+  <nd ref="1322825330"/>
+  <nd ref="1322825052"/>
+  <nd ref="1327857282"/>
+  <nd ref="852863188"/>
+  <nd ref="1324205871"/>
+  <nd ref="852863004"/>
+  <nd ref="1324205647"/>
+  <nd ref="805431195"/>
+  <nd ref="852862378"/>
+  <nd ref="1320549981"/>
+  <nd ref="811196747"/>
+  <nd ref="472618916"/>
+  <tag k="highway" v="secondary"/>
+  <tag k="name" v="улица Чехова"/>
+ </way>
+ <way id="117967056" user="Sergey Astakhov" uid="143266" visible="true" version="5" changeset="10116192" timestamp="2011-12-14T14:04:24Z">
+  <nd ref="1327857249"/>
+  <nd ref="1327857648"/>
+  <nd ref="1327857456"/>
+  <nd ref="1327857284"/>
+  <nd ref="1327857154"/>
+  <nd ref="1327857490"/>
+  <nd ref="1327857195"/>
+  <nd ref="1327857543"/>
+  <nd ref="1327857249"/>
+  <tag k="amenity" v="pharmacy"/>
+  <tag k="building" v="yes"/>
+ </way>
+ <way id="117417964" user="Dimon62" uid="457129" visible="true" version="1" changeset="8419960" timestamp="2011-06-12T21:00:58Z">
+  <nd ref="1322825163"/>
+  <nd ref="1322825436"/>
+  <nd ref="1322825264"/>
+  <nd ref="1322825141"/>
+  <nd ref="1322825299"/>
+  <nd ref="1322825061"/>
+  <nd ref="1322825352"/>
+  <nd ref="1322825217"/>
+  <nd ref="1322825163"/>
+  <tag k="addr:housenumber" v="2"/>
+  <tag k="addr:street" v="улица Чехова"/>
+  <tag k="building" v="yes"/>
+ </way>
+ <way id="117418004" user="Dimon62" uid="457129" visible="true" version="1" changeset="8419960" timestamp="2011-06-12T21:01:01Z">
+  <nd ref="1322825199"/>
+  <nd ref="1322825388"/>
+  <nd ref="1322825109"/>
+  <nd ref="1322825104"/>
+  <tag k="highway" v="service"/>
+ </way>
+ <way id="66522392" user="LexIgnatov" uid="316868" visible="true" version="2" changeset="6244397" timestamp="2010-10-31T18:43:47Z">
+  <nd ref="805431339"/>
+  <nd ref="972567527"/>
+  <nd ref="805431231"/>
+  <nd ref="472618916"/>
+  <tag k="highway" v="secondary"/>
+  <tag k="oneway" v="yes"/>
+ </way>
+ <way id="117967083" user="Dimon62" uid="457129" visible="true" version="1" changeset="8459327" timestamp="2011-06-16T19:39:35Z">
+  <nd ref="1327857390"/>
+  <nd ref="1327857241"/>
+  <nd ref="1327857434"/>
+  <nd ref="1327857267"/>
+  <nd ref="1327857390"/>
+  <tag k="addr:housenumber" v="5"/>
+  <tag k="addr:street" v="улица Чехова"/>
+  <tag k="building" v="yes"/>
+ </way>
+ <way id="117567215" user="Sergey Astakhov" uid="143266" visible="true" version="4" changeset="10116192" timestamp="2011-12-14T14:02:40Z">
+  <nd ref="1324204939"/>
+  <nd ref="1324205749"/>
+  <nd ref="1324205810"/>
+  <nd ref="1324205114"/>
+  <nd ref="1324205695"/>
+  <nd ref="1324205721"/>
+  <nd ref="1324205382"/>
+  <nd ref="1324205300"/>
+  <nd ref="1324204939"/>
+  <tag k="amenity" v="pharmacy"/>
+  <tag k="building" v="yes"/>
+  <tag k="name" v="Аптека"/>
+  <tag k="shop" v="supermarket"/>
+ </way>
+ <way id="117417985" user="Dimon62" uid="457129" visible="true" version="1" changeset="8419960" timestamp="2011-06-12T21:01:00Z">
+  <nd ref="1322825205"/>
+  <nd ref="1322825337"/>
+  <nd ref="1322825201"/>
+  <nd ref="1322825084"/>
+  <nd ref="1322825205"/>
+  <tag k="addr:housenumber" v="1"/>
+  <tag k="addr:street" v="Новослободская улица"/>
+  <tag k="building" v="yes"/>
+ </way>
+ <way id="117417990" user="Dimon62" uid="457129" visible="true" version="1" changeset="8419960" timestamp="2011-06-12T21:01:00Z">
+  <nd ref="1322825268"/>
+  <nd ref="1322825417"/>
+  <tag k="highway" v="service"/>
+ </way>
+ <way id="108794530" user="trolleway" uid="397326" visible="true" version="1" changeset="7880722" timestamp="2011-04-16T18:18:10Z">
+  <nd ref="1247358505"/>
+  <nd ref="1247358587"/>
+  <nd ref="1247358571"/>
+  <nd ref="1247358555"/>
+  <tag k="railway" v="rail"/>
+  <tag k="service" v="siding"/>
+ </way>
+ <way id="54228866" user="gogast" uid="48711" visible="true" version="2" changeset="5188801" timestamp="2010-07-11T10:20:51Z">
+  <nd ref="472618918"/>
+  <nd ref="811196517"/>
+  <nd ref="683818635"/>
+  <nd ref="683818636"/>
+  <tag k="highway" v="footway"/>
+ </way>
+ <way id="108794552" user="trolleway" uid="397326" visible="true" version="3" changeset="8819171" timestamp="2011-07-24T17:44:59Z">
+  <nd ref="139753944"/>
+  <nd ref="139753943"/>
+  <nd ref="1247215868"/>
+  <nd ref="1247358505"/>
+  <nd ref="1247215866"/>
+  <nd ref="1247215911"/>
+  <nd ref="866554809"/>
+  <nd ref="1372676103"/>
+  <nd ref="1247358518"/>
+  <nd ref="139753942"/>
+  <nd ref="1372676104"/>
+  <nd ref="1372676110"/>
+  <nd ref="1372676112"/>
+  <nd ref="139750054"/>
+  <nd ref="913790563"/>
+  <nd ref="139753922"/>
+  <nd ref="1372676114"/>
+  <nd ref="1372676116"/>
+  <nd ref="1372676119"/>
+  <nd ref="1372676121"/>
+  <nd ref="329667743"/>
+  <nd ref="139757194"/>
+  <nd ref="329667749"/>
+  <nd ref="322047047"/>
+  <nd ref="601247476"/>
+  <nd ref="1372676123"/>
+  <nd ref="1372676127"/>
+  <nd ref="139757193"/>
+  <nd ref="1109313905"/>
+  <nd ref="1372676130"/>
+  <nd ref="1270025327"/>
+  <nd ref="1372676134"/>
+  <nd ref="473709387"/>
+  <nd ref="473600306"/>
+  <nd ref="1372676136"/>
+  <nd ref="1109313903"/>
+  <tag k="description" v="1-й главный путь (западный)"/>
+  <tag k="electrified" v="contact_line"/>
+  <tag k="railway" v="rail"/>
+  <tag k="usage" v="main"/>
+  <tag k="voltage" v="3000"/>
+ </way>
+ <way id="119226638" user="Dimon62" uid="457129" visible="true" version="1" changeset="8555636" timestamp="2011-06-26T19:46:12Z">
+  <nd ref="1340292344"/>
+  <nd ref="1340292399"/>
+  <nd ref="1340292161"/>
+  <nd ref="1340292227"/>
+  <nd ref="1340291729"/>
+  <nd ref="1340292407"/>
+  <nd ref="1340291891"/>
+  <nd ref="1340291819"/>
+  <nd ref="1340292344"/>
+  <tag k="addr:housenumber" v="4"/>
+  <tag k="addr:street" v="улица Чехова"/>
+  <tag k="building" v="yes"/>
+ </way>
+ <way id="117567226" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:45Z">
+  <nd ref="1247741407"/>
+  <nd ref="1324205887"/>
+  <nd ref="1324205817"/>
+  <nd ref="1324205219"/>
+  <nd ref="1324205041"/>
+  <nd ref="1324205467"/>
+  <nd ref="1324205281"/>
+  <nd ref="1324205702"/>
+  <nd ref="1324205725"/>
+  <nd ref="1324205887"/>
+  <tag k="highway" v="service"/>
+ </way>
+ <way id="117237948" user="Dimon62" uid="457129" visible="true" version="4" changeset="8459327" timestamp="2011-06-16T19:39:42Z">
+  <nd ref="1320586753"/>
+  <nd ref="852863114"/>
+  <nd ref="1327857583"/>
+  <nd ref="1324205535"/>
+  <nd ref="805431382"/>
+  <nd ref="805431195"/>
+  <tag k="highway" v="residential"/>
+  <tag k="name" v="Монтажная улица"/>
+ </way>
+ <way id="117567174" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:41Z">
+  <nd ref="1324205318"/>
+  <nd ref="1324205415"/>
+  <tag k="highway" v="service"/>
+ </way>
+ <way id="108782952" user="trolleway" uid="397326" visible="true" version="2" changeset="7880722" timestamp="2011-04-16T18:18:13Z">
+  <nd ref="1247215886"/>
+  <nd ref="1247358583"/>
+  <nd ref="1247215890"/>
+  <tag k="railway" v="rail"/>
+  <tag k="service" v="spur"/>
+ </way>
+ <way id="117567081" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:34Z">
+  <nd ref="1324205727"/>
+  <nd ref="1324204975"/>
+  <nd ref="1324205089"/>
+  <nd ref="1324205413"/>
+  <nd ref="1324205727"/>
+  <tag k="addr:housenumber" v="4А"/>
+  <tag k="addr:street" v="улица Чехова"/>
+  <tag k="building" v="yes"/>
+ </way>
+ <way id="117417984" user="Dimon62" uid="457129" visible="true" version="1" changeset="8419960" timestamp="2011-06-12T21:01:00Z">
+  <nd ref="1322825424"/>
+  <nd ref="1322825251"/>
+  <nd ref="1322825115"/>
+  <nd ref="1322825249"/>
+  <nd ref="1322825424"/>
+  <tag k="addr:housenumber" v="4"/>
+  <tag k="addr:street" v="Вокзальная улица"/>
+  <tag k="building" v="yes"/>
+ </way>
+ <way id="117417968" user="Dimon62" uid="457129" visible="true" version="1" changeset="8419960" timestamp="2011-06-12T21:00:58Z">
+  <nd ref="1322825035"/>
+  <nd ref="1322825335"/>
+  <nd ref="1322825194"/>
+  <nd ref="1322825079"/>
+  <nd ref="1322825035"/>
+  <tag k="addr:housenumber" v="3"/>
+  <tag k="addr:street" v="Новослободская улица"/>
+  <tag k="amenity" v="kindergarten"/>
+  <tag k="building" v="yes"/>
+ </way>
+ <way id="117236973" user="Sergey Astakhov" uid="143266" visible="true" version="5" changeset="10116192" timestamp="2011-12-14T14:01:39Z">
+  <nd ref="1320549986"/>
+  <nd ref="1320549982"/>
+  <nd ref="1320549983"/>
+  <nd ref="1320549975"/>
+  <nd ref="1320549986"/>
+  <tag k="building" v="yes"/>
+  <tag k="name" v="АТАК"/>
+  <tag k="shop" v="supermarket"/>
+ </way>
+ <way id="125592124" user="Kostik" uid="384084" visible="true" version="2" changeset="9064280" timestamp="2011-08-19T10:07:38Z">
+  <nd ref="1247741418"/>
+  <nd ref="1394613147"/>
+  <nd ref="1340292327"/>
+  <tag k="highway" v="service"/>
+ </way>
+ <way id="117567237" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:46Z">
+  <nd ref="1324205349"/>
+  <nd ref="1324205415"/>
+  <nd ref="1324205791"/>
+  <nd ref="1324205181"/>
+  <tag k="highway" v="service"/>
+ </way>
+ <way id="108831764" user="Dimon62" uid="457129" visible="true" version="3" changeset="8430785" timestamp="2011-06-13T19:46:49Z">
+  <nd ref="1247741383"/>
+  <nd ref="1247741420"/>
+  <nd ref="1247741398"/>
+  <nd ref="1247746599"/>
+  <nd ref="1324205751"/>
+  <nd ref="1324205118"/>
+  <nd ref="1247741417"/>
+  <nd ref="1247741383"/>
+  <tag k="addr:housenumber" v="2А"/>
+  <tag k="addr:street" v="улица Чехова"/>
+  <tag k="building" v="yes"/>
+ </way>
+ <way id="117567195" user="Dimon62" uid="457129" visible="true" version="1" changeset="8430785" timestamp="2011-06-13T19:46:43Z">
+  <nd ref="1324205123"/>
+  <nd ref="1324205201"/>
+  <nd ref="1324205514"/>
+  <nd ref="1324205002"/>
+  <nd ref="1324205123"/>
+  <tag k="addr:housenumber" v="2А"/>
+  <tag k="addr:street" v="Вишневый бульвар"/>
+  <tag k="building" v="yes"/>
+ </way>
+ <way id="71742256" user="Dimon62" uid="457129" visible="true" version="3" changeset="8419960" timestamp="2011-06-12T21:01:09Z">
+  <nd ref="852862378"/>
+  <nd ref="1322825104"/>
+  <nd ref="852862403"/>
+  <nd ref="1322825184"/>
+  <nd ref="1322825045"/>
+  <tag k="highway" v="unclassified"/>
+  <tag k="name" v="Новослободская улица"/>
+ </way>
+ <way id="117967068" user="Dimon62" uid="457129" visible="true" version="1" changeset="8459327" timestamp="2011-06-16T19:39:34Z">
+  <nd ref="1327857221"/>
+  <nd ref="1327857568"/>
+  <nd ref="1327857399"/>
+  <nd ref="1327857245"/>
+  <nd ref="1327857638"/>
+  <nd ref="1327857452"/>
+  <nd ref="1327857221"/>
+  <tag k="addr:housenumber" v="11/2"/>
+  <tag k="addr:street" v="улица Чехова"/>
+  <tag k="building" v="yes"/>
+ </way>
+ <way id="71742241" user="Dimon62" uid="457129" visible="true" version="11" changeset="8555636" timestamp="2011-06-26T19:46:16Z">
+  <nd ref="472618915"/>
+  <nd ref="1315482599"/>
+  <nd ref="1315482606"/>
+  <nd ref="1319245381"/>
+  <nd ref="852862825"/>
+  <nd ref="1320535949"/>
+  <nd ref="1320535871"/>
+  <nd ref="1306548619"/>
+  <nd ref="1247714513"/>
+  <nd ref="1247737826"/>
+  <nd ref="1306548608"/>
+  <nd ref="1320549980"/>
+  <nd ref="1320535833"/>
+  <nd ref="1330045516"/>
+  <nd ref="852862864"/>
+  <nd ref="852862695"/>
+  <nd ref="1340292378"/>
+  <nd ref="852863114"/>
+  <nd ref="852862403"/>
+  <tag k="highway" v="residential"/>
+  <tag k="name" v="улица Ильича"/>
+ </way>
+ <way id="125592123" user="Front_Line" uid="503294" visible="true" version="1" changeset="8983255" timestamp="2011-08-11T08:26:22Z">
+  <nd ref="1340292327"/>
+  <nd ref="1394613155"/>
+  <tag k="highway" v="service"/>
+ </way>
+ <way id="67162673" user="Dimon62" uid="457129" visible="true" version="4" changeset="8556037" timestamp="2011-06-26T20:19:38Z">
+  <nd ref="811196654"/>
+  <nd ref="1340350262"/>
+  <nd ref="1324205344"/>
+  <nd ref="811196655"/>
+  <nd ref="811196657"/>
+  <nd ref="1340292031"/>
+  <nd ref="1324205902"/>
+  <nd ref="811196672"/>
+  <nd ref="1324205849"/>
+  <nd ref="1324205504"/>
+  <nd ref="1324205846"/>
+  <nd ref="1324205181"/>
+  <nd ref="1324205775"/>
+  <nd ref="1324205169"/>
+  <tag k="highway" v="residential"/>
+  <tag k="name" v="Вишневый бульвар"/>
+ </way>
+</osm>
