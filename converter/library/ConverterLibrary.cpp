@@ -35,24 +35,13 @@ QString ConverterLibrary::ConverterParser(const QString &file){
             way_node_id_st,
             way_lat,
             way_lon,
-            relation_name,
-            relation_node_st,
-            relation_way_st,
             poly,
             rezalt;
 
     QStringList node_id,
                 way_id,
                 relation_id,
-                way_node_id,
-                relation_way,
-                relation_node;
-
-//    QWidget* pWidget = new QWidget;
-//    QGraphicsScene* pScene = new QGraphicsScene (QRectF (0,0,800,600));
-//    graphicsView = new QGraphicsView(pScene, pWidget);
-//    QVBoxLayout* pLayout = new QVBoxLayout;
-//    pLayout->addWidget(graphicsView);
+                way_node_id;
 
     bool is_open = input_file.open(QIODevice::ReadOnly | QIODevice::Text);
     xml_query.setFocus(&input_file);
@@ -171,167 +160,13 @@ QString ConverterLibrary::ConverterParser(const QString &file){
                 sql_query.bindValue(":obj", obj_id++);
                 sql_query.exec();
             }
-
-            xml_query.setQuery("osm/relation[*/@k='name']/@id/string()");
-            xml_query.evaluateTo(&relation_id_st);
-            relation_id_st.remove(QChar('\n'), Qt::CaseInsensitive);
-            relation_id = relation_id_st.split(QRegExp("\\s+")); //получили массив id всех отношений c атрибутом 'name'
-
-//            for (int i=0; i<relation_id.count(); i++){
-//                xml_query.setQuery("osm/relation[@id='"+relation_id[i]+"']/tag[@k='name']/@v/string()");
-//                xml_query.evaluateTo(&relation_name);
-//                relation_name.remove(QChar('\n'), Qt::CaseInsensitive);
-
-//                //вытащили id точек из отношения
-//                xml_query.setQuery("osm/(relation[(*/@v='"+relation_name+"')&&(*/@type='node')]/member[@ref]/@ref/string()");
-//                xml_query.evaluateTo(&relation_node_st);
-//                relation_node_st.remove(QChar('\n'), Qt::CaseInsensitive);
-//                relation_node = relation_node_st.split(QRegExp("\\s+")); //получили массив id всех точек, входящих в отношение
-
-//                for (int j=0; j<relation_node.count(); j++){
-//                    xml_query.setQuery("osm/node[@id='"+relation_node[j]+"']/@lat/string()");
-//                    xml_query.evaluateTo(&node_lat);
-//                    node_lat.remove(QChar('\n'), Qt::CaseInsensitive);
-
-//                    xml_query.setQuery("osm/node[@id='"+relation_node[j]+"']/@lon/string()");
-//                    xml_query.evaluateTo(&node_lon);
-//                    node_lon.remove(QChar('\n'), Qt::CaseInsensitive);
-
-//                    poly = node_lat + " " + node_lon + ", ";
-//                }
-//                //вытащили id линий, входящих в отношение
-//                xml_query.setQuery("osm/(relation[*/@v='"+relation_name+"']) && (relation/[@type=way])/member[@ref]/@ref/string()");
-//                xml_query.evaluateTo(&relation_way_st);
-//                relation_way_st.remove(QChar('\n'), Qt::CaseInsensitive);
-//                relation_way = relation_way_st.split(QRegExp("\\s+")); //получили массив id всех линий, входящих в отношение
-
-//                for (int j=0; j<relation_way.count(); j++){
-//                    xml_query.setQuery("osm/way[@id='"+relation_way[i]+"']/tag[@k='name']/@v/string()");
-//                    xml_query.evaluateTo(&way_name_st);
-//                    way_name_st.remove(QChar('\n'), Qt::CaseInsensitive);
-
-//                    xml_query.setQuery("osm/way[*/@v='"+way_name_st+"']/nd[@ref]/@ref/string()");
-//                    xml_query.evaluateTo(&way_node_id_st);
-//                    way_node_id_st.remove(QChar('\n'), Qt::CaseInsensitive);
-//                    way_node_id = way_node_id_st.split(QRegExp("\\s+"));
-
-//                    rezalt += way_name_st + "\n";
-
-//                    for (int j=0; j<way_node_id.count(); j++){
-//                        xml_query.setQuery("osm/node[@id='"+way_node_id[j]+"']/@lat/string()");
-//                        xml_query.evaluateTo(&way_lat);
-//                        way_lat.remove(QChar('\n'), Qt::CaseInsensitive);
-
-//                        xml_query.setQuery("osm/node[@id='"+way_node_id[j]+"']/@lon/string()");
-//                        xml_query.evaluateTo(&way_lon);
-//                        way_lon.remove(QChar('\n'), Qt::CaseInsensitive);
-
-//                        poly += way_lat + " " + way_lon + ",";
-//                    }
-//                }
-
-//                QString for_db = "POLYGONE(" + poly.left(poly.length()-1) + ")";
-
-//                sql_query.prepare("INSERT INTO objects (id_obj, geometry_obj)"
-//                                  "VALUES (:id, :geo);");
-//                sql_query.bindValue(":id", obj_id);
-//                sql_query.bindValue(":geo", for_db);
-//                sql_query.exec();
-
-//                sql_query.prepare("INSERT INTO tags (id_tag, key_tag, value_tag, id_obj)"
-//                                    "VALUES(:id, '---', :val, :obj);");
-//                sql_query.bindValue(":id", tag_id++);
-//                sql_query.bindValue(":val", relation_name);
-//                sql_query.bindValue(":obj", obj_id++);
-//                sql_query.exec();
-
-//            }
-
         }else{
             rezalt = tr("Соединение с базой данных не установлено.");
         }
-
         db.close();
-
-        //отрисовка
-        //н: границы листа
-//        xml_query.setQuery("osm/bounds/@minlat/string()");
-//        xml_query.evaluateTo(&minlat_query);
-//        minlat_query.remove(QChar('\n'), Qt::CaseInsensitive);
-
-//        xml_query.setQuery("osm/bounds/@minlon/string()");
-//        xml_query.evaluateTo(&minlon_query);
-//        minlon_query.remove(QChar('\n'), Qt::CaseInsensitive);
-
-//        xml_query.setQuery("osm/bounds/@maxlat/string()");
-//        xml_query.evaluateTo(&maxlat_query);
-//        maxlat_query.remove(QChar('\n'), Qt::CaseInsensitive);
-
-//        xml_query.setQuery("osm/bounds/@maxlon/string()");
-//        xml_query.evaluateTo(&maxlon_query);
-//        maxlon_query.remove(QChar('\n'), Qt::CaseInsensitive);
-
-//        float minlat = minlat_query.toFloat();
-//        float minlon = minlon_query.toFloat();
-//        float maxlat = maxlat_query.toFloat();
-//        float maxlon = maxlon_query.toFloat();
-
-//        graphicsView->resetTransform();
-//        graphicsView->centerOn((maxlon + minlon)/2, (maxlat + minlat)/2);
-//        graphicsView->setResizeAnchor(QGraphicsView::AnchorViewCenter);
-
-//        qreal sx = 80000;
-//        qreal sy = 100000;
-
-//        graphicsView->scale(sx, -sy);
-//        //к: границы листа
-
-//        way_node_id_st = "";way_lat = "";way_lon = "";way_id_st = "";
-//        QStringList way_paint, node_paint;
-
-//        xml_query.setQuery("osm/way/@id/string()");
-//        xml_query.evaluateTo(&way_id_st);
-//        way_id_st.remove(QChar('\n'), Qt::CaseInsensitive);
-//        way_paint = way_id_st.split(QRegExp("\\s+")); //получили массив id всех линий
-
-//        QPen pen(Qt::darkGray);
-//        QBrush brush(Qt::lightGray);
-//        QList<QGraphicsItem*> layer;
-
-//        for (int i=0; i<way_paint.count(); i++){
-
-//            QPolygonF polygon;
-
-//            xml_query.setQuery("osm/way[@id='"+way_paint[i]+"']/nd[@ref]/@ref/string()"); //id точек из одной линий
-//            xml_query.evaluateTo(&way_node_id_st);
-//            way_node_id_st.remove(QChar('\n'), Qt::CaseInsensitive);
-//            node_paint= way_node_id_st.split(QRegExp("\\s+"));
-
-//            for (int j=0; j<node_paint.count(); j++){
-//                xml_query.setQuery("osm/node[@id='"+node_paint[j]+"']/@lat/string()"); //широта
-//                xml_query.evaluateTo(&way_lat);
-//                way_lat.remove(QChar('\n'), Qt::CaseInsensitive);
-
-//                xml_query.setQuery("osm/node[@id='"+node_paint[j]+"']/@lon/string()"); //долгота
-//                xml_query.evaluateTo(&way_lon);
-//                way_lon.remove(QChar('\n'), Qt::CaseInsensitive);
-
-//                polygon.append(QPointF(way_lon.toFloat(), way_lat.toFloat()));
-//            }
-
-//            QGraphicsPolygonItem *polygon_item = new QGraphicsPolygonItem(polygon);
-//            polygon_item->setPen(pen);
-//            polygon_item->setBrush(brush);
-
-//            pScene->addItem(polygon_item);
-//        }
     }else{
         rezalt = tr("Файл не найден. Введите другое имя файла!");
     }
-
-//    graphicsView->show();
-//    pWidget->setLayout(pLayout);
-//    pWidget->show();
 
     input_file.close();
 
