@@ -1,0 +1,92 @@
+\documentclass[12pt,a4paper,oneside]{article} %стиль оформления - статья с параметрами: шрифт 12, формат бумаги А4, печать с одинаковыпи полями на всех страницах - oneside
+\usepackage[T2A]{fontenc} %поддержка кириллицы
+\usepackage[utf8]{inputenc} %кодировка символов
+\usepackage[english,russian]{babel} %пакет поддержки русского языка с элементами английского
+\frenchspacing
+\usepackage[dvips]{graphicx} %разрешить включение PostScript-графики
+\graphicspath{{images/}}
+\usepackage{setspace} %"умное" расстояние между строк
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{hhline} %работа с таблицами
+\usepackage[12pt]{extsizes} %размер шрифта
+\usepackage{fancyhdr} %установка колонтитулов
+
+\usepackage{geometry} %ручная установка полей
+\geometry{top=1cm} %поле сверху
+\geometry{bottom=1cm} %поле снизу
+\geometry{left=2cm} %поле слева
+\geometry{right=2cm} %поле справа
+
+\begin{document}
+\singlespacing % межстрочный одиночный интервал для всего текста
+\pagestyle{empty} % нумерация выкл.
+
+%Н:задание на уир и кп
+\newpage
+\begin{center}
+МИНИСТЕРСТВО ОБРАЗОВАНИЯ И НАУКИ РОССИЙСКОЙ ФЕДЕРАЦИИ
+
+Федеральное государственное бюджетное образовательное учреждение \linebreak
+высшего профессионального образования
+
+\textbf{"Национальный исследовательский ядерный университет "МИФИ"}
+\\[10pt]
+
+\begin{figure}[h]
+\includegraphics[trim=-10 40 30 0,width=0.25\linewidth]{mifi}
+\end{figure}
+
+ФАКУЛЬТЕТ КИБЕРНЕТИКИ
+\\[15pt]
+
+КАФЕДРА ИНФОРМАЦИОННЫЕ ТЕХНОЛОГИИ
+\\[50pt]
+
+\huge{\textbf{Задание на УИР и КП}}
+\\[20pt]
+
+\begin{flushleft}
+\large{Студентке гр.\underline{К7-361 Лаврентьевой Марине Олеговне\hspace{5,2cm}}}
+\\[40pt]
+\end{flushleft}
+
+\Large{\textbf{ТЕМА УИР и КП}}
+
+\begin{flushleft}
+\large{\underline{Разработка модуля преобразования геоданных из формата\hspace{4cm}} \linebreak
+\underline{OpenStreetMap в формат OpenGIS\hspace{9,4cm}}}
+\\[60pt]
+\end{flushleft}
+
+\large{\textbf{ЗАДАНИЕ}}
+\end{center}
+
+\large{\begin{enumerate}
+\item Изучение структуры xml-документа с геоданными в формате \linebreak
+OpenStreetMap.
+\item Построение XPath-запросов для извлечения геоданных об объектах \linebreak
+заданного типа.
+\item Изучение стандарта OpenGIS и разработка структуры базы \linebreak
+данных для хранения геоданных в формате OpenGIS.
+\item Построение SQL-запросов для сохранения и извлечения геоданных \linebreak
+в формате OpenGIS.
+\item Реализация модуля преобразования геоданных из формата \linebreak
+OpenStreetMap в формат OpenGIS.
+\end{enumerate}}
+
+\newpage
+\normalsize{\begin{flushleft}
+Место выполнения УИР и КП \underline{\hspace{11,15cm}}
+
+Руководитель \underline{\hspace{10,95cm} (Муравьёв С.К.)}
+\\[8pt]
+Дата выдачи задания \underline{\hspace{12,8cm}}
+\end{flushleft}
+
+\newpage
+\subsubsection*{ОТЗЫВ О РАБОТЕ СТУДЕНТА}
+
+\vfill
+Руководитель \underline{\hspace{8cm}\glqq{\hspace{1cm}}\grqq\hspace{4cm}2011г.}}
+%К: задание на уир и кп
+\end{document}
