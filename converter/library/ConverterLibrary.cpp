@@ -230,10 +230,10 @@ void ConverterLibrary::ConverterPainter(const QString &file){
         QString way_node_id_st, way_lat, way_lon, way_id_st;
         QStringList way_paint, node_paint;
 
-        xml_query.setQuery("osm/way/@id/string()");
+        xml_query.setQuery("osm/way[(*/@k='building')or(*/@k='name')]/@id/string()");
         xml_query.evaluateTo(&way_id_st);
         way_id_st.remove(QChar('\n'), Qt::CaseInsensitive);
-        way_paint = way_id_st.split(QRegExp("\\s+")); //получили массив id всех линий
+        way_paint = way_id_st.split(QRegExp("\\s+")); //получили массив id линий
 
         QPen pen(Qt::darkGray);
         QBrush brush(Qt::lightGray);
