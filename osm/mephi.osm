@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xml" href="osm2svg.xsl"?>
 <osm version="0.6" generator="CGImap 0.0.2">
  <bounds minlat="55.6455500" minlon="37.6516300" maxlat="55.6553700" maxlon="37.6884900"/>
  <node id="59598263" lat="55.6507004" lon="37.6587919" user="Yuri Nazarov" uid="17752" visible="true" version="6" changeset="1154443" timestamp="2009-05-11T17:28:41Z">
